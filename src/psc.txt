@@ -1,0 +1,8062 @@
+10000 Praha
+10100 Praha
+10200 Praha
+10300 Praha
+10400 Praha
+10600 Praha
+10700 Praha
+10800 Praha
+10900 Praha
+11000 Praha
+11800 Praha
+11900 Praha
+12000 Praha
+12800 Praha
+13000 Praha
+14000 Praha
+14100 Praha
+14200 Praha
+14300 Praha
+14700 Praha
+14800 Praha
+14900 Praha
+14900 Jesenice
+15000 Praha
+15200 Praha
+15300 Praha
+15400 Praha
+15500 Praha
+15521 Praha
+15531 Praha
+15600 Praha
+15800 Praha
+15900 Praha
+16000 Praha
+16100 Praha
+16200 Praha
+16300 Praha
+16400 Praha
+16500 Praha
+16900 Praha
+17000 Praha
+17100 Praha
+18000 Praha
+18100 Praha
+18200 Praha
+18400 Praha
+18600 Praha
+19000 Praha
+19011 Praha
+19012 Praha
+19014 Praha
+19015 Praha
+19016 Praha
+19017 Praha
+19300 Praha
+19600 Praha
+19700 Praha
+19800 Praha
+19900 Praha
+25001 Brandýs nad Labem-Stará Boleslav
+25001 Čakovičky
+25001 Dřevčice
+25001 Podolanka
+25001 Zápy
+25063 Čakovičky
+25063 Veleň
+25063 Mratín
+25063 Nová Ves
+25063 Brázdim
+25063 Polerady
+25063 Sluhy
+25064 Hovorčovice
+25064 Měšice
+25064 Zlonín
+25065 Bašť
+25065 Bořanovice
+25065 Líbeznice
+25065 Sedlec
+25066 Zdiby
+25067 Klecany
+25067 Větrušice
+25068 Husinec
+25069 Vodochody
+25069 Klíčany
+25069 Máslovice
+25070 Odolena Voda
+25070 Panenské Břežany
+25070 Postřižín
+25070 Veliká Ves
+25072 Kojetice
+25072 Předboj
+25073 Jenštejn
+25073 Podolanka
+25073 Přezletice
+25073 Radonice
+25074 Radonice
+25075 Káraný
+25075 Nový Vestec
+25081 Nehvizdy
+25082 Dobročovice
+25082 Horoušany
+25082 Květnice
+25082 Tuklaty
+25082 Úvaly
+25083 Škvorec
+25083 Zlatá
+25084 Křenice
+25084 Květnice
+25084 Sibřina
+25084 Sluštice
+25087 Vyšehořovice
+25087 Mochov
+25088 Čelákovice
+25089 Lázně Toušeň
+25090 Jirny
+25091 Jenštejn
+25091 Zeleneč
+25091 Svémyslice
+25092 Šestajovice
+25101 Babice
+25101 Březí
+25101 Čestlice
+25101 Dobřejovice
+25101 Doubek
+25101 Herink
+25101 Popovičky
+25101 Říčany
+25101 Modletice
+25101 Nupaky
+25101 Světice
+25101 Tehov
+25162 Louňovice
+25162 Mukařov
+25162 Svojetice
+25162 Tehovec
+25163 Strančice
+25163 Kunice
+25163 Všestary
+25164 Mnichovice
+25164 Klokočná
+25164 Strančice
+25164 Struhařov
+25164 Všestary
+25164 Kunice
+25164 Zvánovice
+25165 Kaliště
+25165 Ondřejov
+25165 Zvánovice
+25166 Hrusice
+25166 Mirošovice
+25166 Senohraby
+25166 Ondřejov
+25167 Řehenice
+25167 Pyšely
+25167 Nespeky
+25167 Pětihosty
+25168 Řehenice
+25168 Týnec nad Sázavou
+25168 Křížkový Újezdec
+25168 Sulice
+25168 Kamenice
+25168 Kostelec u Křížků
+25168 Radějovice
+25169 Velké Popovice
+25169 Kunice
+25169 Petříkov
+25202 Jíloviště
+25203 Líšnice
+25203 Řitka
+25204 Čisovice
+25205 Bratřínov
+25205 Hvozdnice
+25206 Bojanovice
+25206 Bratřínov
+25206 Davle
+25206 Petrov
+25206 Měchenice
+25207 Štěchovice
+25208 Buš
+25208 Rabyně
+25208 Slapy
+25208 Štěchovice
+25209 Hradištko
+25210 Čisovice
+25210 Černolice
+25210 Hvozdnice
+25210 Voznice
+25210 Klínec
+25210 Kytín
+25210 Líšnice
+25210 Mníšek pod Brdy
+25210 Trnová
+25210 Zahořany
+25216 Nučice
+25217 Chýnice
+25217 Tachlovice
+25218 Ptice
+25218 Úhonice
+25219 Drahelčice
+25219 Chrášťany
+25219 Rudná
+25225 Dobříč
+25225 Jinočany
+25225 Ořech
+25225 Zbuzany
+25226 Černošice
+25226 Choteč
+25226 Kosoř
+25226 Roblín
+25226 Praha
+25226 Třebotov
+25228 Černošice
+25228 Třebotov
+25228 Praha
+25228 Vonoklasy
+25229 Dobřichovice
+25229 Karlík
+25229 Lety
+25230 Lety
+25230 Hlásná Třebaň
+25230 Řevnice
+25230 Svinaře
+25231 Všenory
+25241 Dolní Břežany
+25241 Zlatníky-Hodkovice
+25241 Libeř
+25242 Jesenice
+25243 Průhonice
+25244 Psáry
+25245 Březová-Oleško
+25245 Zvole
+25245 Dolní Břežany
+25245 Ohrobec
+25245 Vrané nad Vltavou
+25246 Dolní Břežany
+25246 Ohrobec
+25246 Vrané nad Vltavou
+25250 Vestec
+25261 Dobrovíz
+25261 Jeneč
+25262 Statenice
+25262 Horoměřice
+25262 Únětice
+25263 Roztoky
+25264 Svrkyně
+25264 Lichoceves
+25264 Okoř
+25264 Úholičky
+25264 Velké Přílepy
+25265 Holubice
+25265 Tursko
+25266 Libčice nad Vltavou
+25266 Máslovice
+25267 Tuchoměřice
+25268 Číčovice
+25268 Kněževes
+25268 Středokluky
+25281 Petrov
+25282 Kamenný Přívoz
+25301 Hostivice
+25301 Chýně
+25401 Petrov
+25401 Jílové u Prahy
+25401 Pohoří
+25401 Libeř
+25401 Okrouhlo
+25401 Zvole
+25601 Benešov
+25601 Struhařov
+25601 Teplýšovice
+25601 Bystřice
+25601 Chlístov
+25601 Chrášťany
+25601 Kozmice
+25601 Neveklov
+25601 Soběhrdy
+25601 Petroupim
+25601 Bílkovice
+25601 Václavice
+25601 Čakov
+25701 Postupice
+25701 Popovice
+25701 Chotýšany
+25701 Veliš
+25703 Jankov
+25703 Neustupov
+25703 Bystřice
+25703 Ratměřice
+25703 Popovice
+25705 Zvěstov
+25706 Zvěstov
+25706 Louňovice pod Blaníkem
+25706 Kamberk
+25706 Veliš
+25706 Ostrov
+25708 Pravonín
+25708 Načeradec
+25709 Pravonín
+25709 Vracovice
+25721 Bukovany
+25721 Poříčí nad Sázavou
+25721 Mrač
+25722 Vranov
+25722 Pyšely
+25722 Čerčany
+25722 Přestavlky u Čerčan
+25722 Čtyřkoly
+25722 Poříčí nad Sázavou
+25722 Nespeky
+25722 Lštění
+25723 Přestavlky u Čerčan
+25724 Ostředek
+25724 Čakov
+25724 Hvězdonice
+25724 Chocerady
+25724 Vranov
+25724 Vodslivy
+25726 Bílkovice
+25726 Český Šternberk
+25726 Divišov
+25726 Drahňovice
+25726 Libež
+25726 Radošovice
+25726 Litichovice
+25726 Slověnice
+25726 Třebešice
+25726 Ostředek
+25726 Všechlapy
+25728 Chotýšany
+25741 Týnec nad Sázavou
+25741 Lešany
+25741 Bukovany
+25741 Chářovice
+25741 Chleby
+25741 Kamenný Přívoz
+25741 Krhanice
+25742 Krhanice
+25742 Týnec nad Sázavou
+25744 Neveklov
+25744 Chrášťany
+25744 Rabyně
+25744 Lešany
+25744 Netvořice
+25744 Chářovice
+25744 Krňany
+25744 Vysoký Újezd
+25751 Maršovice
+25751 Bystřice
+25751 Olbramovice
+25753 Olbramovice
+25753 Vojkov
+25753 Bystřice
+25753 Vrchotovy Janovice
+25753 Maršovice
+25755 Vrchotovy Janovice
+25755 Maršovice
+25756 Neveklov
+25756 Maršovice
+25756 Křečovice
+25756 Stranný
+25756 Chrášťany
+25756 Tisem
+25763 Soutice
+25763 Trhový Štěpánov
+25763 Hulice
+25763 Chlum
+25763 Tichonice
+25763 Javorník
+25764 Zdislavice
+25765 Loket
+25765 Bernartice
+25765 Borovnice
+25765 Čechtice
+25765 Chmelná
+25765 Křivsoudov
+25765 Keblov
+25765 Kuňovice
+25765 Miřetice
+25765 Mnichovice
+25765 Pravonín
+25765 Strojetice
+25766 Křivsoudov
+25768 Loket
+25768 Blažejovice
+25768 Děkanovice
+25768 Dolní Kralovice
+25768 Šetějovice
+25768 Dunice
+25768 Vlastějovice
+25768 Studený
+25768 Snět
+25768 Tomice
+25771 Soutice
+25786 Neustupov
+25786 Červený Újezd
+25786 Ješetice
+25786 Miličín
+25786 Mezno
+25786 Smilkov
+25787 Střezimíř
+25788 Červený Újezd
+25789 Heřmaničky
+25789 Ješetice
+25789 Smilkov
+25789 Červený Újezd
+25791 Sedlec-Prčice
+25791 Střezimíř
+25791 Nechvalice
+25791 Červený Újezd
+25801 Vlašim
+25801 Zvěstov
+25801 Ctiboř
+25801 Kondrac
+25801 Psáře
+25801 Hradiště
+25801 Kladruby
+25801 Vracovice
+25801 Tehov
+25801 Pavlovice
+25801 Rataje
+25801 Řimovice
+25901 Votice
+25901 Olbramovice
+25901 Vojkov
+25901 Maršovice
+26101 Příbram
+26101 Drahlín
+26101 Drásov
+26101 Dubenec
+26101 Dubno
+26101 Háje
+26101 Hluboš
+26101 Lhota u Příbramě
+26101 Suchodol
+26101 Narysov
+26101 Občov
+26101 Obecnice
+26101 Podlesí
+26101 Sádek
+26101 Trhové Dušníky
+26101 Višňová
+26202 Dobříš
+26202 Stará Huť
+26203 Borotice
+26203 Čím
+26203 Chotilsko
+26203 Nový Knín
+26203 Korkyně
+26203 Nové Dvory
+26203 Malá Hraštice
+26203 Bojanovice
+26203 Mokrovraty
+26204 Malá Hraštice
+26204 Nová Ves pod Pleší
+26205 Bojanovice
+26205 Velká Lečice
+26206 Korkyně
+26211 Rosovice
+26212 Obořiště
+26213 Nečín
+26214 Hřiměždice
+26215 Borotice
+26221 Obecnice
+26222 Hluboš
+26223 Jince
+26223 Bratkovice
+26223 Buková u Příbramě
+26223 Čenkov
+26223 Hluboš
+26223 Kotenčice
+26223 Křešín
+26223 Ohrazenice
+26223 Pičín
+26225 Pičín
+26231 Bohostice
+26231 Milín
+26231 Cetyně
+26231 Pečice
+26231 Háje
+26231 Příbram
+26231 Lazsko
+26231 Lešetice
+26231 Vrančice
+26231 Radětice
+26231 Těchařovice
+26231 Zbenice
+26232 Pečice
+26241 Bohutín
+26241 Láz
+26241 Příbram
+26242 Bezděkov pod Třemšínem
+26242 Březí
+26242 Věšín
+26242 Sedlice
+26242 Rožmitál pod Třemšínem
+26242 Hvožďany
+26242 Modřovice
+26242 Chrást
+26242 Nepomuk
+26242 Bělčice
+26242 Třebsko
+26242 Vranovice
+26242 Vysoká u Příbramě
+26243 Věšín
+26244 Hvožďany
+26251 Dublovice
+26252 Vysoký Chlumec
+26255 Petrovice
+26255 Krásná Hora nad Vltavou
+26255 Počepice
+26256 Svatý Jan
+26256 Krásná Hora nad Vltavou
+26256 Klučenice
+26256 Milešov
+26256 Dublovice
+26261 Višňová
+26262 Dolní Hbity
+26263 Bohostice
+26263 Solenice
+26263 Svatý Jan
+26263 Jablonná
+26263 Dolní Hbity
+26263 Kamýk nad Vltavou
+26263 Milešov
+26263 Smolotely
+26263 Milín
+26263 Klučenice
+26263 Zduchovice
+26272 Březnice
+26272 Volenice
+26272 Bukovany
+26272 Hlubyně
+26272 Kozárovice
+26272 Horčápsko
+26272 Tochovice
+26272 Hudčice
+26272 Chrást
+26272 Chraštice
+26272 Svojšice
+26272 Koupě
+26272 Nestrašovice
+26272 Ostrov
+26272 Počaply
+26272 Starosedlský Hrádek
+26272 Těchařovice
+26272 Tušovice
+26272 Vševily
+26272 Zalužany
+26272 Zbenice
+26281 Tochovice
+26284 Kozárovice
+26284 Zalužany
+26285 Drahenice
+26291 Kosova Hora
+26293 Nalžovice
+26293 Křepenice
+26301 Nečín
+26301 Borotice
+26301 Rybníky
+26301 Svaté Pole
+26301 Daleké Dušníky
+26301 Dlouhá Lhota
+26301 Dobříš
+26301 Drevníky
+26301 Drhovy
+26301 Hřiměždice
+26301 Obořiště
+26301 Obory
+26301 Ouběnice
+26301 Rosovice
+26301 Voznice
+26301 Županovice
+26401 Vysoký Chlumec
+26401 Sedlec-Prčice
+26401 Nedrahovice
+26401 Štětkovice
+26401 Jesenice
+26401 Nechvalice
+26401 Petrovice
+26401 Dublovice
+26401 Prosenická Lhota
+26401 Kosova Hora
+26401 Sedlčany
+26401 Radíč
+26401 Nalžovice
+26401 Kňovice
+26401 Křepenice
+26401 Osečany
+26401 Příčovy
+26401 Počepice
+26601 Beroun
+26601 Koněprusy
+26601 Hudlice
+26601 Tetín
+26601 Chyňava
+26601 Nenačovice
+26601 Svatý Jan pod Skalou
+26601 Trubská
+26601 Železná
+26701 Suchomasty
+26701 Bykoš
+26701 Králův Dvůr
+26701 Tmaň
+26701 Málkov
+26701 Trubín
+26701 Vinařice
+26701 Libomyšl
+26703 Hudlice
+26703 Nový Jáchymov
+26703 Otročiněves
+26705 Nižbor
+26706 Hýskov
+26707 Chyňava
+26707 Unhošť
+26711 Vráž
+26711 Svatý Jan pod Skalou
+26712 Chrustenice
+26712 Loděnice
+26716 Vysoký Újezd
+26717 Mořina
+26718 Bubovice
+26718 Mořina
+26718 Hlásná Třebaň
+26718 Karlštejn
+26718 Vysoký Újezd
+26718 Lužce
+26718 Mezouň
+26718 Mořinka
+26718 Srbsko
+26721 Tmaň
+26722 Suchomasty
+26723 Lhotka
+26723 Libomyšl
+26723 Lochovice
+26724 Běštín
+26724 Hostomice
+26724 Lážovice
+26724 Velký Chlumec
+26724 Neumětely
+26724 Skřipel
+26724 Vižina
+26725 Osov
+26725 Skřipel
+26726 Všeradice
+26727 Liteň
+26727 Skuhrov
+26727 Svinaře
+26727 Korno
+26727 Měňany
+26727 Nesvačily
+26727 Podbrdy
+26728 Svinaře
+26729 Zadní Třebaň
+26741 Kublov
+26742 Broumy
+26743 Bzová
+26751 Bavoryně
+26751 Březová
+26751 Zdice
+26751 Hředle
+26751 Chlustina
+26751 Chodouň
+26751 Lochovice
+26751 Libomyšl
+26751 Otmíče
+26751 Žebrák
+26751 Stašov
+26751 Svatá
+26751 Točník
+26753 Žebrák
+26754 Praskolesy
+26761 Cerhovice
+26761 Drozdov
+26761 Újezd
+26761 Záluží
+26762 Hvozdec
+26762 Chaloupky
+26762 Jivina
+26762 Komárov
+26762 Zaječov
+26762 Malá Víska
+26762 Osek
+26763 Zaječov
+26764 Olešná
+26801 Felbabka
+26801 Hořovice
+26801 Kotopeky
+26801 Podluhy
+26801 Rpety
+26801 Tlustice
+26901 Pavlíkov
+26901 Lišany
+26901 Lužná
+26901 Nový Dům
+26901 Olešná
+26901 Rakovník
+26901 Ruda
+27001 Chrášťany
+27001 Kněževes
+27001 Přílepy
+27002 Kolešovice
+27004 Hořovičky
+27004 Děkov
+27004 Kolešovice
+27004 Hořesedly
+27004 Kolešov
+27004 Milostín
+27004 Svojetín
+27006 Janov
+27006 Kounov
+27007 Kounov
+27007 Mutějovice
+27007 Nesuchyně
+27008 Hředle
+27009 Krupá
+27021 Pavlíkov
+27021 Lašovice
+27021 Panoší Újezd
+27021 Všetaty
+27023 Branov
+27023 Křivoklát
+27023 Velká Buková
+27023 Karlova Ves
+27023 Městečko
+27023 Nezabudice
+27023 Pustověty
+27023 Roztoky
+27024 Račice
+27024 Sýkořice
+27024 Zbečno
+27031 Senomaty
+27031 Pšovlky
+27031 Šanov
+27032 Oráčov
+27033 Jesenice
+27033 Drahouš
+27033 Oráčov
+27033 Krty
+27033 Žďár
+27033 Švihov
+27034 Šípy
+27034 Břežany
+27034 Čistá
+27034 Velká Chmelištná
+27034 Všesulov
+27035 Senomaty
+27035 Hvozd
+27035 Krakov
+27035 Krakovec
+27035 Malinová
+27035 Řeřichy
+27035 Petrovice
+27035 Příčina
+27035 Senec
+27035 Václavy
+27035 Zavidov
+27036 Lubná
+27036 Rakovník
+27036 Senec
+27041 Hracholusky
+27041 Hřebečníky
+27041 Slabce
+27042 Skryje
+27051 Lužná
+27052 Lišany
+27053 Krušovice
+27054 Bdín
+27054 Přerubenice
+27054 Kalivody
+27054 Kozojedy
+27054 Kroučová
+27054 Milý
+27054 Řevničov
+27054 Smilovice
+27054 Třeboc
+27055 Pochvalov
+27061 Lány
+27062 Rynholec
+27064 Mšecké Žehrovice
+27064 Mšec
+27065 Srbeč
+27101 Lány
+27101 Lhota
+27101 Nové Strašecí
+27101 Ruda
+27101 Rynholec
+27101 Řevničov
+27101 Třtice
+27201 Kladno
+27203 Kladno
+27204 Kladno
+27301 Kamenné Žehrovice
+27301 Lhota
+27301 Žilina
+27302 Tuchlovice
+27303 Stochov
+27304 Stochov
+27304 Hradečno
+27304 Kačice
+27305 Ledce
+27305 Přelíc
+27305 Smečno
+27305 Svinařov
+27306 Hrdlív
+27306 Libušín
+27306 Třebichovice
+27307 Vinařice
+27308 Pchery
+27308 Třebichovice
+27309 Kladno
+27321 Hobšovice
+27321 Žižice
+27322 Hospozín
+27322 Kmetiněves
+27323 Černuc
+27324 Černuc
+27324 Chržín
+27324 Velvary
+27324 Loucká
+27324 Sazená
+27324 Uhy
+27325 Neuměřice
+27325 Olovnice
+27325 Žižice
+27325 Podlešín
+27325 Slatina
+27325 Zvoleněves
+27326 Kamenný Most
+27326 Neuměřice
+27326 Olovnice
+27326 Slatina
+27327 Otvovice
+27328 Blevice
+27328 Zákolany
+27329 Koleč
+27341 Brandýsek
+27341 Cvrčovice
+27341 Třebusice
+27341 Kladno
+27341 Želenice
+27342 Dřetovice
+27342 Libochovičky
+27342 Stehelčeves
+27343 Zájezd
+27343 Buštěhrad
+27345 Hřebeč
+27351 Braškov
+27351 Červený Újezd
+27351 Dolany
+27351 Horní Bezděkov
+27351 Kyšice
+27351 Malé Kyšice
+27351 Malé Přítočno
+27351 Pavlov
+27351 Pletený Újezd
+27351 Svárov
+27351 Unhošť
+27351 Velké Přítočno
+27353 Běloky
+27353 Hostouň
+27354 Lidice
+27354 Makotřasy
+27361 Velká Dobrá
+27362 Doksy
+27362 Bratronice
+27362 Družec
+27363 Běleč
+27363 Bratronice
+27364 Doksy
+27371 Beřovice
+27371 Zlonice
+27371 Šlapanice
+27371 Dřínov
+27371 Jarpice
+27371 Páleč
+27371 Stradonice
+27372 Jarpice
+27372 Vraný
+27372 Poštovice
+27373 Vraný
+27374 Bílichov
+27374 Klobuky
+27374 Hořešovice
+27374 Hořešovičky
+27374 Vrbičany
+27374 Zichovec
+27375 Kutrovice
+27375 Kvílice
+27375 Neprobylice
+27375 Plchov
+27375 Třebíz
+27376 Pozdeň
+27376 Líský
+27377 Malíkovice
+27377 Drnek
+27378 Jedomělice
+27378 Řisuty
+27379 Tuřany
+27379 Libovice
+27379 Slaný
+27379 Studeněves
+27401 Slaný
+27401 Dřínov
+27401 Žižice
+27401 Jemníky
+27401 Knovíz
+27401 Královice
+27601 Hořín
+27601 Býkev
+27601 Obříství
+27601 Lhotka
+27601 Lužec nad Vltavou
+27601 Mělník
+27601 Velký Borek
+27601 Dolní Beřkovice
+27701 Dolní Beřkovice
+27703 Horní Počaply
+27704 Cítov
+27705 Jeviněves
+27705 Spomyšl
+27706 Lužec nad Vltavou
+27707 Vraňany
+27708 Ledčice
+27711 Neratovice
+27711 Libiš
+27713 Kostelec nad Labem
+27713 Záryby
+27713 Ovčáry
+27714 Borek
+27714 Dřísy
+27714 Konětopy
+27714 Křenek
+27714 Lhota
+27714 Nedomice
+27714 Ovčáry
+27715 Tišice
+27716 Všetaty
+27721 Dobřeň
+27721 Dolní Zimoř
+27721 Medonosy
+27721 Liběchov
+27721 Želízy
+27721 Vysoká
+27721 Tupadly
+27721 Vidim
+27723 Kokořín
+27723 Dobřeň
+27724 Vysoká
+27731 Lhotka
+27731 Malý Újezd
+27731 Střemy
+27731 Velký Borek
+27732 Byšice
+27732 Čečelice
+27732 Hostín
+27732 Liblice
+27733 Řepín
+27734 Střemy
+27734 Nebužely
+27735 Nosálov
+27735 Mšeno
+27735 Kadlín
+27735 Kanina
+27735 Dobřeň
+27735 Lobeč
+27735 Stránka
+27735 Chorušice
+27736 Lobeč
+27737 Chorušice
+27738 Mělnické Vtelno
+27738 Mšeno
+27741 Kly
+27741 Mělník
+27741 Velký Borek
+27741 Tuhaň
+27742 Obříství
+27743 Chlumín
+27744 Vojkovice
+27744 Všestudy
+27744 Hostín u Vojkovic
+27744 Zlosyň
+27745 Vojkovice
+27745 Úžice
+27745 Dřínov
+27745 Neratovice
+27745 Zálezlice
+27745 Kozomín
+27745 Újezdec
+27746 Veltrusy
+27746 Všestudy
+27751 Nelahozeves
+27751 Nová Ves
+27752 Nová Ves
+27801 Dolany nad Vltavou
+27801 Zlončice
+27801 Chvatěruby
+27801 Kralupy nad Vltavou
+28002 Bělušice
+28002 Plaňany
+28002 Červené Pečky
+28002 Břežany I
+28002 Býchory
+28002 Cerhenice
+28002 Dománovice
+28002 Grunta
+28002 Nebovidy
+28002 Veltruby
+28002 Jestřabí Lhota
+28002 Křečhoř
+28002 Kbel
+28002 Kolín
+28002 Konárovice
+28002 Kořenice
+28002 Krychnov
+28002 Libenice
+28002 Libodřice
+28002 Lošany
+28002 Třebovle
+28002 Němčice
+28002 Nová Ves I
+28002 Svojšice
+28002 Ovčáry
+28002 Pašinka
+28002 Polepy
+28002 Polní Chrčice
+28002 Polní Voděrady
+28002 Zalešany
+28002 Radim
+28002 Radovesnice I
+28002 Ratboř
+28002 Tři Dvory
+28002 Veletov
+28002 Velim
+28002 Volárna
+28002 Vrbčany
+28002 Žabonosy
+28101 Velim
+28102 Cerhenice
+28103 Chotutice
+28103 Radim
+28104 Plaňany
+28106 Vitice
+28107 Svojšice
+28121 Červené Pečky
+28123 Starý Kolín
+28125 Konárovice
+28126 Žiželice
+28126 Labské Chrčice
+28126 Lipec
+28126 Týnec nad Labem
+28126 Uhlířská Lhota
+28126 Radovesnice II
+28127 Krakovany
+28128 Radovesnice II
+28129 Žiželice
+28130 Ohaře
+28130 Polní Chrčice
+28130 Radovesnice II
+28141 Ratboř
+28143 Bečváry
+28144 Církvice
+28144 Dolní Chvatliny
+28144 Zásmuky
+28144 Drahobudice
+28144 Bečváry
+28144 Kořenice
+28144 Toušice
+28144 Skvrňov
+28146 Horní Kruty
+28151 Velký Osek
+28161 Kouřim
+28162 Oleška
+28163 Barchovice
+28163 Horní Kruty
+28163 Třebovle
+28163 Svojšice
+28163 Oleška
+28163 Černé Voděrady
+28163 Vitice
+28163 Stříbrná Skalice
+28163 Jevany
+28163 Klášterní Skalice
+28163 Konojedy
+28163 Kostelec nad Černými lesy
+28163 Kozojedy
+28163 Krupá
+28163 Malotice
+28163 Kouřim
+28163 Nučice
+28163 Oplany
+28163 Prusice
+28163 Přehvozdí
+28163 Vlkančice
+28163 Štíhlice
+28163 Toušice
+28163 Výžerky
+28163 Vyžlovka
+28163 Ždánice
+28166 Jevany
+28167 Stříbrná Skalice
+28171 Rostoklaty
+28201 Břežany II
+28201 Chrášťany
+28201 Český Brod
+28201 Doubravčice
+28201 Přišimasy
+28201 Hradešín
+28201 Klučov
+28201 Kšely
+28201 Tismice
+28201 Masojedy
+28201 Mrzky
+28201 Rostoklaty
+28201 Přistoupim
+28201 Tuchoraz
+28201 Vrátkov
+28401 Malešov
+28401 Černíny
+28401 Bernardov
+28401 Křesetice
+28401 Miskovice
+28401 Suchdol
+28401 Vidice
+28401 Záboří nad Labem
+28401 Kutná Hora
+28401 Horušice
+28401 Chlístovice
+28401 Zbraslavice
+28401 Kobylnice
+28401 Svatý Mikuláš
+28401 Nové Dvory
+28401 Rohozec
+28401 Štipoklasy
+28403 Kutná Hora
+28404 Kutná Hora
+28501 Miskovice
+28502 Suchdol
+28504 Nepoměřice
+28504 Uhlířské Janovice
+28504 Petrovice II
+28504 Onomyšl
+28504 Bečváry
+28504 Úžice
+28504 Zbizuby
+28504 Staňkovice
+28504 Vavřinec
+28504 Rašovice
+28504 Košice
+28504 Chlístovice
+28504 Sudějov
+28506 Sázava
+28506 Úžice
+28506 Samopše
+28506 Choratice
+28506 Podveky
+28506 Ledečko
+28506 Zbizuby
+28506 Rataje nad Sázavou
+28506 Soběšín
+28506 Xaverov
+28507 Rataje nad Sázavou
+28509 Kácov
+28509 Soběšín
+28510 Čestín
+28511 Nepoměřice
+28521 Zbraslavice
+28522 Bohdaneč
+28522 Zbraslavice
+28522 Chabeřice
+28522 Vlastějovice
+28522 Horka II
+28522 Pertoltice
+28522 Čestín
+28522 Dolní Pohleď
+28522 Zruč nad Sázavou
+28522 Třebětín
+28522 Slavošov
+28522 Řendějov
+28522 Kácov
+28522 Petrovice II
+28522 Petrovice I
+28523 Vlastějovice
+28525 Bohdaneč
+28531 Nové Dvory
+28532 Hlízov
+28532 Kutná Hora
+28533 Církvice
+28541 Malešov
+28542 Červené Janovice
+28543 Paběnice
+28545 Kluky
+28546 Úmonín
+28547 Křesetice
+28561 Žleby
+28562 Hostovlice
+28563 Potěhy
+28563 Tupadly
+28564 Vlkaneč
+28565 Zbýšov
+28571 Vrdy
+28572 Bílé Podolí
+28573 Horušice
+28574 Záboří nad Labem
+28575 Žehušice
+28576 Chotusice
+28601 Adamov
+28601 Bludov
+28601 Žehušice
+28601 Horka I
+28601 Brambory
+28601 Bratčice
+28601 Zbýšov
+28601 Úmonín
+28601 Čáslav
+28601 Čejkovice
+28601 Červené Janovice
+28601 Dobrovítov
+28601 Drobovice
+28601 Chotusice
+28601 Petrovice I
+28601 Horky
+28601 Horušice
+28601 Hraběšín
+28601 Krchleby
+28601 Žleby
+28601 Vlkaneč
+28601 Bílé Podolí
+28601 Močovice
+28601 Kluky
+28601 Okřesaneč
+28601 Opatovice I
+28601 Semtěš
+28601 Schořov
+28601 Souňov
+28601 Starkoč
+28601 Šebestěnice
+28601 Žáky
+28601 Třebešice
+28601 Třebonín
+28601 Třebětín
+28601 Vinaře
+28601 Vlačice
+28601 Vodranty
+28601 Vrdy
+28601 Černíny
+28802 Budiměřice
+28802 Nymburk
+28802 Dvory
+28802 Kovanice
+28802 Jiřice
+28802 Jizbice
+28802 Kamenné Zboží
+28802 Krchleby
+28802 Netřebice
+28802 Seletice
+28802 Všechlapy
+28901 Dymokury
+28901 Činěves
+28901 Chotěšice
+28901 Velenice
+28902 Kněžice
+28902 Chroustov
+28902 Chotěšice
+28903 Dlouhopolsko
+28903 Kněžice
+28903 Chroustov
+28903 Sloveč
+28903 Kněžičky
+28903 Kolaje
+28903 Chotěšice
+28903 Městec Králové
+28903 Záhornice
+28903 Vrbice
+28904 Kolaje
+28904 Opočnice
+28904 Podmoky
+28904 Okřínek
+28904 Vlkov pod Oškobrhem
+28904 Vrbice
+28905 Dobšice
+28905 Hradčany
+28905 Choťovice
+28905 Žehuň
+28906 Opolany
+28906 Sány
+28907 Opolany
+28907 Libice nad Cidlinou
+28907 Odřepsy
+28908 Běrunice
+28908 Kněžičky
+28911 Dobřichov
+28911 Milčice
+28911 Pečky
+28911 Radim
+28911 Ratenice
+28911 Tatce
+28911 Vrbová Lhota
+28912 Hradištko
+28912 Kostelní Lhota
+28912 Sadská
+28912 Třebestovice
+28912 Velenka
+28913 Nymburk
+28913 Hořátev
+28913 Písty
+28913 Zvěřínek
+28914 Hořany
+28914 Chrást
+28914 Poříčany
+28915 Bříství
+28915 Černíky
+28915 Kounice
+28915 Vykáň
+28916 Přerov nad Labem
+28916 Starý Vestec
+28917 Semice
+28921 Kostomlátky
+28921 Kostomlaty nad Labem
+28922 Lysá nad Labem
+28922 Stará Lysá
+28922 Jiřice
+28922 Ostrá
+28922 Stratov
+28923 Milovice
+28924 Milovice
+28925 Čilec
+28925 Straky
+28925 Zbožíčko
+28926 Stará Lysá
+28931 Bobnice
+28931 Chleby
+28932 Hrubý Jeseník
+28932 Jíkev
+28932 Nový Dvůr
+28932 Oskořínek
+28933 Křinec
+28933 Loučeň
+28933 Vestec
+28934 Chotěšice
+28934 Košík
+28934 Rožďalovice
+28934 Žitovlice
+28934 Seletice
+28935 Košík
+28936 Mcely
+28937 Loučeň
+28941 Pňov-Předhradí
+28941 Oseček
+29001 Choťánky
+29001 Poděbrady
+29001 Kouty
+29001 Křečkov
+29001 Okřínek
+29001 Úmyslovice
+29001 Pátek
+29001 Písková Lhota
+29001 Senice
+29001 Sokoleč
+29301 Mladá Boleslav
+29301 Bukovno
+29301 Dalovice
+29301 Dolní Stakory
+29301 Kosmonosy
+29301 Kolomuty
+29301 Nepřevázka
+29301 Plazy
+29301 Řepov
+29301 Vinec
+29306 Bradlec
+29306 Bakov nad Jizerou
+29306 Kosmonosy
+29307 Hrdlořezy
+29307 Josefův Důl
+29401 Bakov nad Jizerou
+29401 Bítouchov
+29401 Ptýrov
+29401 Nová Ves u Bakova
+29402 Branžež
+29402 Kněžmost
+29403 Obruby
+29404 Dolní Bousov
+29404 Dobšín
+29404 Obrubce
+29404 Osek
+29404 Petkovy
+29404 Prodašice
+29404 Přepeře
+29404 Rabakov
+29404 Rohatsko
+29404 Řitonice
+29404 Domousnice
+29404 Ujkovice
+29404 Veselice
+29405 Dlouhá Lhota
+29406 Březno
+29406 Petkovy
+29406 Husí Lhota
+29406 Nová Telib
+29406 Lhotky
+29406 Sukorady
+29406 Kněžmost
+29406 Židněves
+29411 Žďár
+29411 Březina
+29411 Loukovec
+29411 Sezemice
+29411 Koryta
+29411 Loukov
+29411 Mnichovo Hradiště
+29412 Žďár
+29413 Chocnějovice
+29413 Mnichovo Hradiště
+29413 Všelibice
+29413 Strážiště
+29413 Mohelnice nad Jizerou
+29413 Neveklovice
+29414 Jivina
+29415 Klášter Hradiště nad Jizerou
+29421 Bělá pod Bezdězem
+29421 Březovice
+29423 Čistá
+29423 Plužná
+29424 Březovice
+29425 Bělá pod Bezdězem
+29425 Březovice
+29425 Katusice
+29425 Kováň
+29425 Krásná Ves
+29425 Bukovno
+29425 Sudoměř
+29426 Boreč
+29426 Katusice
+29426 Kluky
+29426 Kováň
+29426 Kovanec
+29426 Velké Všelisy
+29426 Skalsko
+29426 Sudoměř
+29426 Vrátno
+29427 Velké Všelisy
+29428 Chotětov
+29429 Bezno
+29429 Nemyslovice
+29429 Sovínky
+29430 Niměřice
+29430 Doubravička
+29430 Rokytovec
+29430 Pětikozly
+29430 Strenice
+29431 Jizerní Vtelno
+29431 Krnsko
+29431 Písková Lhota
+29431 Strašnov
+29441 Dobrovice
+29441 Kosořice
+29441 Vinařice
+29441 Žerčice
+29442 Smilovice
+29442 Dobrovice
+29442 Luštěnice
+29442 Němčice
+29443 Vlkava
+29443 Čachovice
+29443 Lipník
+29443 Všejany
+29445 Charvatce
+29445 Chudíř
+29445 Jabkenice
+29446 Ctiměřice
+29446 Dobrovice
+29446 Kobylnice
+29446 Pěčice
+29446 Semčice
+29446 Žerčice
+29447 Ledce
+29448 Domousnice
+29471 Benátky nad Jizerou
+29471 Sedlec
+29471 Zdětín
+29473 Brodce
+29473 Horky nad Jizerou
+29473 Hrušov
+29474 Hlavenec
+29474 Předměřice nad Jizerou
+29474 Kochánky
+29474 Skorkov
+29474 Tuřice
+29475 Sojovice
+29476 Kostelní Hlavno
+29476 Sudovo Hlavno
+29477 Mečeříž
+29478 Dolní Slivno
+29479 Horní Slivno
+29479 Chotětov
+29479 Kropáčova Vrutice
+29479 Košátky
+29501 Bílá Hlína
+29501 Mukařov
+29501 Boseň
+29501 Mnichovo Hradiště
+29501 Horní Bukovina
+29501 Dolní Krupá
+29501 Rokytá
+29501 Březina
+29501 Ralsko
+29501 Ptýrov
+30100 Plzeň
+31200 Plzeň
+31600 Plzeň
+31800 Plzeň
+32100 Plzeň
+32100 Dobřany
+32200 Plzeň
+32300 Plzeň
+32600 Plzeň
+32600 Letkov
+33001 Kyšice
+33002 Dýšina
+33003 Chrást
+33005 Dobříč
+33007 Druztová
+33008 Zruč-Senec
+33011 Česká Bříza
+33011 Dolany
+33011 Hromnice
+33011 Všeruby
+33011 Nadryby
+33011 Nevřeň
+33011 Příšov
+33011 Žilov
+33011 Tatiná
+33011 Třemošná
+33012 Horní Bříza
+33013 Krašovice
+33013 Trnová
+33014 Ledce
+33016 Všeruby
+33017 Chotíkov
+33021 Líně
+33022 Zbůch
+33023 Přehýšov
+33023 Zbůch
+33023 Heřmanova Huť
+33023 Nýřany
+33023 Hněvnice
+33023 Kbelany
+33023 Lochousice
+33023 Myslinka
+33023 Kostelec
+33023 Rochlov
+33023 Úherce
+33023 Vochov
+33024 Heřmanova Huť
+33025 Blatnice
+33026 Tlučná
+33027 Vejprnice
+33032 Bdeněves
+33032 Kozolupy
+33033 Čeminy
+33033 Úlice
+33033 Město Touškov
+33033 Plešnice
+33033 Pňovany
+33033 Újezd nade Mží
+33035 Líšťany
+33035 Všeruby
+33035 Kunějovice
+33035 Úněšov
+33035 Zahrádka
+33036 Pernarec
+33036 Čerňovice
+33036 Úněšov
+33036 Ostrov u Bezdružic
+33036 Křelovice
+33038 Blažim
+33038 Úněšov
+33038 Zahrádka
+33038 Krsy
+33038 Všeruby
+33038 Líšťany
+33038 Bezvěrov
+33038 Ostrov u Bezdružic
+33040 Úterý
+33041 Bezvěrov
+33041 Úterý
+33101 Plasy
+33101 Dražeň
+33101 Hvozd
+33101 Pláně
+33141 Bílov
+33141 Bohy
+33141 Kozojedy
+33141 Brodeslavy
+33141 Kožlany
+33141 Bujesily
+33141 Kralovice
+33141 Mladotice
+33141 Černíkovice
+33141 Výrov
+33141 Hlince
+33141 Holovousy
+33141 Chříč
+33141 Kočín
+33141 Kopidlo
+33141 Štichovice
+33141 Liblín
+33141 Potvorov
+33141 Žihle
+33141 Sedlec
+33141 Slatina
+33141 Studená
+33141 Všehrdy
+33141 Vysoká Libyně
+33144 Kožlany
+33151 Dobříč
+33151 Dolní Hradiště
+33151 Jarov
+33151 Kaceřov
+33151 Kaznějov
+33151 Koryta
+33151 Obora
+33151 Rybnice
+33152 Bučí
+33152 Dolní Bělá
+33152 Horní Bělá
+33152 Nekmíř
+33152 Líté
+33152 Loza
+33152 Mrtník
+33162 Manětín
+33162 Nečtiny
+33162 Krsy
+33165 Tis u Blatna
+33165 Žihle
+33165 Velečín
+33165 Pastuchovice
+33201 Lhůta
+33201 Mokrouše
+33201 Tymákov
+33202 Starý Plzenec
+33203 Šťáhlavy
+33204 Chlum
+33204 Vlčtejn
+33204 Chválenice
+33204 Losiná
+33204 Milínov
+33204 Nebílovy
+33204 Netunice
+33204 Nezbavětice
+33204 Nezvěstice
+33204 Šťáhlavy
+33204 Žákava
+33205 Chválenice
+33207 Střížovice
+33209 Čižice
+33209 Štěnovický Borek
+33209 Předenice
+33209 Útušice
+33209 Štěnovice
+33211 Hradec
+33214 Chotěšov
+33301 Honezovice
+33301 Chotěšov
+33301 Hradec
+33301 Kotovice
+33301 Stod
+33301 Lisov
+33301 Líšina
+33301 Ves Touškov
+33301 Střelice
+33401 Biřkov
+33401 Bolkov
+33401 Borovy
+33401 Dnešice
+33401 Lužany
+33401 Dolce
+33401 Řenče
+33401 Horní Lukavice
+33401 Soběkury
+33401 Chlumčany
+33401 Dolní Lukavice
+33401 Příchovice
+33401 Přestavlky
+33401 Vřeskovice
+33401 Nezdice
+33401 Oplot
+33401 Otěšice
+33401 Přeštice
+33401 Radkovice
+33401 Týniště
+33401 Horšice
+33401 Vlčí
+33441 Dobřany
+33441 Nová Ves
+33441 Vstiš
+33442 Chlumčany
+33443 Dnešice
+33444 Dolní Lukavice
+33452 Buková
+33452 Zemětice
+33452 Srbice
+33452 Holýšov
+33452 Merklín
+33452 Ptenín
+33453 Roupov
+33454 Lužany
+33455 Horšice
+33501 Mileč
+33501 Žinkovy
+33501 Mladý Smolivec
+33501 Čížkov
+33501 Čmelíny
+33501 Chlumy
+33501 Jarov
+33501 Klášter
+33501 Neurazy
+33501 Oselce
+33501 Kozlovice
+33501 Kramolín
+33501 Mohelnice
+33501 Nepomuk
+33501 Prádlo
+33501 Měčín
+33501 Kasejovice
+33501 Polánka
+33501 Sedliště
+33501 Srby
+33501 Tojice
+33501 Třebčice
+33501 Chocenice
+33503 Nepomuk
+33541 Vrčeň
+33543 Mladý Smolivec
+33544 Hradiště
+33544 Kasejovice
+33544 Nezdřev
+33544 Životice
+33546 Oselce
+33547 Nekvasovy
+33551 Měcholupy
+33554 Žinkovy
+33555 Neurazy
+33561 Borovno
+33561 Spálené Poříčí
+33563 Spálené Poříčí
+33563 Čížkov
+33563 Míšov
+33563 Nové Mitrovice
+33564 Čížkov
+33601 Blovice
+33601 Žinkovy
+33601 Letiny
+33601 Drahkov
+33601 Chocenice
+33601 Louňová
+33601 Ždírec
+33601 Řenče
+33601 Seč
+33601 Skašov
+33601 Spálené Poříčí
+33601 Únětice
+33601 Zdemyslice
+33601 Žákava
+33701 Rokycany
+33701 Ejpovice
+33701 Hůrky
+33701 Kamenný Újezd
+33701 Lhota pod Radčem
+33701 Litohlavy
+33701 Medový Újezd
+33701 Nevid
+33701 Dobřív
+33701 Raková
+33701 Sirá
+33701 Těškov
+33701 Veselá
+33701 Osek
+33801 Holoubkov
+33801 Těškov
+33805 Mýto
+33806 Cheznovice
+33808 Terešov
+33808 Sebečice
+33808 Cekov
+33808 Čilá
+33808 Drahoňův Újezd
+33808 Hlohovice
+33808 Hradiště
+33808 Kladruby
+33808 Chlum
+33808 Zbiroh
+33808 Kařez
+33808 Kařízek
+33808 Ostrovec-Lhotka
+33808 Líšná
+33808 Mlečice
+33808 Plískov
+33808 Podmokly
+33808 Týček
+33808 Zvíkovec
+33821 Osek
+33822 Svojkovice
+33822 Volduchy
+33824 Bezděkov
+33824 Břasy
+33824 Březina
+33824 Bušovice
+33824 Lhotka u Radnic
+33824 Němčovice
+33824 Smědčice
+33824 Újezd u Svatého Kříže
+33824 Všenice
+33828 Chomle
+33828 Kamenec
+33828 Hlohovice
+33828 Přívětice
+33828 Radnice
+33828 Skomelno
+33828 Vejvanov
+33841 Klabava
+33842 Hrádek
+33842 Kamenný Újezd
+33843 Kakejcov
+33843 Kornatice
+33843 Mešno
+33843 Milínov
+33843 Mirošov
+33843 Příkosice
+33843 Skořice
+33843 Štítov
+33843 Trokavec
+33843 Vísky
+33844 Dobřív
+33845 Strašice
+33845 Těně
+33901 Dolany
+33901 Klatovy
+33901 Běšiny
+33901 Bezděkov
+33901 Chudenice
+33901 Bolešiny
+33901 Čachrov
+33901 Dlažov
+33901 Mochtín
+33901 Předslav
+33901 Chlistov
+33901 Strážov
+33901 Lomec
+33901 Ostřetice
+33901 Vrhaveč
+33901 Plánice
+33901 Poleň
+33901 Mlýnské Struhadlo
+33901 Myslovice
+33901 Obytce
+33901 Újezd u Plánice
+34004 Železná Ruda
+34012 Kbel
+34012 Švihov
+34012 Měčín
+34012 Chudenice
+34012 Červené Poříčí
+34012 Ježovy
+34012 Křenice
+34012 Mezihoří
+34012 Biřkov
+34021 Běhařov
+34021 Strážov
+34021 Dešenice
+34021 Dlažov
+34021 Janovice nad Úhlavou
+34021 Týnec
+34021 Javor
+34021 Klenová
+34022 Nýrsko
+34022 Dešenice
+34022 Chudenín
+34022 Hamry
+34022 Železná Ruda
+34022 Janovice nad Úhlavou
+34034 Plánice
+34034 Hnačov
+34034 Zavlekov
+34034 Zborovy
+34101 Horažďovice
+34101 Břežany
+34101 Chanovice
+34101 Hradešice
+34101 Hejná
+34101 Malý Bor
+34101 Velký Bor
+34101 Kejnice
+34101 Kovčín
+34101 Kvášňovice
+34101 Nalžovské Hory
+34101 Myslív
+34101 Maňovice
+34101 Nehodiv
+34101 Olšany
+34101 Pačejov
+34101 Slatina
+34101 Svéradice
+34101 Plánice
+34101 Velké Hydčice
+34101 Budětice
+34142 Kolinec
+34142 Velhartice
+34142 Hlavňovice
+34142 Hrádek
+34142 Číhaň
+34142 Čachrov
+34142 Hartmanice
+34142 Nalžovské Hory
+34142 Zavlekov
+34142 Tužice
+34142 Plánice
+34192 Kašperské Hory
+34192 Modrava
+34192 Rejštejn
+34192 Srní
+34201 Sušice
+34201 Dlouhá Ves
+34201 Žihobce
+34201 Rabí
+34201 Petrovice u Sušice
+34201 Budětice
+34201 Bukovník
+34201 Hrádek
+34201 Čímice
+34201 Frymburk
+34201 Soběšice
+34201 Hartmanice
+34201 Dobršín
+34201 Domoraz
+34201 Dražovice
+34201 Mokrosuky
+34201 Nová Ves
+34201 Hlavňovice
+34201 Strašín
+34201 Nezamyslice
+34201 Nezdice na Šumavě
+34201 Prášily
+34201 Podmokly
+34201 Žichovice
+34401 Babylon
+34401 Domažlice
+34401 Zahořany
+34401 Milavče
+34401 Klenčí pod Čerchovem
+34401 Díly
+34401 Draženov
+34401 Tlumačov
+34401 Chrastavice
+34401 Všeruby
+34401 Nemanice
+34401 Luženičky
+34401 Mrákov
+34401 Nevolice
+34401 Pasečnice
+34401 Nový Kramolín
+34401 Pařezov
+34401 Česká Kubice
+34401 Pec
+34401 Pelechy
+34401 Újezd
+34401 Trhanov
+34401 Spáňov
+34401 Stráž
+34401 Ždánov
+34501 Mrákov
+34502 Kout na Šumavě
+34506 Kdyně
+34506 Brnířov
+34506 Všeruby
+34506 Černíkov
+34506 Chodská Lhota
+34506 Libkov
+34506 Loučim
+34506 Mezholezy
+34506 Němčice
+34506 Nová Ves
+34506 Kout na Šumavě
+34506 Zahořany
+34506 Pocinovice
+34506 Úsilov
+34507 Všeruby
+34509 Pocinovice
+34521 Meclov
+34522 Drahotín
+34522 Hora Svatého Václava
+34522 Hvožďany
+34522 Mnichov
+34522 Poběžovice
+34522 Otov
+34522 Vlkanov
+34525 Hostouň
+34525 Bělá nad Radbuzou
+34525 Mutěnín
+34525 Horšovský Týn
+34525 Rybník
+34526 Bělá nad Radbuzou
+34532 Česká Kubice
+34533 Chodov
+34533 Trhanov
+34534 Klenčí pod Čerchovem
+34535 Postřekov
+34543 Hradiště
+34543 Zahořany
+34543 Chocomyšl
+34543 Kanice
+34543 Kaničky
+34543 Koloveč
+34543 Srbice
+34543 Úboč
+34543 Únějovice
+34543 Všepadly
+34545 Blížejov
+34561 Čermná
+34561 Osvračín
+34561 Puclice
+34561 Hlohová
+34561 Hlohovčice
+34561 Kaničky
+34561 Staňkov
+34561 Křenovy
+34561 Močerady
+34561 Poděvousy
+34562 Bukovec
+34562 Čečovice
+34562 Černovice
+34562 Holýšov
+34562 Horní Kamenice
+34562 Kvíčovice
+34562 Neuměř
+34562 Štichov
+34562 Všekary
+34601 Horšovský Týn
+34601 Meclov
+34601 Mezholezy
+34601 Blížejov
+34601 Vidice
+34601 Velký Malahov
+34601 Mířkov
+34601 Srby
+34601 Semněvice
+34701 Tachov
+34701 Halže
+34701 Ctiboř
+34701 Dlouhý Újezd
+34701 Obora
+34701 Lesná
+34701 Tisová
+34701 Lom u Tachova
+34701 Milíře
+34701 Studánka
+34801 Částkov
+34801 Bor
+34801 Tisová
+34801 Staré Sedliště
+34802 Stráž
+34802 Bor
+34802 Staré Sedlo
+34802 Ošelín
+34806 Třemešné
+34806 Rozvadov
+34806 Hošťka
+34806 Stráž
+34806 Přimda
+34813 Chodová Planá
+34815 Bor
+34815 Brod nad Tichou
+34815 Broumov
+34815 Ctiboř
+34815 Chodský Újezd
+34815 Kočov
+34815 Planá
+34815 Zadní Chodov
+34901 Benešovice
+34901 Erpužice
+34901 Kladruby
+34901 Stříbro
+34901 Svojšín
+34901 Pňovany
+34901 Prostiboř
+34901 Kostelec
+34901 Černošín
+34901 Skapce
+34901 Kšice
+34901 Olbramov
+34901 Ošelín
+34901 Horní Kozolupy
+34901 Sulislav
+34901 Vranov
+34901 Trpísty
+34901 Sytno
+34901 Únehle
+34901 Záchlumí
+34901 Zhoř
+34952 Cebiv
+34952 Konstantinovy Lázně
+34952 Horní Kozolupy
+34952 Kokašice
+34952 Křelovice
+34953 Bezdružice
+34953 Kokašice
+34953 Lestkov
+34953 Olbramov
+34953 Konstantinovy Lázně
+34958 Černošín
+34961 Kladruby
+34972 Trpísty
+35002 Františkovy Lázně
+35002 Vojtanov
+35002 Cheb
+35002 Odrava
+35002 Lipová
+35002 Nebanice
+35002 Třebeň
+35002 Dolní Žandov
+35002 Pomezí nad Ohří
+35002 Libá
+35002 Okrouhlá
+35002 Tuřany
+35002 Milíkov
+35002 Milhostov
+35002 Poustka
+35002 Stará Voda
+35101 Františkovy Lázně
+35124 Hranice
+35131 Libá
+35132 Hazlov
+35134 Nový Kostel
+35134 Luby
+35134 Třebeň
+35134 Milhostov
+35134 Cheb
+35134 Skalná
+35134 Křižovatka
+35134 Plesná
+35134 Velký Luh
+35134 Vojtanov
+35135 Plesná
+35137 Luby
+35201 Aš
+35201 Krásná
+35201 Hazlov
+35201 Hranice
+35201 Podhradí
+35301 Teplá
+35301 Drmoul
+35301 Mariánské Lázně
+35301 Trstěnice
+35301 Tři Sekery
+35301 Velká Hleďsebe
+35301 Nová Ves
+35301 Vlkovice
+35301 Zádub-Závišín
+35301 Mnichov
+35301 Ovesné Kladruby
+35301 Prameny
+35301 Stará Voda
+35301 Valy
+35491 Lázně Kynžvart
+35493 Dolní Žandov
+35601 Březová
+35601 Dolní Nivy
+35601 Citice
+35601 Jindřichovice
+35601 Sokolov
+35601 Královské Poříčí
+35601 Lomnice
+35601 Rovná
+35601 Staré Sedlo
+35601 Svatava
+35601 Šabina
+35601 Těšovice
+35604 Dolní Rychnov
+35701 Rotava
+35703 Svatava
+35707 Oloví
+35708 Krajková
+35709 Krajková
+35709 Dasnice
+35709 Habartov
+35709 Citice
+35709 Josefov
+35709 Chlum Svaté Maří
+35709 Oloví
+35731 Horní Slavkov
+35731 Krásno
+35731 Loket
+35733 Loket
+35734 Nové Sedlo
+35735 Chodov
+35735 Nové Sedlo
+35735 Mírová
+35735 Tatrovice
+35735 Vintířov
+35735 Vřesová
+35751 Kynšperk nad Ohří
+35751 Kaceřov
+35751 Libavské Údolí
+35751 Šabina
+35755 Bukovany
+35801 Bublava
+35801 Kraslice
+35801 Jindřichovice
+35801 Šindelová
+35801 Přebuz
+35801 Rotava
+35801 Stříbrná
+36001 Sadov
+36001 Březová
+36001 Karlovy Vary
+36001 Stanovice
+36001 Kolová
+36001 Hory
+36001 Jenišov
+36001 Otovice
+36001 Pila
+36004 Karlovy Vary
+36005 Karlovy Vary
+36006 Karlovy Vary
+36007 Karlovy Vary
+36010 Karlovy Vary
+36017 Karlovy Vary
+36018 Karlovy Vary
+36221 Nejdek
+36221 Černava
+36221 Nové Hamry
+36221 Vysoká Pec
+36222 Nejdek
+36225 Božičany
+36225 Děpoltovice
+36225 Nejdek
+36225 Nová Role
+36225 Smolné Pece
+36233 Hroznětín
+36234 Merklín
+36235 Abertamy
+36235 Horní Blatná
+36235 Potůčky
+36235 Pernink
+36236 Pernink
+36251 Ostrov
+36251 Jáchymov
+36262 Boží Dar
+36263 Dalovice
+36272 Doupovské Hradiště
+36272 Šemnice
+36272 Kyselka
+36273 Vojkovice
+36301 Stráž nad Ohří
+36301 Hroznětín
+36301 Krásný Les
+36301 Ostrov
+36301 Hájek
+36301 Hradiště
+36301 Vojkovice
+36301 Merklín
+36301 Jáchymov
+36301 Velichov
+36401 Toužim
+36401 Otročín
+36401 Útvina
+36401 Krásné Údolí
+36452 Verušičky
+36452 Pšov
+36452 Štědrá
+36452 Čichalov
+36452 Žlutice
+36452 Valeč
+36453 Vrbice
+36453 Chyše
+36453 Valeč
+36453 Čichalov
+36453 Žlutice
+36461 Teplá
+36464 Bečov nad Teplou
+36464 Karlovy Vary
+36464 Chodov
+36464 Otročín
+36464 Nová Ves
+36464 Teplička
+36471 Andělská Hora
+36471 Bochov
+36471 Bražec
+36471 Doupovské Hradiště
+36471 Stružná
+36471 Hradiště
+36471 Žlutice
+37001 Homole
+37001 České Budějovice
+37001 Rudolfov
+37001 Hradce
+37001 Boršov nad Vltavou
+37001 Vrábče
+37001 Litvínovice
+37001 Planá
+37001 Vráto
+37001 Závraty
+37004 České Budějovice
+37005 České Budějovice
+37006 Borovnice
+37006 České Budějovice
+37006 Dobrá Voda u Českých Budějovic
+37006 Doubravice
+37006 Dubičné
+37006 Heřmaň
+37006 Nová Ves
+37006 Nedabyle
+37006 Ledenice
+37006 Srubec
+37006 Staré Hodějovice
+37007 Borovnice
+37007 Kamenný Újezd
+37007 České Budějovice
+37007 Doubravice
+37007 Doudleby
+37007 Heřmaň
+37007 Nedabyle
+37007 Plav
+37007 Roudné
+37007 Římov
+37007 Vidov
+37008 České Budějovice
+37008 Doubravice
+37008 Nová Ves
+37008 Nedabyle
+37008 Staré Hodějovice
+37010 České Budějovice
+37010 Hrdějovice
+37010 Úsilné
+37011 České Budějovice
+37301 Temelín
+37302 Všemyslice
+37304 Chrášťany
+37305 Temelín
+37311 Ledenice
+37312 Borovany
+37312 Jílovice
+37312 Mladošovice
+37312 Ledenice
+37312 Strážkovice
+37314 Komařice
+37314 Strážkovice
+37315 Nová Ves
+37316 Dobrá Voda u Českých Budějovic
+37316 Srubec
+37321 Slavče
+37322 Ločenice
+37323 Svatý Jan nad Malší
+37324 Římov
+37331 Olešnice
+37332 Jílovice
+37333 Nové Hrady
+37335 Horní Stropnice
+37336 Horní Stropnice
+37341 Hluboká nad Vltavou
+37341 Břehov
+37341 Čejkovice
+37341 Pištín
+37341 Dasný
+37341 Žabovřesky
+37341 Hosín
+37341 Drahotěšice
+37341 Olešník
+37341 Dubné
+37341 Sedlec
+37341 Hrdějovice
+37341 Dolní Bukovsko
+37341 Radošovice
+37341 Strýčice
+37341 Vlkov
+37343 Hluboká nad Vltavou
+37344 Zliv
+37346 Pištín
+37347 Sedlec
+37348 Dívčice
+37348 Hlavatce
+37348 Sedlec
+37348 Dříteň
+37348 Mydlovary
+37348 Nákří
+37348 Zahájí
+37349 Mydlovary
+37350 Olešník
+37351 Dříteň
+37361 Hosín
+37361 Hrdějovice
+37362 Chotýčany
+37363 Mazelov
+37363 Ševětín
+37363 Vitín
+37364 Bošilec
+37364 Dynín
+37365 Bošilec
+37365 Dolní Bukovsko
+37365 Hartmanice
+37365 Dynín
+37365 Neplachov
+37365 Žimutice
+37365 Ševětín
+37366 Žimutice
+37367 Borek
+37367 Hrdějovice
+37367 Libníč
+37371 Adamov
+37371 Dubičné
+37371 Hlincová Hora
+37371 Hůry
+37371 Libníč
+37371 Jivno
+37371 Rudolfov
+37371 Vráto
+37372 Lišov
+37372 Hvozdec
+37372 Zvíkov
+37373 Lišov
+37373 Libín
+37373 Štěpánovice
+37381 Kamenný Újezd
+37382 Boršov nad Vltavou
+37382 Kamenný Újezd
+37382 Včelná
+37384 Branišov
+37384 Čakov
+37384 Záboří
+37384 Dubné
+37384 Habří
+37384 Jankov
+37384 Lipí
+37384 Kvítkovice
+37401 Horní Stropnice
+37401 Čížkrajice
+37401 Žár
+37401 Římov
+37401 Trhové Sviny
+37401 Olešnice
+37401 Nové Hrady
+37401 Slavče
+37401 Hranice
+37401 Svatý Jan nad Malší
+37401 Kamenná
+37401 Mokrý Lom
+37401 Strážkovice
+37401 Ločenice
+37401 Ostrolovský Újezd
+37401 Komařice
+37401 Petříkov
+37401 Střížov
+37501 Bečice
+37501 Všemyslice
+37501 Dražíč
+37501 Temelín
+37501 Dobšice
+37501 Horní Kněžeklady
+37501 Chrášťany
+37501 Týn nad Vltavou
+37501 Hosty
+37501 Žimutice
+37501 Bechyně
+37501 Dříteň
+37501 Modrá Hůrka
+37501 Olešník
+37501 Albrechtice nad Vltavou
+37701 Jindřichův Hradec
+37701 Dolní Pěna
+37701 Blažejov
+37701 Hatín
+37701 Horní Skrýchov
+37701 Hospříz
+37701 Rodvínov
+37701 Kačlehy
+37701 Horní Pěna
+37701 Lodhéřov
+37701 Polště
+37701 Ratiboř
+37701 Střížovice
+37701 Velký Ratmírov
+37801 Lásenice
+37802 Stráž nad Nežárkou
+37802 Dolní Žďár
+37802 Hatín
+37802 Novosedly nad Nežárkou
+37802 Číměř
+37802 Pístina
+37802 Plavsko
+37802 Příbraz
+37802 Vydří
+37803 Majdalena
+37804 Chlum u Třeboně
+37806 Suchdol nad Lužnicí
+37806 Halámky
+37806 Hamr
+37806 Chlum u Třeboně
+37806 Staňkov
+37806 Nová Ves nad Lužnicí
+37807 Rapšach
+37808 Dvory nad Lužnicí
+37809 Nová Ves nad Lužnicí
+37810 České Velenice
+37816 Lomnice nad Lužnicí
+37817 Novosedly nad Nežárkou
+37818 Pístina
+37818 Stříbřec
+37821 Drunče
+37821 Březina
+37821 Pluhův Žďár
+37821 Doňov
+37821 Drahov
+37821 Kardašova Řečice
+37821 Deštná
+37821 Pleše
+37821 Ratiboř
+37821 Rosička
+37821 Světce
+37821 Újezdec
+37821 Velký Ratmírov
+37821 Vícemil
+37821 Višňová
+37821 Záhoří
+37824 Pluhův Žďár
+37825 Deštná
+37826 Lodhéřov
+37831 Horní Pěna
+37832 Číměř
+37833 Nová Bystřice
+37833 Číměř
+37833 Kunžak
+37833 Člunek
+37841 Jarošov nad Nežárkou
+37842 Bednárec
+37842 Bednáreček
+37842 Horní Radouň
+37842 Dívčí Kopy
+37842 Hadravova Rosička
+37842 Jarošov nad Nežárkou
+37842 Kamenný Malíkov
+37842 Kostelní Radouň
+37842 Žďár
+37842 Nová Včelnice
+37842 Okrouhlá Radouň
+37842 Vlčetínec
+37843 Horní Radouň
+37846 Roseč
+37852 Blažejov
+37853 Bořetín
+37853 Střížovice
+37853 Strmilov
+37853 Studená
+37853 Heřmaneč
+37853 Zahrádky
+37853 Horní Meziříčko
+37853 Horní Němčice
+37853 Popelín
+37853 Jilem
+37853 Kunžak
+37853 Člunek
+37853 Nová Olešná
+37853 Český Rudolec
+37853 Panské Dubenky
+37855 Popelín
+37856 Jilem
+37856 Studená
+37861 Člunek
+37862 Kunžak
+37871 Staré Hobzí
+37872 Písečné
+37873 Dešná
+37881 Dešná
+37881 Cizkrajov
+37881 Staré Město pod Landštejnem
+37881 Písečné
+37881 Staré Hobzí
+37881 Slavonice
+37881 Český Rudolec
+37881 Nová Bystřice
+37881 Županovice
+37882 Staré Město pod Landštejnem
+37883 Český Rudolec
+37891 Budíškovice
+37892 Budeč
+37901 Třeboň
+37901 Cep
+37901 Domanín
+37901 Dunajovice
+37901 Frahelž
+37901 Hrachoviště
+37901 Hatín
+37901 Klec
+37901 Jílovice
+37901 Novosedly nad Nežárkou
+37901 Stříbřec
+37901 Lomnice nad Lužnicí
+37901 Lužnice
+37901 Mladošovice
+37901 Ponědraž
+37901 Ponědrážka
+37901 Příbraz
+37901 Smržov
+37901 Libín
+37901 Záblatí
+37901 Chlum u Třeboně
+38001 Báňovice
+38001 Dačice
+38001 Budeč
+38001 Volfířov
+38001 Budíškovice
+38001 Červený Hrádek
+38001 Dobrohošť
+38001 Český Rudolec
+38001 Horní Slatina
+38001 Hříšice
+38001 Kostelní Vydří
+38001 Peč
+38001 Staré Hobzí
+38001 Radkovice u Budče
+38001 Třebětice
+38101 Bohdalovice
+38101 Boletice
+38101 Chvalšiny
+38101 Rožmitál na Šumavě
+38101 Větřní
+38101 Český Krumlov
+38101 Přídolí
+38101 Kájov
+38101 Hořice na Šumavě
+38101 Malšín
+38101 Zlatá Koruna
+38101 Přísečná
+38101 Srnín
+38201 Dolní Třebonín
+38202 Zlatá Koruna
+38203 Křemže
+38203 Chvalšiny
+38203 Brloh
+38203 Nová Ves
+38203 Holubov
+38206 Brloh
+38208 Boletice
+38208 Chvalšiny
+38211 Větřní
+38211 Bohdalovice
+38216 Světlík
+38218 Rožmberk nad Vltavou
+38221 Kájov
+38222 Hořice na Šumavě
+38223 Černá v Pošumaví
+38226 Černá v Pošumaví
+38226 Horní Planá
+38226 Frymburk
+38229 Polná na Šumavě
+38232 Velešín
+38232 Mojné
+38232 Dolní Třebonín
+38232 Netřebice
+38232 Věžovatá Pláně
+38232 Mirkovice
+38232 Chlumec
+38232 Zubčice
+38232 Zlatá Koruna
+38232 Kaplice
+38232 Střítež
+38232 Zvíkov
+38241 Malonty
+38241 Besednice
+38241 Kaplice
+38241 Omlenice
+38241 Dolní Dvořiště
+38241 Bujanov
+38241 Benešov nad Černou
+38241 Horní Dvořiště
+38241 Rožmitál na Šumavě
+38241 Pohorská Ves
+38241 Soběnov
+38241 Střítež
+38242 Střítež
+38272 Dolní Dvořiště
+38273 Vyšší Brod
+38273 Loučovice
+38273 Malšín
+38273 Přední Výtoň
+38276 Loučovice
+38278 Lipno nad Vltavou
+38279 Frymburk
+38281 Besednice
+38282 Benešov nad Černou
+38283 Pohorská Ves
+38291 Malonty
+38292 Rožmitál na Šumavě
+38293 Horní Dvořiště
+38301 Záblatí
+38301 Křišťanov
+38301 Těšovice
+38301 Strunkovice nad Blanicí
+38301 Zbytiny
+38301 Ktiš
+38301 Buk
+38301 Vlachovo Březí
+38301 Drslavice
+38301 Žernovice
+38301 Dub
+38301 Radhostice
+38301 Dvory
+38301 Mičovice
+38301 Husinec
+38301 Lhenice
+38301 Hracholusky
+38301 Kratušín
+38301 Chroboly
+38301 Nebahovy
+38301 Prachatice
+38301 Šumavské Hoštice
+38301 Volary
+38301 Pěčnov
+38301 Svatá Maří
+38301 Vitějovice
+38301 Zábrdí
+38301 Žárovná
+38401 Nebahovy
+38402 Lhenice
+38403 Ktiš
+38404 Chroboly
+38404 Ktiš
+38411 Babice
+38411 Libějovice
+38411 Lhenice
+38411 Olšovice
+38411 Malovice
+38411 Hracholusky
+38411 Chvalovice
+38411 Lužice
+38411 Mahouš
+38411 Němčice
+38411 Netolice
+38411 Strunkovice nad Blanicí
+38421 Husinec
+38422 Bušanovice
+38422 Bohunice
+38422 Dub
+38422 Budkov
+38422 Vlachovo Březí
+38422 Chlumany
+38422 Lipovice
+38422 Tvrzice
+38422 Újezdec
+38425 Dub
+38426 Strunkovice nad Blanicí
+38427 Vitějovice
+38432 Lažiště
+38433 Záblatí
+38441 Zbytiny
+38442 Lenora
+38443 Strážný
+38444 Stožec
+38451 Nová Pec
+38451 Horní Planá
+38451 Stožec
+38451 Horní Vltavice
+38451 Lenora
+38451 Volary
+38451 Želnava
+38462 Nová Pec
+38471 Buk
+38471 Šumavské Hoštice
+38472 Zdíkov
+38473 Vacov
+38473 Zdíkov
+38473 Drážov
+38473 Dřešín
+38473 Stachy
+38473 Vimperk
+38473 Nicov
+38473 Vacovice
+38473 Vrbice
+38481 Bohumilice
+38481 Zálezly
+38481 Bošice
+38481 Čkyně
+38481 Radhostice
+38481 Lčovice
+38481 Svatá Maří
+38486 Vacov
+38491 Horní Vltavice
+38492 Borová Lada
+38493 Kvilda
+38501 Vimperk
+38501 Svatá Maří
+38501 Horní Vltavice
+38501 Kvilda
+38501 Borová Lada
+38501 Horská Kvilda
+38501 Lenora
+38501 Kubova Huť
+38501 Nové Hutě
+38601 Přešťovice
+38601 Čejetice
+38601 Droužetice
+38601 Horní Poříčí
+38601 Radomyšl
+38601 Čestice
+38601 Doubravice
+38601 Drachkov
+38601 Strakonice
+38601 Hlupín
+38601 Únice
+38601 Chrášťovice
+38601 Osek
+38601 Jinín
+38601 Kalenice
+38601 Radošovice
+38601 Bratronice
+38601 Krejnice
+38601 Krty-Hradec
+38601 Kuřimany
+38601 Kváskovice
+38601 Libětice
+38601 Miloňovice
+38601 Mnichov
+38601 Mutěnice
+38601 Nebřehovice
+38601 Štěkeň
+38601 Novosedly
+38601 Paračov
+38601 Pracejovice
+38601 Rovná
+38601 Řepice
+38601 Střelské Hoštice
+38601 Skály
+38601 Slaník
+38601 Sousedovice
+38601 Úlehle
+38601 Třebohostice
+38601 Třešovice
+38601 Velká Turná
+38701 Volyně
+38701 Čestice
+38701 Hoštice
+38701 Radošovice
+38701 Čepřovice
+38701 Předslavice
+38701 Litochovice
+38701 Milejovice
+38701 Němětice
+38701 Nihošovice
+38701 Nišovice
+38701 Přední Zborovice
+38701 Přechovice
+38701 Malenice
+38701 Strunkovice nad Volyňkou
+38706 Malenice
+38711 Katovice
+38715 Střelské Hoštice
+38716 Hoslovice
+38716 Kalenice
+38716 Kladruby
+38716 Kraselov
+38716 Krejnice
+38716 Pracejovice
+38716 Novosedly
+38716 Volenice
+38716 Strašice
+38716 Štěchovice
+38716 Zvotoky
+38719 Čestice
+38719 Drážov
+38719 Dřešín
+38719 Hoslovice
+38719 Nihošovice
+38719 Němčice
+38719 Nová Ves
+38719 Úlehle
+38719 Vacovice
+38719 Zahorčice
+38731 Radomyšl
+38732 Sedlice
+38733 Kadov
+38734 Záboří
+38735 Doubravice
+38736 Mečichov
+38737 Třebohostice
+38742 Hornosín
+38742 Kocelovice
+38742 Lnáře
+38742 Předmíř
+38742 Bělčice
+38743 Bělčice
+38751 Štěkeň
+38752 Cehnice
+38756 Čepřovice
+38771 Číčenice
+38772 Libějovice
+38773 Bavorov
+38773 Bílsko
+38773 Budyně
+38773 Hájek
+38773 Pivkovice
+38773 Krajníčko
+38773 Měkynec
+38773 Radějovice
+38775 Skočice
+38801 Bezdědovice
+38801 Blatná
+38801 Bratronice
+38801 Buzice
+38801 Čečelovice
+38801 Uzeničky
+38801 Sedlice
+38801 Hajany
+38801 Bělčice
+38801 Chlum
+38801 Chobot
+38801 Myštice
+38801 Lažánky
+38801 Lažany
+38801 Kadov
+38801 Lom
+38801 Mačkov
+38801 Škvořetice
+38801 Tchořovice
+38801 Uzenice
+38901 Drahonice
+38901 Bavorov
+38901 Vodňany
+38901 Libějovice
+38901 Číčenice
+38901 Truskovice
+38901 Cehnice
+38901 Chelčice
+38901 Pohorovice
+38901 Krašlovice
+38901 Stožice
+38901 Skočice
+38901 Čejetice
+39001 Tábor
+39002 Tábor
+39002 Košice
+39002 Planá nad Lužnicí
+39002 Libějice
+39002 Lom
+39002 Radimovice u Želče
+39002 Slapy
+39002 Ústrašice
+39002 Zhoř u Tábora
+39003 Tábor
+39005 Tábor
+39101 Planá nad Lužnicí
+39101 Sezimovo Ústí
+39102 Planá nad Lužnicí
+39102 Sezimovo Ústí
+39111 Planá nad Lužnicí
+39116 Myslkovice
+39117 Košice
+39118 Choustník
+39120 Radenín
+39121 Turovec
+39126 Tučapy
+39127 Dírná
+39131 Balkova Lhota
+39131 Dražice
+39131 Drhovice
+39131 Svrabov
+39131 Jistebnice
+39131 Meziříčí
+39131 Nasavrky
+39131 Radkov
+39131 Radimovice u Tábora
+39131 Tábor
+39132 Jistebnice
+39133 Jistebnice
+39133 Borotín
+39135 Borotín
+39136 Sudoměřice u Tábora
+39137 Chotoviny
+39137 Jedlany
+39137 Košín
+39137 Tábor
+39142 Ratibořské Hory
+39143 Běleč
+39143 Mladá Vožice
+39143 Rodná
+39143 Pojbuky
+39143 Bradáčov
+39143 Řemíčov
+39143 Nemyšl
+39143 Dolní Hrachovice
+39143 Ratibořské Hory
+39143 Smilovy Hory
+39143 Hlasivo
+39143 Nová Ves u Mladé Vožice
+39143 Vilice
+39143 Slapsko
+39143 Šebířov
+39143 Oldřichov
+39143 Pohnánec
+39143 Pohnání
+39143 Zadní Střítež
+39143 Zhoř u Mladé Vožice
+39152 Smilovy Hory
+39153 Vodice
+39155 Vodice
+39155 Radenín
+39155 Dlouhá Lhota
+39155 Chýnov
+39155 Dolní Hořice
+39155 Chrbonín
+39155 Nová Ves u Chýnova
+39155 Turovec
+39156 Tábor
+39156 Sezimovo Ústí
+39156 Turovec
+39161 Stádlec
+39161 Opařany
+39161 Řepeč
+39162 Stádlec
+39165 Bechyně
+39165 Sudoměřice u Bechyně
+39165 Hodětín
+39165 Čenkov u Bechyně
+39165 Černýšovice
+39165 Dobronice u Bechyně
+39165 Haškovcova Lhota
+39165 Hodonice
+39165 Rataje
+39165 Stádlec
+39165 Radětice
+39165 Záhoří
+39171 Březnice
+39172 Sudoměřice u Bechyně
+39173 Hlavatce
+39174 Želeč
+39175 Bečice
+39175 Želeč
+39175 Malšice
+39175 Dražičky
+39175 Skrýchov u Malšic
+39175 Slapy
+39175 Hlavatce
+39176 Slapy
+39181 Borkovice
+39181 Drahov
+39181 Val
+39181 Hodětín
+39181 Veselí nad Lužnicí
+39181 Zálší
+39181 Sviny
+39181 Mažice
+39181 Řípec
+39181 Vlkov
+39181 Zlukov
+39181 Žíšov
+39201 Košice
+39201 Tučapy
+39201 Budislav
+39201 Vesce
+39201 Hlavatce
+39201 Dráchov
+39201 Přehořov
+39201 Skopytce
+39201 Soběslav
+39201 Chotěmice
+39201 Roudná
+39201 Choustník
+39201 Katov
+39201 Klenovice
+39201 Komárov
+39201 Krátošice
+39201 Krtov
+39201 Dírná
+39201 Mezná
+39201 Mlýny
+39201 Psárov
+39201 Skalice
+39201 Řípec
+39201 Sedlečko u Soběslavě
+39201 Vlčeves
+39201 Vlastiboř
+39201 Třebějice
+39201 Zvěrotice
+39301 Bácovice
+39301 Bělá
+39301 Pelhřimov
+39301 Střítež
+39301 Božejov
+39301 Vyskytná
+39301 Nová Cerekev
+39301 Zachotín
+39301 Nový Rychnov
+39301 Čelistná
+39301 Černov
+39301 Červená Řečice
+39301 Čížkov
+39301 Dehtáře
+39301 Dobrá Voda
+39301 Dubovice
+39301 Horní Ves
+39301 Horní Cerekev
+39301 Olešná
+39301 Jankov
+39301 Kojčice
+39301 Krasíkovice
+39301 Leskovice
+39301 Mezná
+39301 Moraveč
+39301 Nová Buková
+39301 Ondřejov
+39301 Pavlov
+39301 Proseč pod Křemešníkem
+39301 Putimov
+39301 Zajíčkov
+39301 Rynárec
+39301 Střítež pod Křemešníkem
+39301 Svépravice
+39301 Ústrašín
+39301 Velký Rybník
+39301 Vokov
+39301 Žirov
+39401 Rynárec
+39403 Horní Cerekev
+39404 Nový Rychnov
+39405 Vyskytná
+39409 Kojčice
+39411 Cetoraz
+39412 Obrataň
+39413 Kámen
+39413 Zlátenka
+39414 Leskovice
+39415 Nová Cerekev
+39421 Hořepník
+39422 Buřenice
+39422 Košetice
+39424 Křešín
+39426 Lukavec
+39427 Vyklantice
+39428 Velká Chyška
+39443 Mladé Bříště
+39444 Želiv
+39445 Křelovice
+39446 Červená Řečice
+39451 Kaliště
+39452 Kejžlice
+39456 Senožaty
+39459 Koberovice
+39461 Božejov
+39462 Libkova Voda
+39463 Častrov
+39464 Počátky
+39464 Polesí
+39468 Častrov
+39468 Žirovnice
+39468 Stojčín
+39470 Kamenice nad Lipou
+39470 Těmice
+39470 Černovice
+39470 Bořetín
+39470 Častrov
+39470 Mnich
+39470 Střítež
+39470 Lhota-Vlasenice
+39470 Nová Cerekev
+39470 Rodinov
+39470 Včelnička
+39470 Veselá
+39491 Bohdalín
+39492 Mnich
+39493 Mnich
+39494 Černovice
+39495 Křeč
+39496 Těmice
+39501 Arneštovice
+39501 Buřenice
+39501 Pacov
+39501 Obrataň
+39501 Lukavec
+39501 Křešín
+39501 Lidmaň
+39501 Bořetice
+39501 Bratřice
+39501 Věžná
+39501 Hořepník
+39501 Čáslavsko
+39501 Dobrá Voda u Pacova
+39501 Důl
+39501 Eš
+39501 Hojovice
+39501 Mezilesí
+39501 Onšov
+39501 Chýstovice
+39501 Chyšná
+39501 Vyklantice
+39501 Košetice
+39501 Lesná
+39501 Litohošť
+39501 Salačova Lhota
+39501 Martinice u Onšova
+39501 Pošná
+39501 Kámen
+39501 Samšín
+39501 Rovná
+39501 Těchobuz
+39501 Útěchovice
+39501 Útěchovice pod Stražištěm
+39501 Útěchovičky
+39501 Vlčeves
+39501 Vysoká Lhota
+39501 Zhořec
+39501 Zlátenka
+39601 Želiv
+39601 Humpolec
+39601 Budíkov
+39601 Bystrá
+39601 Řečice
+39601 Čejov
+39601 Křelovice
+39601 Hořice
+39601 Kaliště
+39601 Hojanovice
+39601 Mladé Bříště
+39601 Horní Rápotice
+39601 Ježov
+39601 Jiřice
+39601 Koberovice
+39601 Komorovice
+39601 Mysletín
+39601 Senožaty
+39601 Píšť
+39601 Proseč
+39601 Sedlice
+39601 Staré Bříště
+39601 Syrov
+39601 Vojslavice
+39601 Vystrkov
+39701 Čížová
+39701 Drhovle
+39701 Kluky
+39701 Písek
+39701 Vlastec
+39701 Ostrovec
+39701 Dolní Novosedly
+39701 Vojníkov
+39701 Záhoří
+39701 Albrechtice nad Vltavou
+39701 Vráž
+39701 Kestřany
+39701 Předotice
+39701 Dobev
+39701 Putim
+39701 Smetanova Lhota
+39701 Oslov
+39701 Varvažov
+39701 Temešvár
+39701 Vrcovice
+39701 Zvíkovské Podhradí
+39801 Mirotice
+39804 Mirovice
+39804 Mirotice
+39804 Boudy
+39804 Cerhonice
+39804 Čimelice
+39804 Nerestce
+39804 Mišovice
+39804 Horosedly
+39804 Smetanova Lhota
+39804 Kožlí
+39804 Králova Lhota
+39804 Lety
+39804 Minice
+39804 Myslín
+39804 Nevězice
+39804 Probulov
+39804 Rakovice
+39804 Varvažov
+39806 Horosedly
+39806 Mirovice
+39807 Orlík nad Vltavou
+39811 Skály
+39811 Heřmaň
+39811 Albrechtice nad Vltavou
+39811 Protivín
+39811 Tálín
+39811 Žďár
+39811 Paseky
+39811 Ražice
+39815 Tálín
+39816 Albrechtice nad Vltavou
+39817 Albrechtice nad Vltavou
+39818 Záhoří
+39819 Kluky
+39821 Kestřany
+39822 Ražice
+39831 Čížová
+39832 Vráž
+39833 Ostrovec
+39834 Kučeř
+39835 Oslov
+39842 Veselíčko
+39843 Bernartice
+39843 Veselíčko
+39843 Borovany
+39843 Branice
+39843 Slabčice
+39843 Jetětice
+39843 Zběšičky
+39843 Křenovice
+39843 Křižanov
+39843 Okrouhlá
+39843 Olešná
+39843 Podolí I
+39843 Stehlovice
+39847 Slabčice
+39848 Jetětice
+39851 Božetice
+39851 Sepekov
+39852 Nadějkov
+39853 Chyšky
+39855 Kovářov
+39858 Kostelec nad Vltavou
+39859 Hrejkovice
+39901 Nadějkov
+39901 Zhoř
+39901 Božetice
+39901 Chyšky
+39901 Kovářov
+39901 Milevsko
+39901 Hrazany
+39901 Vlksice
+39901 Přeštěnice
+39901 Hrejkovice
+39901 Nechvalice
+39901 Jickovice
+39901 Petrovice
+39901 Květov
+39901 Sepekov
+39901 Osek
+39901 Přeborov
+39901 Kostelec nad Vltavou
+39901 Zbelítov
+40001 Ústí nad Labem
+40002 Velké Chvojno
+40002 Homole u Panny
+40002 Řehlovice
+40002 Malečov
+40002 Libouchec
+40002 Habrovany
+40002 Ústí nad Labem
+40002 Chuderov
+40002 Stebno
+40002 Trmice
+40002 Malé Březno
+40002 Povrly
+40002 Tašov
+40002 Zubrnice
+40002 Velké Březno
+40003 Ústí nad Labem
+40004 Trmice
+40007 Ústí nad Labem
+40010 Ústí nad Labem
+40010 Chlumec
+40011 Ústí nad Labem
+40301 Dolní Zálezly
+40302 Ústí nad Labem
+40313 Řehlovice
+40317 Chabařovice
+40317 Přestanov
+40317 Krupka
+40321 Ústí nad Labem
+40322 Ústí nad Labem
+40323 Velké Březno
+40327 Malečov
+40331 Ústí nad Labem
+40331 Ryjice
+40332 Povrly
+40334 Velké Chvojno
+40335 Libouchec
+40336 Tisá
+40337 Petrovice
+40338 Petrovice
+40338 Telnice
+40339 Chlumec
+40340 Ústí nad Labem
+40502 Děčín
+40502 Heřmanov
+40502 Malšovice
+40502 Bynovec
+40502 Verneřice
+40502 Dolní Habartice
+40502 Česká Kamenice
+40502 Huntířov
+40502 Horní Habartice
+40502 Janov
+40502 Janská
+40502 Malá Veleň
+40502 Jílové
+40502 Růžová
+40502 Kunratice
+40502 Labská Stráň
+40502 Starý Šachov
+40502 Merboltice
+40502 Hřensko
+40502 Františkov nad Ploučnicí
+40502 Benešov nad Ploučnicí
+40502 Dobkovice
+40502 Jetřichovice
+40502 Valkeřice
+40502 Těchlovice
+40502 Veselé
+40505 Děčín
+40701 Jílové
+40702 Jílové
+40703 Dobkovice
+40703 Malšovice
+40711 Děčín
+40713 Kámen
+40713 Ludvíkovice
+40714 Arnoltice
+40714 Růžová
+40715 Srbská Kamenice
+40716 Jetřichovice
+40717 Hřensko
+40721 Česká Kamenice
+40722 Benešov nad Ploučnicí
+40723 Františkov nad Ploučnicí
+40724 Valkeřice
+40725 Verneřice
+40729 Velká Bukovina
+40741 Dobrná
+40742 Markvartice
+40744 Chřibská
+40745 Kytlice
+40746 Krásná Lípa
+40747 Krásná Lípa
+40747 Doubice
+40747 Šluknov
+40747 Dolní Poustevna
+40747 Velký Šenov
+40747 Staré Křečany
+40747 Lipová
+40747 Rybniště
+40747 Lobendava
+40747 Varnsdorf
+40751 Rybniště
+40752 Varnsdorf
+40753 Jiříkov
+40755 Dolní Podluží
+40756 Jiřetín pod Jedlovou
+40757 Horní Podluží
+40760 Staré Křečany
+40761 Staré Křečany
+40777 Šluknov
+40778 Velký Šenov
+40779 Mikulášovice
+40780 Vilémov
+40781 Lipová
+40782 Dolní Poustevna
+40784 Lobendava
+40801 Jiřetín pod Jedlovou
+40801 Rumburk
+40801 Staré Křečany
+41002 Velemín
+41002 Černiv
+41002 Libochovice
+41002 Evaň
+41002 Chotěšov
+41002 Chotiměř
+41002 Keblice
+41002 Křesín
+41002 Lhotka nad Labem
+41002 Lovosice
+41002 Lukavec
+41002 Malé Žernoseky
+41002 Vchynice
+41002 Radovesice
+41002 Siřejovice
+41002 Slatina
+41002 Úpohlavy
+41002 Žabovřesky nad Ohří
+41002 Čížkovice
+41101 Píšťany
+41101 Litoměřice
+41101 Žalhostice
+41103 Libochovany
+41108 Štětí
+41108 Budyně nad Ohří
+41108 Snědovice
+41108 Hoštka
+41108 Bechlín
+41108 Račice
+41108 Úštěk
+41111 Sulejovice
+41112 Čížkovice
+41113 Třebenice
+41114 Vlastislav
+41115 Třebívlice
+41115 Děčany
+41115 Podsedice
+41115 Dlažkovice
+41115 Chodovlice
+41115 Jenčice
+41115 Třebenice
+41115 Lkáň
+41115 Sedlec
+41116 Klapý
+41117 Libochovice
+41118 Budyně nad Ohří
+41119 Mšené-lázně
+41119 Martiněves
+41120 Mšené-lázně
+41121 Vrbičany
+41131 Velemín
+41132 Velemín
+41133 Prackovice nad Labem
+41141 Žitenice
+41142 Ploskovice
+41145 Úštěk
+41145 Drahobuz
+41145 Liběšice
+41145 Lovečkovice
+41145 Polepy
+41145 Horní Řepčice
+41145 Levín
+41145 Chotiněves
+41146 Liběšice
+41147 Polepy
+41147 Vrutice
+41148 Křešice
+41155 Terezín
+41156 Bohušovice nad Ohří
+41162 Snědovice
+41164 Vrbice
+41171 Chodouny
+41172 Hoštka
+41173 Štětí
+41174 Snědovice
+41181 Brozany nad Ohří
+41182 Doksany
+41183 Hrobce
+41183 Židovice
+41184 Straškov-Vodochody
+41185 Horní Beřkovice
+41186 Bechlín
+41187 Krabčice
+41201 Brňany
+41201 Býčkovice
+41201 Terezín
+41201 Liběšice
+41201 Třebušín
+41201 Hlinná
+41201 Bohušovice nad Ohří
+41201 Chudoslavice
+41201 Kamýk
+41201 Libotenice
+41201 Litoměřice
+41201 Malíč
+41201 Ploskovice
+41201 Michalovice
+41201 Miřejovice
+41201 Mlékojedy
+41201 Lovečkovice
+41201 Travčice
+41201 Polepy
+41201 Oleško
+41201 Trnovany
+41201 Hrobce
+41201 Libochovany
+41201 Křešice
+41201 Žitenice
+41201 Staňkovice
+41201 Velké Žernoseky
+41301 Brzánky
+41301 Budyně nad Ohří
+41301 Bříza
+41301 Ctiněves
+41301 Černěves
+41301 Černouček
+41301 Dobříň
+41301 Dolánky nad Ohří
+41301 Dušníky
+41301 Brozany nad Ohří
+41301 Nové Dvory
+41301 Kleneč
+41301 Kostomlaty pod Řípem
+41301 Záluží
+41301 Kyškovice
+41301 Libkovice pod Řípem
+41301 Chodouny
+41301 Martiněves
+41301 Vrbice
+41301 Mnetěš
+41301 Mšené-lázně
+41301 Roudnice nad Labem
+41301 Přestavlky
+41301 Račiněves
+41301 Rochov
+41301 Vrutice
+41301 Vědomice
+41301 Krabčice
+41301 Vražkov
+41501 Bořislav
+41501 Bžany
+41501 Dubí
+41501 Žalany
+41501 Ohníč
+41501 Modlany
+41501 Kostomlaty pod Milešovkou
+41501 Teplice
+41501 Kladruby
+41501 Rtyně nad Bílinou
+41501 Bystřany
+41501 Novosedlice
+41501 Srbice
+41501 Světec
+41501 Újezdeček
+41501 Žim
+41503 Teplice
+41510 Teplice
+41701 Dubí
+41702 Dubí
+41703 Dubí
+41704 Hrob
+41705 Osek
+41712 Proboštov
+41713 Modlany
+41722 Háj u Duchcova
+41723 Košťany
+41724 Jeníkov
+41725 Lahošť
+41731 Novosedlice
+41741 Krupka
+41742 Krupka
+41752 Hostomice
+41753 Světec
+41754 Kostomlaty pod Milešovkou
+41757 Hrobčice
+41761 Bystřany
+41762 Rtyně nad Bílinou
+41763 Žalany
+41765 Ohníč
+41771 Zabrušany
+41772 Ledvice
+41781 Moldava
+41801 Bílina
+41804 Hrobčice
+41804 Světec
+41804 Lukov
+41804 Měrunice
+41901 Duchcov
+41901 Mikulov
+43001 Blatno
+43001 Bílence
+43001 Místo
+43001 Křimov
+43001 Černovice
+43001 Nezabylice
+43001 Chomutov
+43001 Kadaň
+43001 Hrušovany
+43001 Málkov
+43001 Hora Svatého Šebestiána
+43001 Údlice
+43001 Spořice
+43001 Všehrdy
+43003 Chomutov
+43004 Chomutov
+43101 Spořice
+43102 Málkov
+43111 Jirkov
+43111 Vysoká Pec
+43111 Otvice
+43111 Pesvice
+43111 Vrskmaň
+43111 Všestudy
+43114 Strupčice
+43115 Vrskmaň
+43121 Boleboř
+43132 Kalek
+43141 Údlice
+43143 Hrušovany
+43144 Droužkovice
+43145 Březno
+43151 Klášterec nad Ohří
+43151 Perštejn
+43151 Domašín
+43151 Okounov
+43151 Stráž nad Ohří
+43153 Pětipsy
+43154 Vilémov
+43155 Radonice
+43156 Mašťov
+43157 Chbany
+43158 Místo
+43159 Vysoká Pec
+43163 Perštejn
+43182 Hora Svatého Šebestiána
+43183 Výsluní
+43184 Měděnec
+43186 Kovářská
+43191 Kryštofovy Hamry
+43191 Vejprty
+43191 Loučná pod Klínovcem
+43201 Vilémov
+43201 Kadaň
+43201 Radonice
+43201 Rokle
+43201 Domašín
+43401 Bělušice
+43401 Most
+43401 Obrnice
+43401 Skršín
+43401 Horní Jiřetín
+43401 Braňany
+43401 Lišnice
+43401 Korozluky
+43401 Želenice
+43401 Malé Březno
+43401 Bečov
+43401 Havraň
+43401 Patokryje
+43401 Polerady
+43401 Lužice
+43401 Volevčice
+43501 Havraň
+43502 Most
+43511 Lom
+43513 Meziboří
+43521 Obrnice
+43522 Braňany
+43524 Lužice
+43526 Bečov
+43532 Mariánské Radčice
+43533 Louka u Litvínova
+43542 Litvínov
+43543 Horní Jiřetín
+43545 Nová Ves v Horách
+43546 Hora Svaté Kateřiny
+43547 Brandov
+43601 Český Jiřetín
+43601 Litvínov
+43601 Klíny
+43603 Litvínov
+43801 Žatec
+43801 Nové Sedlo
+43801 Libědice
+43801 Čeradice
+43801 Březno
+43801 Deštnice
+43801 Liběšice
+43801 Lipno
+43801 Holedeč
+43801 Chbany
+43801 Žiželice
+43801 Podbořany
+43801 Blšany
+43801 Libořice
+43801 Měcholupy
+43801 Velemyšleves
+43801 Tuchořice
+43801 Bitozeves
+43801 Račetice
+43801 Zálužice
+43801 Staňkovice
+43801 Pětipsy
+43901 Černčice
+43902 Cítoliby
+43903 Chlumčany
+43904 Hříškov
+43905 Panenský Týnec
+43906 Vrbno nad Lesy
+43907 Peruc
+43908 Peruc
+43909 Slavětín
+43914 Smolnice
+43915 Vinařice
+43921 Koštice
+43922 Chožov
+43923 Lenešice
+43924 Raná
+43926 Libčeves
+43931 Měcholupy
+43942 Postoloprty
+43949 Staňkovice
+43963 Liběšice
+43965 Hřivice
+43967 Ročov
+43968 Domoušice
+43969 Tuchořice
+43971 Nepomyšl
+43972 Krásný Dvůr
+43975 Libočany
+43981 Kryry
+43982 Vroutek
+43983 Lubenec
+43984 Blatno
+43985 Petrohrad
+43986 Kryry
+43987 Očihov
+43988 Blšany
+44001 Hříškov
+44001 Bitozeves
+44001 Blažim
+44001 Blšany u Loun
+44001 Louny
+44001 Brodec
+44001 Postoloprty
+44001 Ročov
+44001 Břvany
+44001 Peruc
+44001 Dobroměřice
+44001 Domoušice
+44001 Toužetín
+44001 Libčeves
+44001 Zbrašín
+44001 Raná
+44001 Chraberce
+44001 Jimlín
+44001 Pnětluky
+44001 Kozly
+44001 Slavětín
+44001 Lipno
+44001 Lišany
+44001 Líšťany
+44001 Hřivice
+44001 Chožov
+44001 Nová Ves
+44001 Obora
+44001 Opočno
+44001 Počedělice
+44001 Výškov
+44001 Staňkovice
+44001 Úherce
+44001 Veltěže
+44001 Chlumčany
+44001 Koštice
+44001 Vršovice
+44001 Želkovice
+44001 Žerotín
+44101 Petrohrad
+44101 Krásný Dvůr
+44101 Podbořanský Rohozec
+44101 Podbořany
+44101 Nepomyšl
+44101 Mašťov
+44101 Lubenec
+44101 Vroutek
+44101 Blatno
+44101 Valeč
+44101 Veliká Ves
+44101 Kryry
+46001 Liberec
+46001 Kryštofovo Údolí
+46001 Stráž nad Nisou
+46005 Liberec
+46006 Liberec
+46007 Liberec
+46008 Liberec
+46010 Liberec
+46014 Liberec
+46015 Liberec
+46303 Stráž nad Nisou
+46311 Liberec
+46312 Dlouhý Most
+46312 Liberec
+46312 Jeřmanice
+46312 Šimonovice
+46331 Frýdlant
+46331 Chrastava
+46331 Bílý Kostel nad Nisou
+46331 Oldřichov v Hájích
+46331 Mníšek
+46331 Nová Ves
+46334 Hrádek nad Nisou
+46334 Chotyně
+46342 Frýdštejn
+46342 Bílá
+46342 Hodkovice nad Mohelkou
+46343 Bílá
+46343 Český Dub
+46343 Světlá pod Ještědem
+46343 Proseč pod Ještědem
+46343 Kobyly
+46343 Osečná
+46343 Všelibice
+46343 Sychrov
+46344 Pěnčín
+46344 Paceřice
+46344 Vlastibořice
+46344 Radimovice
+46344 Sychrov
+46344 Žďárek
+46345 Pěnčín
+46345 Čtveřín
+46345 Kobyly
+46345 Svijanský Újezd
+46345 Lažany
+46345 Soběslavice
+46346 Příšovice
+46346 Svijany
+46348 Všelibice
+46348 Cetenov
+46348 Hlavice
+46352 Cetenov
+46352 Osečná
+46352 Janův Důl
+46352 Ralsko
+46353 Rynoltice
+46353 Janovice v Podještědí
+46353 Křižany
+46353 Zdislava
+46362 Bílý Potok
+46362 Hejnice
+46362 Lázně Libverda
+46365 Jindřichovice pod Smrkem
+46365 Nové Město pod Smrkem
+46373 Višňová
+46373 Černousy
+46373 Pertoltice
+46373 Habartice
+46401 Bulovka
+46401 Dětřichov
+46401 Dolní Řasnice
+46401 Frýdlant
+46401 Heřmanice
+46401 Horní Řasnice
+46401 Krásný Les
+46401 Kunratice
+46401 Višňová
+46401 Raspenava
+46601 Jablonec nad Nisou
+46602 Jablonec nad Nisou
+46602 Lučany nad Nisou
+46604 Jablonec nad Nisou
+46605 Jablonec nad Nisou
+46606 Jablonec nad Nisou
+46801 Jablonec nad Nisou
+46801 Maršovice
+46802 Dalešice
+46802 Pulečný
+46802 Rychnov u Jablonce nad Nisou
+46803 Rádlo
+46804 Jablonec nad Nisou
+46811 Janov nad Nisou
+46812 Bedřichov
+46821 Pěnčín
+46821 Maršovice
+46821 Nová Ves nad Nisou
+46822 Koberovy
+46822 Malá Skála
+46822 Frýdštejn
+46822 Železný Brod
+46822 Skuhrov
+46822 Jílové u Držkova
+46822 Líšný
+46822 Loužnice
+46822 Zlatá Olešnice
+46822 Radčice
+46822 Vlastiboř
+46824 Držkov
+46825 Zásada
+46826 Pěnčín
+46827 Nová Ves nad Nisou
+46833 Jenišovice
+46841 Desná
+46841 Tanvald
+46843 Albrechtice v Jizerských horách
+46843 Jiřetín pod Bukovou
+46844 Josefův Důl
+46844 Lučany nad Nisou
+46845 Velké Hamry
+46846 Plavy
+46847 Zlatá Olešnice
+46848 Kořenov
+46849 Kořenov
+46850 Kořenov
+46851 Smržovka
+46861 Desná
+46871 Lučany nad Nisou
+47001 Stružnice
+47001 Česká Lípa
+47001 Stvolínky
+47001 Kozly
+47001 Kvítkov
+47001 Sosnová
+47002 Bohatice
+47002 Zahrádky
+47002 Zákupy
+47002 Česká Lípa
+47002 Žandov
+47002 Holany
+47002 Blíževedly
+47002 Kravaře
+47002 Kozly
+47002 Stvolínky
+47002 Horní Police
+47002 Stružnice
+47002 Dubá
+47002 Velenice
+47006 Česká Lípa
+47101 Zahrádky
+47102 Kravaře
+47102 Stvolínky
+47103 Kravaře
+47104 Blíževedly
+47105 Žandov
+47106 Horní Police
+47107 Žandov
+47108 Stružnice
+47111 Horní Libchava
+47111 Česká Lípa
+47112 Volfartice
+47113 Nový Oldřichov
+47114 Kamenický Šenov
+47115 Prysk
+47116 Polevsko
+47117 Skalice u České Lípy
+47118 Nový Bor
+47121 Česká Lípa
+47123 Zákupy
+47124 Ralsko
+47124 Mimoň
+47124 Noviny pod Ralskem
+47124 Pertoltice pod Ralskem
+47125 Jablonné v Podještědí
+47125 Velký Valtinov
+47126 Dubnice
+47127 Stráž pod Ralskem
+47128 Hamr na Jezeře
+47129 Brniště
+47141 Dubá
+47151 Svor
+47152 Sloup v Čechách
+47153 Svojkov
+47154 Cvikov
+47155 Kunratice u Cvikova
+47156 Mařenice
+47156 Cvikov
+47157 Mařenice
+47157 Krompach
+47158 Cvikov
+47161 Jestřebí
+47161 Chlum
+47162 Okna
+47163 Doksy
+47167 Provodín
+47201 Blatce
+47201 Bezděz
+47201 Ždírec
+47201 Doksy
+47201 Dubá
+47201 Tuhaň
+47201 Chlum
+47201 Luka
+47201 Jestřebí
+47201 Skalka u Doks
+47201 Tachov
+47201 Vrchovany
+47301 Nový Bor
+47301 Chotovice
+47301 Radvanec
+47301 Okrouhlá
+47301 Svor
+47301 Slunečná
+47301 Cvikov
+47301 Zákupy
+50002 Hradec Králové
+50003 Černilov
+50003 Divec
+50003 Hradec Králové
+50003 Skalice
+50004 Hradec Králové
+50006 Hradec Králové
+50008 Hradec Králové
+50009 Hradec Králové
+50011 Hradec Králové
+50012 Hradec Králové
+50301 Hradec Králové
+50302 Lochenice
+50302 Předměřice nad Labem
+50302 Hradec Králové
+50303 Benátky
+50303 Skalice
+50303 Výrava
+50303 Habřina
+50303 Holohlavy
+50303 Hořiněves
+50303 Smržov
+50303 Lejšovka
+50303 Máslojedy
+50303 Račice nad Trotinou
+50303 Smiřice
+50303 Sendražice
+50303 Černilov
+50303 Vrchovnice
+50304 Černožice
+50305 Lužany
+50306 Hořiněves
+50311 Hradec Králové
+50312 Všestary
+50312 Střezetice
+50312 Neděliště
+50312 Stěžery
+50312 Světí
+50313 Dohalice
+50314 Stračov
+50315 Boharyně
+50315 Čistěves
+50315 Mžany
+50315 Hněvčeves
+50315 Sovětice
+50315 Dohalice
+50315 Dolní Přím
+50315 Hrádek
+50315 Králíky
+50315 Lodín
+50315 Petrovice
+50315 Stračov
+50315 Nechanice
+50315 Kunčice
+50315 Mokrovousy
+50315 Myštěves
+50315 Třesovice
+50315 Pšánky
+50315 Puchlovice
+50315 Všestary
+50315 Sadová
+50316 Dolní Přím
+50321 Stěžery
+50321 Hradec Králové
+50322 Libčany
+50323 Boharyně
+50324 Kratonohy
+50325 Dobřenice
+50326 Osice
+50327 Lhota pod Libčany
+50327 Hvozdnice
+50327 Praskačka
+50327 Osičky
+50327 Osice
+50327 Radíkovice
+50327 Radostov
+50327 Roudnice
+50327 Syrovátka
+50327 Těchlovice
+50327 Urbanice
+50327 Libčany
+50331 Vysoká nad Labem
+50332 Hradec Králové
+50333 Praskačka
+50341 Hradec Králové
+50343 Černilov
+50344 Libřice
+50346 Běleč nad Orlicí
+50346 Blešno
+50346 Libníkovice
+50346 Černilov
+50346 Jeníkovice
+50346 Třebechovice pod Orebem
+50346 Librantice
+50346 Týniště nad Orlicí
+50351 Babice
+50351 Chlumec nad Cidlinou
+50351 Chudeřice
+50351 Klamoš
+50351 Kosice
+50351 Olešnice
+50351 Lišice
+50351 Nepolisy
+50351 Kratonohy
+50351 Mlékosrby
+50351 Nové Město
+50351 Obědovice
+50351 Písek
+50351 Převýšov
+50351 Nový Bydžov
+50351 Stará Voda
+50351 Běrunice
+50352 Skřivany
+50353 Smidary
+50353 Sloupno
+50353 Vinary
+50353 Šaplava
+50354 Ohnišťany
+50355 Petrovice
+50356 Hlušice
+50356 Vinary
+50357 Starý Bydžov
+50361 Lovčice
+50362 Lužec nad Cidlinou
+50363 Nepolisy
+50364 Měník
+50365 Kosičky
+50366 Káranice
+50401 Barchov
+50401 Měník
+50401 Humburky
+50401 Nový Bydžov
+50401 Kobylice
+50401 Králíky
+50401 Smidary
+50401 Prasek
+50401 Zachrašťany
+50401 Zdechovice
+50601 Mladějov
+50601 Jičíněves
+50601 Samšina
+50601 Zámostí-Blata
+50601 Brada-Rybníček
+50601 Březina
+50601 Libuň
+50601 Bukvice
+50601 Butoves
+50601 Podhradí
+50601 Češov
+50601 Dílce
+50601 Libošovice
+50601 Dolní Lochov
+50601 Jičín
+50601 Holenice
+50601 Holín
+50601 Tuř
+50601 Chyjice
+50601 Kněžnice
+50601 Jinolice
+50601 Kacákova Lhota
+50601 Konecchlumí
+50601 Kbelnice
+50601 Kostelec
+50601 Kovač
+50601 Slatiny
+50601 Střevač
+50601 Nemyčeves
+50601 Ohařice
+50601 Ohaveč
+50601 Ostružno
+50601 Podůlší
+50601 Úlibice
+50601 Újezd pod Troskami
+50601 Staré Místo
+50601 Troskovice
+50601 Vitiněves
+50702 Žeretice
+50703 Žeretice
+50703 Sběř
+50703 Kozojedy
+50703 Vinary
+50703 Sekeřice
+50703 Vrbice
+50703 Vysoké Veselí
+50703 Volanice
+50704 Třtěnice
+50705 Konecchlumí
+50706 Lužany
+50707 Úlibice
+50711 Železnice
+50711 Valdice
+50712 Radim
+50713 Bradlecká Lhota
+50713 Železnice
+50713 Dřevěnice
+50713 Kyje
+50713 Radim
+50713 Soběraz
+50715 Libuň
+50721 Veliš
+50722 Střevač
+50723 Bačalky
+50723 Dětenice
+50723 Bystřice
+50723 Rokytňany
+50723 Markvartice
+50723 Libáň
+50723 Sedliště
+50723 Staré Hrady
+50723 Údrnice
+50723 Zelenecká Lhota
+50724 Dětenice
+50731 Jičíněves
+50732 Běchary
+50732 Údrnice
+50732 Budčeves
+50732 Kopidlno
+50732 Cholenice
+50732 Slavhostice
+50732 Židovice
+50733 Jičíněves
+50733 Vršce
+50734 Žlunice
+50742 Markvartice
+50743 Sobotka
+50743 Markvartice
+50743 Osek
+50744 Libošovice
+50745 Újezd pod Troskami
+50745 Mladějov
+50752 Ostroměř
+50753 Chomutice
+50754 Podhorní Újezd a Vojice
+50758 Mlázovice
+50759 Šárovcova Lhota
+50771 Borek
+50771 Úhlejov
+50771 Miletín
+50771 Rohoznice
+50771 Tetín
+50771 Vřesník
+50773 Dobrá Voda u Hořic
+50777 Cerekvice nad Bystřicí
+50781 Lázně Bělohrad
+50781 Holovousy
+50781 Choteč
+50781 Šárovcova Lhota
+50781 Mlázovice
+50781 Svatojanský Újezd
+50782 Pecka
+50782 Vidochov
+50791 Stará Paka
+50791 Nová Paka
+50791 Svojek
+50791 Levínská Olešnice
+50792 Úbislavice
+50801 Bašnice
+50801 Šárovcova Lhota
+50801 Bílsko u Hořic
+50801 Boháňka
+50801 Hořice
+50801 Bříšťany
+50801 Cerekvice nad Bystřicí
+50801 Lukavec u Hořic
+50801 Červená Třemešná
+50801 Jeřice
+50801 Ostroměř
+50801 Holovousy
+50801 Sukorady
+50801 Lískovice
+50801 Milovice u Hořic
+50801 Nevratice
+50801 Chomutice
+50801 Třebnouševes
+50801 Petrovičky
+50801 Rašín
+50801 Sobčice
+50801 Staré Smrkovice
+50801 Podhorní Újezd a Vojice
+50801 Hořiněves
+50901 Stará Paka
+50901 Úbislavice
+50901 Nová Paka
+50901 Vidochov
+51101 Mírová pod Kozákovem
+51101 Hrubá Skála
+51101 Turnov
+51101 Vyskeř
+51101 Kacanovy
+51101 Karlovice
+51101 Klokočí
+51101 Lomnice nad Popelkou
+51101 Loučky
+51101 Modřišice
+51101 Všeň
+51101 Ohrazenice
+51101 Olešnice
+51101 Rakousy
+51101 Radostná pod Kozákovem
+51201 Slaná
+51202 Košťálov
+51203 Libštát
+51204 Mříčná
+51204 Peřimov
+51206 Benešov u Semil
+51206 Slaná
+51206 Semily
+51211 Vysoké nad Jizerou
+51212 Jesenný
+51213 Bozkov
+51231 Roztoky u Jilemnice
+51232 Martinice v Krkonoších
+51232 Roztoky u Jilemnice
+51233 Studenec
+51234 Horka u Staré Paky
+51235 Čistá u Horek
+51236 Horní Branná
+51237 Benecko
+51237 Vítkovice
+51238 Vítkovice
+51241 Víchová nad Jizerou
+51242 Poniklá
+51243 Jablonec nad Jizerou
+51243 Vysoké nad Jizerou
+51244 Rokytnice nad Jizerou
+51245 Rokytnice nad Jizerou
+51246 Harrachov
+51247 Paseky nad Jizerou
+51251 Stružinec
+51251 Lomnice nad Popelkou
+51251 Košťálov
+51251 Syřenov
+51252 Veselá
+51253 Tatobity
+51261 Přepeře
+51263 Veselá
+51263 Rovensko pod Troskami
+51263 Hrubá Skála
+51263 Újezd pod Troskami
+51263 Troskovice
+51263 Radostná pod Kozákovem
+51263 Žernov
+51263 Ktová
+51263 Tatobity
+51263 Lomnice nad Popelkou
+51264 Vyskeř
+51265 Všeň
+51271 Nová Ves nad Popelkou
+51301 Semily
+51301 Jesenný
+51301 Bystrá nad Jizerou
+51301 Záhoří
+51301 Háje nad Jizerou
+51301 Jablonec nad Jizerou
+51301 Vysoké nad Jizerou
+51301 Chuchelna
+51301 Příkrý
+51301 Roprachtice
+51301 Roztoky u Semil
+51301 Slaná
+51401 Bělá
+51401 Bukovina u Čisté
+51401 Benecko
+51401 Horní Branná
+51401 Jilemnice
+51401 Jestřabí v Krkonoších
+51401 Kruh
+51401 Košťálov
+51401 Levínská Olešnice
+51401 Horka u Staré Paky
+51401 Poniklá
+51401 Roztoky u Jilemnice
+51401 Jablonec nad Jizerou
+51401 Víchová nad Jizerou
+51401 Studenec
+51601 Liberk
+51601 Rychnov nad Kněžnou
+51601 Černíkovice
+51601 Jahodov
+51601 Javornice
+51601 Synkov-Slemeno
+51601 Solnice
+51601 Rokytnice v Orlických horách
+51601 Vamberk
+51601 Třebešov
+51601 Zdobnice
+51603 Lukavice
+51603 Rychnov nad Kněžnou
+51701 Solnice
+51702 Kvasiny
+51702 Solnice
+51703 Skuhrov nad Bělou
+51703 Osečnice
+51703 Lukavice
+51703 Liberk
+51704 Černíkovice
+51711 Javornice
+51712 Liberk
+51721 Borohrádek
+51721 Lípa nad Orlicí
+51721 Olešnice
+51721 Žďár nad Orlicí
+51721 Voděrady
+51721 Týniště nad Orlicí
+51721 Nová Ves
+51721 Lično
+51721 Zdelov
+51722 Albrechtice nad Orlicí
+51723 Žďár nad Orlicí
+51724 Borohrádek
+51725 Čermná nad Orlicí
+51731 Bolehošť
+51732 Přepychy
+51732 Trnov
+51733 Trnov
+51734 Voděrady
+51735 Lično
+51736 Olešnice
+51741 Borovnice
+51741 Častolovice
+51741 Čestice
+51741 Čermná nad Orlicí
+51741 Tutleky
+51741 Koldín
+51741 Hřibiny-Ledská
+51741 Chleny
+51741 Vrbice
+51741 Kostelec nad Orlicí
+51741 Kostelecké Horky
+51741 Krchleby
+51741 Lhoty u Potštejna
+51741 Libel
+51741 Lično
+51741 Lupenice
+51741 Vamberk
+51741 Polom
+51741 Proruby
+51741 Svídnice
+51742 Doudleby nad Orlicí
+51743 Potštejn
+51743 Záměl
+51745 Chleny
+51750 Častolovice
+51754 Vamberk
+51755 Vamberk
+51755 Rybná nad Zdobnicí
+51756 Slatina nad Zdobnicí
+51757 Pěčín
+51757 Slatina nad Zdobnicí
+51761 Bartošovice v Orlických horách
+51761 Rokytnice v Orlických horách
+51761 Pěčín
+51761 Říčky v Orlických horách
+51761 Kunvald
+51764 Orlické Záhoří
+51771 České Meziříčí
+51771 Ledce
+51771 Králova Lhota
+51771 Očelice
+51771 Mokré
+51771 Třebechovice pod Orebem
+51771 Rohenice
+51771 Vysoký Újezd
+51772 Jílovice
+51773 Opočno
+51783 Olešnice v Orlických horách
+51784 Ohnišov
+51791 Deštné v Orlických horách
+51791 Sedloňov
+51791 Liberk
+51792 Kounov
+51793 Dobré
+51801 Bačetín
+51801 Dobruška
+51801 Bílý Újezd
+51801 Bohdašín
+51801 Skuhrov nad Bělou
+51801 Bystré
+51801 Byzhradec
+51801 Dobré
+51801 Dobřany
+51801 Kounov
+51801 Trnov
+51801 Podbřezí
+51801 Chlístov
+51801 Janov
+51801 Semechnice
+51801 Ohnišov
+51801 Olešnice v Orlických horách
+51801 Opočno
+51801 Pohoří
+51801 Val
+51801 Sněžné
+51803 Podbřezí
+53002 Barchov
+53002 Slepotice
+53002 Pardubice
+53002 Mikulovice
+53002 Čeperka
+53002 Dašice
+53002 Dubany
+53002 Jezbořice
+53002 Dolní Roveň
+53002 Kostěnice
+53002 Lány u Dašic
+53002 Moravany
+53002 Opatovice nad Labem
+53002 Ostřešany
+53002 Spojil
+53002 Srnojedy
+53002 Staré Jesenčany
+53002 Starý Mateřov
+53002 Třebosice
+53002 Úhřetická Lhota
+53003 Pardubice
+53006 Pardubice
+53009 Pardubice
+53012 Pardubice
+53301 Pardubice
+53303 Dašice
+53304 Rokytno
+53304 Sezemice
+53304 Choteč
+53304 Kunětice
+53304 Újezd u Sezemic
+53305 Dříteč
+53311 Zdechovice
+53312 Chvaletice
+53312 Kojice
+53313 Řečany nad Labem
+53313 Zdechovice
+53314 Kladruby nad Labem
+53315 Hlavečník
+53316 Kladruby nad Labem
+53316 Chýšť
+53316 Malé Výkleky
+53316 Přepychy
+53316 Sopřeč
+53316 Strašov
+53316 Tetov
+53316 Újezd u Přelouče
+53316 Vápno
+53316 Žáravice
+53321 Vysoké Chvojno
+53322 Býšť
+53332 Čepí
+53333 Pardubice
+53341 Bukovka
+53341 Černá u Bohdanče
+53341 Živanice
+53341 Kasalice
+53341 Křičeň
+53341 Lázně Bohdaneč
+53341 Neratov
+53341 Pravy
+53341 Přelovice
+53341 Rohoznice
+53341 Vlčí Habřina
+53341 Voleč
+53341 Vyšehněvice
+53342 Živanice
+53343 Rohovládova Bělá
+53344 Staré Ždánice
+53345 Čeperka
+53345 Dolany
+53345 Srch
+53345 Libišany
+53345 Opatovice nad Labem
+53345 Plch
+53345 Podůlšany
+53345 Stéblová
+53351 Pardubice
+53352 Staré Hradiště
+53352 Bukovina nad Labem
+53352 Čeperka
+53352 Hrobice
+53352 Němčice
+53352 Pardubice
+53352 Ráby
+53352 Srch
+53353 Pardubice
+53354 Rybitví
+53361 Choltice
+53362 Svojšice
+53363 Turkovice
+53364 Lipoltice
+53371 Dolní Roveň
+53372 Moravany
+53373 Uhersko
+53374 Horní Jelení
+53375 Dolní Ředice
+53375 Horní Ředice
+53401 Býšť
+53401 Borek
+53401 Časy
+53401 Moravany
+53401 Horní Jelení
+53401 Rokytno
+53401 Trusnov
+53401 Holice
+53401 Chvojenec
+53401 Jaroslav
+53401 Ostřetín
+53401 Poběžovice u Holic
+53401 Radhošť
+53401 Uhersko
+53401 Veliny
+53501 Brloh
+53501 Bezděkov
+53501 Břehy
+53501 Bukovina u Přelouče
+53501 Turkovice
+53501 Svinčany
+53501 Holotín
+53501 Choltice
+53501 Chrtníky
+53501 Jankovice
+53501 Jedousov
+53501 Jeníkovice
+53501 Kladruby nad Labem
+53501 Přelouč
+53501 Litošice
+53501 Řečany nad Labem
+53501 Mokošín
+53501 Morašice
+53501 Lipoltice
+53501 Poběžovice u Přelouče
+53501 Selmice
+53501 Semín
+53501 Sovolusky
+53501 Zdechovice
+53501 Stojice
+53501 Trnávka
+53501 Urbanice
+53501 Valy
+53501 Veselí
+53701 Dřenice
+53701 Chrudim
+53701 Lány
+53701 Sobětuchy
+53701 Rabštejnská Lhota
+53701 Slatiňany
+53701 Orel
+53701 Třibřichy
+53701 Tuněchody
+53703 Chrudim
+53705 Chrudim
+53801 Bylany
+53802 Morašice
+53803 Podhořany u Ronova
+53803 Hošťalovice
+53803 Vápenný Podol
+53803 Heřmanův Městec
+53803 Morašice
+53803 Míčov-Sušice
+53803 Klešice
+53803 Kostelec u Heřmanova Městce
+53803 Načešice
+53803 Rozhovice
+53803 Vyžice
+53803 Stolany
+53803 Úherčice
+53804 Prachovice
+53805 Seč
+53807 Bojanov
+53807 Seč
+53807 Liboměřice
+53821 Žumberk
+53821 Mladoňovice
+53821 Chrudim
+53821 Slatiňany
+53821 Křižanovice
+53821 Liboměřice
+53821 Lukavice
+53821 Orel
+53821 Svídnice
+53821 Licibořice
+53821 Rabštejnská Lhota
+53821 Morašice
+53823 Licibořice
+53824 Svídnice
+53825 Miřetice
+53825 Ctětín
+53825 Nasavrky
+53825 České Lhotice
+53825 Hodonín
+53825 Horní Bradlo
+53825 Krásné
+53825 Trhová Kamenice
+53825 Libkov
+53825 Liboměřice
+53826 Bojanov
+53831 Chrudim
+53832 Úhřetice
+53833 Trojovice
+53834 Rosice
+53835 Zaječice
+53836 Žumberk
+53841 Podhořany u Ronova
+53842 Ronov nad Doubravou
+53843 Biskupice
+53843 Bousov
+53843 Třemošnice
+53843 Kněžice
+53843 Lipovec
+53843 Ronov nad Doubravou
+53843 Běstvina
+53843 Seč
+53843 Žlebské Chvalovice
+53845 Běstvina
+53851 Bítovany
+53851 Vrbatův Kostelec
+53851 Horka
+53851 Chrast
+53851 Řestoky
+53851 Smrček
+53851 Zaječice
+53851 Zájezdec
+53854 Luže
+53854 Střemošice
+53854 Leština
+53854 Hroubovice
+53854 Lozice
+53854 Jenišovice
+53854 Řepníky
+53861 Kočí
+53862 Hrochův Týnec
+53862 Bořice
+53862 Rosice
+53862 Čankovice
+53862 Dolní Bezděkov
+53862 Dvakačovice
+53862 Honbice
+53862 Nabočany
+53862 Přestavlky
+53862 Vejvanovice
+53863 Rosice
+53863 Chroustovice
+53863 Jenišovice
+53863 Ostrov
+53863 Řepníky
+53863 Stradouň
+53863 Vinary
+53864 Jenišovice
+53865 Řepníky
+53901 Hlinsko
+53901 Včelákov
+53901 Dědová
+53901 Vysočina
+53901 Kameničky
+53901 Hamry
+53901 Trhová Kamenice
+53901 Holetín
+53901 Všeradov
+53901 Jeníkov
+53901 Kladno
+53901 Studnice
+53901 Krucemburk
+53901 Vortová
+53901 Raná
+53901 Mrákotín
+53901 Krouna
+53901 Vojtěchov
+53901 Pokřikov
+53901 Vítanov
+53941 Kameničky
+53942 Svratouch
+53943 Krouna
+53943 Otradov
+53944 Bor u Skutče
+53944 Proseč
+53944 Hluboká
+53944 Leština
+53944 Perálec
+53944 Nové Hrady
+53944 Příluka
+53944 Krouna
+53944 Zderaz
+53945 Nové Hrady
+53952 Trhová Kamenice
+53953 Horní Bradlo
+53955 Miřetice
+53956 Vrbatův Kostelec
+53957 Včelákov
+53961 Vortová
+53962 Hlinsko
+53971 Holetín
+53972 Raná
+53973 Skuteč
+53973 Vrbatův Kostelec
+53973 Předhradí
+53973 Tisovec
+53973 Hluboká
+53973 Leštinka
+53973 Prosetín
+53974 Předhradí
+53976 Prosetín
+54101 Trutnov
+54101 Staré Buky
+54101 Mladé Buky
+54101 Bernartice
+54101 Lampertice
+54101 Chvaleč
+54101 Žacléř
+54101 Vlčice
+54101 Zlatá Olešnice
+54102 Trutnov
+54103 Trutnov
+54201 Žacléř
+54201 Lampertice
+54203 Královec
+54204 Bernartice
+54211 Chvaleč
+54212 Radvanice
+54213 Jívka
+54221 Malá Úpa
+54221 Pec pod Sněžkou
+54223 Mladé Buky
+54224 Mladé Buky
+54224 Svoboda nad Úpou
+54225 Janské Lázně
+54226 Horní Maršov
+54226 Žacléř
+54227 Malá Úpa
+54232 Trutnov
+54232 Batňovice
+54232 Havlovice
+54232 Libňatov
+54232 Velké Svatoňovice
+54232 Maršov u Úpice
+54232 Úpice
+54232 Slatina nad Úpou
+54232 Červený Kostelec
+54232 Suchovršice
+54233 Havlovice
+54233 Rtyně v Podkrkonoší
+54234 Batňovice
+54234 Jívka
+54234 Malé Svatoňovice
+54234 Rtyně v Podkrkonoší
+54234 Velké Svatoňovice
+54235 Velké Svatoňovice
+54236 Libňatov
+54237 Batňovice
+54242 Pilníkov
+54301 Vrchlabí
+54301 Lánov
+54302 Vrchlabí
+54303 Vrchlabí
+54341 Dolní Lánov
+54341 Lánov
+54342 Dolní Dvůr
+54344 Černý Důl
+54344 Dolní Dvůr
+54351 Špindlerův Mlýn
+54351 Vrchlabí
+54352 Strážné
+54361 Kunčice nad Labem
+54362 Dolní Branná
+54371 Čermná
+54371 Mostek
+54371 Dolní Kalná
+54371 Dolní Olešnice
+54371 Horní Kalná
+54371 Horní Olešnice
+54371 Hostinné
+54371 Chotěvice
+54371 Klášterská Lhota
+54371 Kunčice nad Labem
+54372 Rudník
+54372 Černý Důl
+54373 Prosečné
+54374 Dolní Kalná
+54375 Dolní Olešnice
+54376 Chotěvice
+54377 Čermná
+54401 Bílá Třemešná
+54401 Vítězná
+54401 Třebihošť
+54401 Vlčkovice v Podkrkonoší
+54401 Dvůr Králové nad Labem
+54401 Hajnice
+54401 Nemojov
+54401 Hřibojedy
+54401 Vilantice
+54401 Kuks
+54401 Kohoutov
+54401 Lanžov
+54401 Libotov
+54401 Litíč
+54401 Kocbeře
+54401 Zábřezí-Řečice
+54401 Heřmanice
+54401 Stanovice
+54401 Trotina
+54401 Doubravice
+54401 Zdobín
+54404 Dvůr Králové nad Labem
+54442 Choustníkovo Hradiště
+54443 Kuks
+54443 Heřmanice
+54451 Doubravice
+54452 Bílé Poličany
+54454 Velký Vřešťov
+54455 Dubenec
+54461 Nemojov
+54462 Vítězná
+54464 Kocbeře
+54466 Hajnice
+54472 Bílá Třemešná
+54472 Dolní Brusnice
+54474 Horní Brusnice
+54475 Borovnička
+54475 Horní Brusnice
+54475 Mostek
+54475 Třebihošť
+54477 Borovnice
+54701 Náchod
+54701 Studnice
+54701 Borová
+54701 Kramolna
+54701 Vysokov
+54901 Slavoňov
+54901 Bohdašín
+54901 Bohuslavice
+54901 Černčice
+54901 Nový Hrádek
+54901 Nahořany
+54901 Jestřebí
+54901 Nové Město nad Metují
+54901 Libchyně
+54901 Přibyslav
+54901 Sendraž
+54901 Slavětín nad Metují
+54901 Janov
+54901 Vršovka
+54906 Bohuslavice
+54906 Černčice
+54907 Nahořany
+54908 Provodov-Šonov
+54911 Dolní Radechová
+54912 Vysokov
+54921 Česká Čermná
+54922 Nový Hrádek
+54923 Mezilesí
+54931 Machov
+54931 Bezděkov nad Metují
+54931 Stárkov
+54931 Hronov
+54931 Velké Petrovice
+54931 Česká Metuje
+54931 Velké Poříčí
+54931 Vysoká Srbská
+54931 Žďár nad Metují
+54931 Žďárky
+54932 Velké Poříčí
+54934 Hronov
+54936 Stárkov
+54937 Vysoká Srbská
+54937 Žďárky
+54941 Červený Kostelec
+54941 Červená Hora
+54941 Horní Radechová
+54941 Zábrodí
+54941 Hronov
+54941 Stárkov
+54941 Rtyně v Podkrkonoší
+54946 Horní Radechová
+54947 Slatina nad Úpou
+54948 Studnice
+54952 Adršpach
+54954 Bezděkov nad Metují
+54954 Bukovice
+54954 Police nad Metují
+54954 Velké Petrovice
+54954 Suchý Důl
+54954 Žďár nad Metují
+54955 Žďár nad Metují
+54956 Česká Metuje
+54957 Teplice nad Metují
+54957 Adršpach
+54957 Vernéřovice
+54962 Suchý Důl
+54963 Machov
+54964 Bezděkov nad Metují
+54971 Šonov
+54972 Otovice
+54973 Martínkovice
+54974 Božanov
+54981 Meziměstí
+54982 Vernéřovice
+54983 Meziměstí
+54983 Hynčice
+54983 Jetřichov
+54984 Heřmánkovice
+55001 Broumov
+55001 Hejtmánkovice
+55001 Heřmánkovice
+55001 Křinice
+55101 Jaroměř
+55101 Rasošky
+55101 Zaloňov
+55101 Hořenice
+55101 Nahořany
+55101 Rožnov
+55101 Nový Ples
+55101 Šestajovice
+55101 Velká Jesenice
+55101 Vlkov
+55102 Jaroměř
+55102 Rasošky
+55203 Dolany
+55203 Česká Skalice
+55203 Rychnovek
+55203 Provodov-Šonov
+55203 Nahořany
+55203 Litoboř
+55203 Žernov
+55203 Říkov
+55203 Velký Třebešov
+55203 Vysokov
+55203 Studnice
+55204 Chvalkovice
+55204 Dolany
+55204 Brzice
+55205 Brzice
+55205 Hořičky
+55205 Vestec
+55205 Lhota pod Hořičkami
+55205 Litoboř
+55205 Mezilečí
+55205 Slatina nad Úpou
+55211 Velichovky
+55212 Heřmanice
+55221 Rasošky
+55222 Jasenná
+55224 Velká Jesenice
+55225 Rychnovek
+56002 Česká Třebová
+56002 Přívrat
+56002 Němčice
+56002 Rybník
+56002 Semanín
+56002 Vlčkov
+56101 Hnátnice
+56101 Dolní Dobrouč
+56101 Žampach
+56102 Dolní Dobrouč
+56112 Brandýs nad Orlicí
+56113 Sudslava
+56114 České Libchavy
+56115 Sopotnice
+56116 Libchavy
+56117 Dlouhá Třebová
+56118 Němčice
+56122 Ostrov
+56123 Damníkov
+56123 Luková
+56124 Třebovice
+56125 Rudoltice
+56131 Tatenice
+56132 Cotkytle
+56133 Horní Heřmanice
+56134 Výprachtice
+56141 Řetová
+56141 Řetůvka
+56151 Letohrad
+56151 Lukavice
+56152 Verměřovice
+56153 Dolní Čermná
+56154 Bystřec
+56155 Orličky
+56156 Horní Čermná
+56161 Červená Voda
+56162 Červená Voda
+56163 Nekoř
+56164 Studené
+56164 Nekoř
+56164 Bystřec
+56164 Těchonín
+56164 Čenkovice
+56164 Mladkov
+56164 Jablonné nad Orlicí
+56164 Jamné nad Orlicí
+56164 Mistrovice
+56164 Sobkovice
+56165 Jamné nad Orlicí
+56166 Těchonín
+56167 Mladkov
+56168 Lichkov
+56169 Červená Voda
+56169 Králíky
+56169 Dolní Morava
+56170 Písečná
+56181 Kunvald
+56182 Klášterec nad Orlicí
+56184 Líšnice
+56184 Žamberk
+56185 Česká Rybná
+56186 Záchlumí
+56201 Ústí nad Orlicí
+56201 Orlické Podhůří
+56201 Hrádek
+56201 Jehnědí
+56201 Dolní Dobrouč
+56201 Velká Skrovnice
+56201 Podlesí
+56201 Sudislav nad Orlicí
+56201 Oucmanice
+56201 Seč
+56203 Ústí nad Orlicí
+56204 Ústí nad Orlicí
+56206 Ústí nad Orlicí
+56301 Albrechtice
+56301 Anenská Studánka
+56301 Cotkytle
+56301 Dolní Čermná
+56301 Horní Heřmanice
+56301 Lanškroun
+56301 Horní Čermná
+56301 Horní Třešňovec
+56301 Výprachtice
+56301 Koruna
+56301 Krasíkov
+56301 Luková
+56301 Lubník
+56301 Petrovice
+56301 Sázava
+56301 Strážná
+56301 Trpík
+56301 Žichlínek
+56401 Kunvald
+56401 České Petrovice
+56401 Klášterec nad Orlicí
+56401 Dlouhoňovice
+56401 Hejnice
+56401 Helvíkovice
+56401 Žampach
+56401 Kameničná
+56401 Líšnice
+56401 Mladkov
+56401 Pastviny
+56401 Šedivec
+56401 Žamberk
+56501 Běstovice
+56501 Bošín
+56501 Choceň
+56501 Koldín
+56501 Újezd u Chocně
+56501 Kosořín
+56501 Svatý Jiří
+56501 Mostek
+56501 Nasavrky
+56501 Zálší
+56501 Plchovice
+56501 Skořenice
+56501 Zářecká Lhota
+56542 Vraclav
+56543 Zámrsk
+56544 Sruby
+56552 České Heřmanice
+56553 Sloupnice
+56555 Hrušová
+56601 České Heřmanice
+56601 Vysoké Mýto
+56601 Bučina
+56601 Dobříkov
+56601 Džbánov
+56601 Voděrady
+56601 Sruby
+56601 Zámrsk
+56601 Libecina
+56601 Javorník
+56601 Vračovice-Orlov
+56601 Řepníky
+56601 Pustina
+56601 Vraclav
+56601 Slatina
+56601 Zádolí
+56601 Tisová
+56601 Týnišťko
+56802 Banín
+56802 Březová nad Svitavou
+56802 Dětřichov
+56802 Pohledy
+56802 Javorník
+56802 Kamenná Horka
+56802 Karle
+56802 Kukle
+56802 Svitavy
+56802 Mikuleč
+56802 Opatovec
+56802 Sklené
+56901 Hradec nad Svitavou
+56902 Březová nad Svitavou
+56902 Brněnec
+56903 Rozhraní
+56904 Bohuňov
+56904 Brněnec
+56904 Želivsko
+56904 Chrastavec
+56904 Lavičné
+56904 Rudná
+56904 Študlov
+56905 Bělá nad Svitavou
+56906 Vítějeves
+56907 Radiměř
+56911 Koclířov
+56912 Opatov
+56914 Vendolí
+56921 Moravská Třebová
+56922 Křenov
+56923 Březina
+56924 Kunčina
+56932 Staré Město
+56933 Třebařov
+56934 Rychnov na Moravě
+56935 Mladějov na Moravě
+56941 Městečko Trnávka
+56942 Chornice
+56943 Bělá u Jevíčka
+56943 Bezděčí u Trnávky
+56943 Biskupice
+56943 Slatina
+56943 Březinky
+56943 Dlouhá Loučka
+56943 Hartinkov
+56943 Chornice
+56943 Janůvky
+56943 Jaroměřice
+56943 Jevíčko
+56943 Městečko Trnávka
+56943 Březina
+56943 Víska u Jevíčka
+56943 Vrážné
+56943 Vysoká
+56944 Jaroměřice
+56951 Morašice
+56953 Cerekvice nad Loučnou
+56955 Janov
+56956 Čistá
+56957 Čistá
+56957 Trstěnice
+56961 Dolní Újezd
+56962 Sebranice
+56963 Lubná
+56965 Budislav
+56966 Jarošov
+56967 Litomyšl
+56967 Osík
+56971 Pomezí
+56972 Rohozná
+56973 Svojanov
+56974 Trpín
+56982 Borová
+56982 Krouna
+56982 Oldřiš
+56982 Pustá Kamenice
+56982 Pustá Rybná
+56991 Jedlová
+56992 Bystré
+56992 Svojanov
+56992 Hartmanice
+56992 Trpín
+56992 Rohozná
+56992 Nedvězí
+56993 Korouhev
+56994 Telecí
+57001 Benátky
+57001 Bohuňovice
+57001 Desná
+57001 Janov
+57001 Horky
+57001 Horní Újezd
+57001 Chmelík
+57001 Chotěnov
+57001 Chotovice
+57001 Dolní Újezd
+57001 Litomyšl
+57001 Morašice
+57001 Makov
+57001 Poříčí u Litomyšle
+57001 Němčice
+57001 Nová Sídla
+57001 Nová Ves u Jarošova
+57001 Osík
+57001 Cerekvice nad Loučnou
+57001 Řídký
+57001 Sedliště
+57001 Strakov
+57001 Suchá Lhota
+57001 Tržek
+57001 Újezdec
+57001 Vidlatá Seč
+57101 Staré Město
+57101 Městečko Trnávka
+57101 Moravská Třebová
+57101 Borušov
+57101 Dětřichov u Moravské Třebové
+57101 Gruna
+57101 Koclířov
+57101 Kunčina
+57101 Linhartice
+57101 Malíkov
+57101 Radkov
+57101 Rozstání
+57101 Bezděčí u Trnávky
+57101 Útěchov
+57101 Vranová Lhota
+57201 Březiny
+57201 Polička
+57201 Kamenec u Poličky
+57201 Květná
+57201 Korouhev
+57201 Oldřiš
+57201 Pustá Rybná
+57201 Sádek
+57201 Stašov
+57201 Široký Důl
+57201 Telecí
+57201 Sebranice
+58001 Okrouhlice
+58001 Bartoušov
+58001 Krásná Hora
+58001 Břevnice
+58001 Havlíčkův Brod
+58001 Čachotín
+58001 Dolní Krupá
+58001 Kyjov
+58001 Horní Krupá
+58001 Hurtova Lhota
+58001 Rozsochatec
+58001 Věž
+58001 Šlapanov
+58001 Knyk
+58001 Kojetín
+58001 Květinov
+58001 Michalovice
+58001 Olešná
+58001 Lípa
+58001 Radostín
+58001 Veselý Žďár
+58001 Vysoká
+58001 Herálec
+58001 Ždírec
+58221 Pohled
+58222 Přibyslav
+58222 Dlouhá Ves
+58222 Krátká Ves
+58222 Žižkovo Pole
+58222 Modlíkov
+58222 Olešenka
+58222 Pohled
+58222 Stříbrné Hory
+58222 Havlíčkova Borová
+58223 Havlíčkova Borová
+58224 Oudoleň
+58231 Okrouhlice
+58232 Lipnice nad Sázavou
+58233 Dolní Město
+58234 Krásná Hora
+58235 Lučice
+58241 Olešná
+58241 Skuhrov
+58242 Kámen
+58243 Tis
+58244 Sázavka
+58245 Uhelná Příbram
+58251 Šlapanov
+58251 Věžnice
+58252 Polná
+58252 Věžnice
+58253 Lípa
+58253 Úsobí
+58253 Kochánov
+58253 Okrouhlička
+58253 Štoky
+58253 Skorkov
+58253 Úhořilka
+58254 Úsobí
+58255 Boňkov
+58255 Herálec
+58255 Květinov
+58255 Slavníč
+58256 Věž
+58257 Lípa
+58261 Česká Bělá
+58262 Sobíňov
+58263 Ždírec nad Doubravou
+58263 Slavíkov
+58263 Krucemburk
+58263 Havlíčkova Borová
+58263 Slavětín
+58263 Sobíňov
+58264 Podmoklany
+58264 Ždírec nad Doubravou
+58265 Slavíkov
+58266 Krucemburk
+58271 Dolní Krupá
+58272 Rozsochatec
+58273 Nová Ves u Chotěboře
+58274 Jeřišno
+58276 Maleč
+58277 Libice nad Doubravou
+58281 Habry
+58282 Borek
+58282 Heřmanice
+58282 Vilémov
+58282 Habry
+58282 Golčův Jeníkov
+58282 Skryje
+58282 Chrtníč
+58282 Kámen
+58282 Kraborovice
+58282 Leškovice
+58282 Vepříkov
+58282 Nová Ves u Leštiny
+58282 Uhelná Příbram
+58282 Podmoky
+58282 Rybníček
+58282 Leština u Světlé
+58282 Zvěstovice
+58283 Vilémov
+58286 Leština u Světlé
+58287 Číhošť
+58291 Bačkov
+58291 Světlá nad Sázavou
+58291 Krásná Hora
+58291 Malčín
+58291 Druhanov
+58291 Tis
+58291 Kunemil
+58291 Lipnice nad Sázavou
+58291 Dolní Město
+58291 Nová Ves u Světlé
+58291 Olešná
+58291 Ovesná Lhota
+58291 Pohleď
+58291 Příseka
+58291 Služátky
+58291 Trpišovice
+58291 Vlkanov
+58291 Habry
+58292 Kamenná Lhota
+58293 Kožlí
+58294 Hněvkovice
+58301 Libice nad Doubravou
+58301 Bezděkov
+58301 Chotěboř
+58301 Maleč
+58301 Česká Bělá
+58301 Čachotín
+58301 Čečkovice
+58301 Dolní Sokolovec
+58301 Slavíkov
+58301 Rušinov
+58301 Jeřišno
+58301 Uhelná Příbram
+58301 Jilem
+58301 Jitkov
+58301 Klokočov
+58301 Lány
+58301 Nejepín
+58301 Nová Ves u Chotěboře
+58301 Sedletín
+58301 Sloupno
+58301 Vepříkov
+58301 Víska
+58401 Bělá
+58401 Trpišovice
+58401 Kožlí
+58401 Bojiště
+58401 Hněvkovice
+58401 Jedlá
+58401 Dolní Město
+58401 Leština u Světlé
+58401 Kamenná Lhota
+58401 Prosíčka
+58401 Ledeč nad Sázavou
+58401 Hradec
+58401 Číhošť
+58401 Horní Paseka
+58401 Chřenovice
+58401 Kouty
+58401 Kozlov
+58401 Kynice
+58401 Ostrov
+58401 Pavlov
+58401 Vilémovice
+58601 Jihlava
+58601 Čížov
+58601 Hybrálec
+58601 Měšín
+58601 Rančířov
+58603 Malý Beranov
+58801 Smrčná
+58805 Boršov
+58805 Dudín
+58805 Dušejov
+58805 Dvorce
+58805 Hojkov
+58805 Hubenov
+58805 Mirošov
+58805 Milíčov
+58805 Opatov
+58805 Zbilidy
+58811 Střítež
+58812 Dobronín
+58813 Brzkov
+58813 Dobronín
+58813 Dobroutov
+58813 Polná
+58813 Kamenná
+58813 Věžnička
+58813 Záborná
+58813 Ždírec
+58821 Velký Beranov
+58821 Jamné
+58821 Kozlov
+58821 Vysoké Studnice
+58822 Bítovčice
+58822 Kamenice
+58822 Brtnice
+58822 Luka nad Jihlavou
+58823 Kamenice
+58824 Kamenice
+58825 Jersín
+58826 Zhoř
+58827 Arnolec
+58827 Jamné
+58827 Meziříčko
+58827 Nadějov
+58827 Rybné
+58827 Stáj
+58827 Věžnice
+58831 Puklice
+58832 Brtnice
+58832 Stonařov
+58833 Suchá
+58833 Cerekvička-Rosice
+58833 Hladov
+58833 Vílanec
+58833 Otín
+58833 Pavlov
+58833 Stonařov
+58834 Dlouhá Brtnice
+58835 Cerekvička-Rosice
+58835 Vílanec
+58841 Bílý Kámen
+58841 Vyskytná nad Jihlavou
+58841 Hybrálec
+58841 Ježená
+58841 Kalhov
+58841 Plandry
+58841 Rantířov
+58842 Ústí
+58842 Kalhov
+58842 Šimanov
+58842 Větrný Jeníkov
+58842 Zbinohy
+58844 Rohozná
+58845 Dolní Cerekev
+58851 Batelov
+58851 Kaliště
+58851 Cejle
+58851 Dolní Cerekev
+58851 Dvorce
+58851 Jihlávka
+58851 Klatovec
+58851 Kostelec
+58851 Rohozná
+58851 Švábov
+58852 Horní Dubenky
+58854 Mrákotín
+58856 Bohuslavice
+58856 Knínice
+58856 Borovná
+58856 Hostětice
+58856 Černíč
+58856 Mrákotín
+58856 Dolní Vilímeč
+58856 Doupě
+58856 Dyjice
+58856 Horní Myslová
+58856 Kostelní Myslová
+58856 Krahulčí
+58856 Krasonice
+58856 Lhotka
+58856 Markvartice
+58856 Mysletice
+58856 Nová Říše
+58856 Olšany
+58856 Olší
+58856 Radkov
+58856 Řásná
+58856 Řídelov
+58856 Sedlatice
+58856 Strachoňovice
+58856 Telč
+58856 Svojkovice
+58856 Třeštice
+58856 Vanov
+58856 Vanůvek
+58856 Vápovice
+58856 Volevčice
+58856 Vystrčenovice
+58856 Zadní Vydří
+58856 Zdeňkov
+58856 Zvolenovice
+58861 Cejle
+58861 Kostelec
+58862 Dyjice
+58862 Mysliboř
+58862 Nevcehle
+58862 Ořechov
+58862 Sedlejov
+58862 Urbanov
+58862 Žatec
+58864 Krasonice
+58865 Nová Říše
+58866 Rozseč
+58867 Stará Říše
+58901 Pavlov
+58901 Třešť
+58901 Hodice
+58901 Jezdovice
+58901 Panenská Rozsíčka
+58901 Růžená
+59101 Hamry nad Sázavou
+59101 Hodíškov
+59101 Rousměrov
+59101 Lhotka
+59101 Žďár nad Sázavou
+59101 Vojnův Městec
+59101 Obyčtov
+59101 Počítky
+59101 Radenice
+59101 Radostín
+59101 Sazomín
+59101 Sklené
+59101 Sklené nad Oslavou
+59101 Ostrov nad Oslavou
+59101 Škrdlovice
+59101 Vatín
+59101 Vysoké
+59102 Cikháj
+59102 Polnička
+59102 Žďár nad Sázavou
+59102 Světnov
+59201 Herálec
+59202 Sněžné
+59202 Svratka
+59202 Křižánky
+59202 Chlumětín
+59203 Daňkovice
+59203 Javorek
+59203 Nový Jimramov
+59203 Kadov
+59203 Krásné
+59203 Sněžné
+59203 Kuklík
+59203 Líšná
+59203 Spělkov
+59204 Fryšava pod Žákovou horou
+59204 Tři Studně
+59211 Sázava
+59211 Malá Losenice
+59211 Velká Losenice
+59211 Račín
+59211 Vepřová
+59212 Nížkov
+59212 Matějov
+59212 Nové Dvory
+59212 Poděšín
+59212 Rosička
+59212 Sázava
+59212 Sirákov
+59212 Újezd
+59213 Bohdalov
+59214 Bohdalov
+59214 Březí nad Oslavou
+59214 Budeč
+59214 Kotlasy
+59214 Kyjov
+59214 Nové Veselí
+59214 Pokojov
+59214 Rudolec
+59214 Újezd
+59221 Karlov
+59231 Nové Město na Moravě
+59231 Křídla
+59231 Nová Ves u Nového Města na Moravě
+59231 Radňovice
+59231 Tři Studně
+59231 Vlachovice
+59231 Zubří
+59232 Jámy
+59233 Radešínská Svratka
+59233 Řečice
+59241 Dalečín
+59242 Jimramov
+59242 Borovnice
+59242 Věcov
+59242 Nový Jimramov
+59242 Strachujov
+59242 Unčín
+59244 Věcov
+59245 Lísek
+59251 Blažkov
+59251 Zvole
+59251 Bukov
+59251 Dolní Rožínka
+59251 Horní Rožínka
+59251 Milasín
+59251 Střítež
+59251 Rodkov
+59251 Rozsochy
+59252 Rožná
+59253 Dolní Libochová
+59253 Moravecké Pavlovice
+59253 Strážek
+59253 Pikárec
+59253 Radkov
+59254 Moravec
+59255 Bobrová
+59255 Bobrůvka
+59255 Bohdalec
+59255 Dlouhé
+59255 Mirošov
+59255 Podolí
+59255 Račice
+59255 Radešín
+59256 Zvole
+59257 Rozsochy
+59261 Borač
+59261 Doubravník
+59261 Drahonín
+59261 Pernštejnské Jestřabí
+59261 Olší
+59262 Sejřek
+59262 Černvír
+59262 Ujčov
+59262 Drahonín
+59262 Skorotice
+59262 Doubravník
+59262 Moravecké Pavlovice
+59262 Nedvědice
+59262 Býšovec
+59262 Věžná
+59263 Štěpánov nad Svratkou
+59264 Prosetín
+59265 Dalečín
+59265 Chlum-Korouhvice
+59265 Rovečné
+59265 Nyklovice
+59265 Sulkovec
+59265 Ubušínek
+59265 Velké Tresné
+59265 Věstín
+59266 Vír
+59301 Bohuňov
+59301 Věstín
+59301 Bystřice nad Pernštejnem
+59301 Prosetín
+59301 Býšovec
+59301 Věžná
+59301 Rožná
+59301 Koroužné
+59301 Louka
+59301 Písečné
+59301 Štěpánov nad Svratkou
+59301 Věchnov
+59301 Velké Janovice
+59301 Lísek
+59301 Ždánice
+59401 Baliny
+59401 Březejc
+59401 Dolní Heřmanice
+59401 Velké Meziříčí
+59401 Stránecká Zhoř
+59401 Horní Radslavice
+59401 Jabloňov
+59401 Lavičky
+59401 Ruda
+59401 Martinice
+59401 Měřín
+59401 Oslavice
+59401 Osové
+59401 Otín
+59401 Pavlínov
+59401 Petráveč
+59401 Sviny
+59401 Uhřínov
+59401 Vídeň
+59441 Uhřínov
+59442 Blízkov
+59442 Černá
+59442 Otín
+59442 Chlumek
+59442 Stránecká Zhoř
+59442 Měřín
+59444 Kněževes
+59444 Krásněves
+59444 Netín
+59444 Pavlov
+59444 Radostín nad Oslavou
+59444 Zadní Zhořec
+59444 Znětínek
+59445 Ostrov nad Oslavou
+59451 Křižanov
+59451 Borovník
+59451 Dobrá Voda
+59451 Horní Libochová
+59451 Jívoví
+59451 Kadolec
+59451 Kozlov
+59451 Kundratice
+59451 Lubné
+59451 Milešín
+59451 Nová Ves
+59451 Žďárec
+59451 Radňoves
+59451 Rojetín
+59451 Rozseč
+59451 Řikonín
+59451 Sviny
+59451 Tišnovská Nová Ves
+59451 Vratislávka
+59452 Ořechov
+59453 Březí
+59453 Březské
+59453 Velká Bíteš
+59453 Křižínkov
+59453 Osová Bítýška
+59453 Skřinářov
+59453 Vlkov
+59453 Záblatí
+59454 Křoví
+59455 Kuřimské Jestřabí
+59455 Skryje
+59455 Dolní Loučky
+59455 Horní Loučky
+59455 Kaly
+59455 Katov
+59455 Kuřimská Nová Ves
+59455 Níhov
+59455 Újezd u Tišnova
+59456 Kuřimská Nová Ves
+59456 Žďárec
+59457 Vidonín
+59458 Heřmanov
+59461 Bory
+59501 Velká Bíteš
+59501 Březské
+59501 Nové Sady
+60200 Brno
+60300 Brno
+61200 Brno
+61300 Brno
+61400 Brno
+61500 Brno
+61600 Brno
+61700 Brno
+61800 Brno
+61900 Brno
+62000 Brno
+62100 Brno
+62300 Brno
+62400 Brno
+62500 Brno
+62700 Brno
+62700 Podolí
+62700 Šlapanice
+62800 Brno
+63400 Brno
+63500 Brno
+63600 Brno
+63700 Brno
+63800 Brno
+63900 Brno
+64100 Brno
+64200 Brno
+64300 Brno
+64400 Brno
+66401 Babice nad Svitavou
+66401 Bílovice nad Svitavou
+66401 Kanice
+66401 Ochoz u Brna
+66401 Řícmanice
+66402 Ochoz u Brna
+66403 Podolí
+66404 Mokrá-Horákov
+66404 Hostěnice
+66405 Jiříkovice
+66405 Tvarožná
+66405 Velatice
+66406 Kovalovice
+66406 Viničné Šumice
+66407 Pozořice
+66407 Sivice
+66408 Blažovice
+66411 Zbýšov
+66412 Oslavany
+66417 Omice
+66417 Tetčice
+66423 Čebín
+66424 Drásov
+66431 Česká
+66431 Lelekovice
+66432 Vranov
+66434 Brno
+66434 Jinačovice
+66434 Kuřim
+66434 Moravské Knínice
+66434 Rozdrojovice
+66434 Vranov
+66441 Omice
+66441 Popůvky
+66441 Troubsko
+66442 Brno
+66442 Modřice
+66443 Hajany
+66443 Želešice
+66444 Ořechov
+66446 Prštice
+66446 Radostice
+66446 Silůvky
+66447 Radostice
+66447 Střelice
+66447 Troubsko
+66448 Moravany
+66448 Nebovidy
+66449 Ostopovice
+66451 Šlapanice
+66451 Jiříkovice
+66451 Kobylnice
+66451 Ponětovice
+66452 Sokolnice
+66453 Újezd u Brna
+66453 Žatčany
+66454 Nesvačilka
+66454 Těšany
+66455 Měnín
+66455 Moutnice
+66456 Blučina
+66457 Měnín
+66457 Otmarov
+66458 Prace
+66459 Telnice
+66461 Holasice
+66461 Opatovice
+66461 Popovice
+66461 Rajhrad
+66461 Rajhradice
+66461 Rebešovice
+66462 Hrušovany u Brna
+66462 Ledce
+66463 Přísnotice
+66463 Unkovice
+66463 Žabčice
+66464 Dolní Kounice
+66464 Kupařovice
+66464 Malešovice
+66464 Mělčany
+66464 Moravské Bránice
+66464 Nové Bránice
+66464 Odrovice
+66464 Pravlov
+66464 Trboušany
+66465 Malešovice
+66466 Medlov
+66466 Němčičky
+66467 Bratčice
+66467 Sobotovice
+66467 Syrovice
+66471 Braníškov
+66471 Brno
+66471 Lažánky
+66471 Hvozdec
+66471 Chudčice
+66471 Javůrek
+66471 Maršov
+66471 Veverská Bítýška
+66475 Deblín
+66481 Brno
+66481 Ostrovačice
+66481 Veverské Knínice
+66482 Říčany
+66483 Domašov
+66483 Javůrek
+66483 Lesní Hluboké
+66483 Litostrov
+66483 Přibyslavice
+66483 Rudka
+66483 Říčky
+66484 Babice u Rosic
+66484 Lukovany
+66484 Příbram na Moravě
+66484 Rosice
+66484 Stanoviště
+66484 Újezd u Rosic
+66484 Vysoké Popovice
+66484 Zakřany
+66484 Zálesná Zhoř
+66484 Zastávka
+66484 Zbraslav
+66488 Zbraslav
+66491 Ivančice
+66491 Biskoupky
+66491 Čučice
+66491 Hlína
+66491 Ketkovice
+66491 Kratochvilka
+66491 Neslovice
+66491 Nová Ves
+66491 Oslavany
+66501 Omice
+66501 Přibyslavice
+66501 Rosice
+66601 Březina
+66601 Úsuší
+66601 Deblín
+66601 Drásov
+66601 Tišnov
+66601 Heroltice
+66601 Lomnička
+66601 Nelepeč-Žernůvka
+66601 Předklášteří
+66601 Rohozec
+66601 Skalička
+66601 Svatoslav
+66601 Šerkovice
+66601 Vohančice
+66601 Všechovice
+66601 Železné
+66602 Předklášteří
+66602 Štěpánovice
+66603 Březina
+66603 Hradčany
+66603 Malhostovice
+66603 Sentice
+66603 Skalička
+66603 Tišnov
+66603 Všechovice
+66701 Vojkovice
+66701 Židlochovice
+66902 Bezkov
+66902 Dyjákovičky
+66902 Dyje
+66902 Chvalovice
+66902 Havraníky
+66902 Hnanice
+66902 Vrbovec
+66902 Znojmo
+66902 Kuchařovice
+66902 Lukov
+66902 Mašovice
+66902 Milíčovice
+66902 Nový Šaldorf-Sedlešovice
+66902 Podmolí
+66902 Suchohrdly
+66904 Znojmo-Přímětice
+67101 Citonice
+67102 Horní Břečkov
+67102 Chvalatice
+67102 Lesná
+67102 Onšov
+67102 Štítary
+67102 Šumná
+67102 Vracovice
+67102 Zálesí
+67103 Vranov nad Dyjí
+67106 Starý Petřín
+67106 Lančov
+67106 Podhradí nad Dyjí
+67106 Podmyče
+67106 Stálky
+67106 Šafov
+67107 Bítov
+67107 Korolupy
+67107 Lubnice
+67107 Uherčice
+67107 Oslnovice
+67107 Podhradí nad Dyjí
+67107 Vratěnín
+67107 Vysočany
+67107 Zblovice
+67110 Bítov
+67122 Šatov
+67124 Vrbovec
+67125 Hodonice
+67125 Tasovice
+67126 Dyjákovice
+67127 Hrádek
+67128 Znojmo
+67128 Hrádek
+67128 Jaroslavice
+67128 Krhovice
+67128 Křídlůvky
+67128 Slup
+67128 Valtrovice
+67128 Velký Karlov
+67129 Strachotice
+67131 Únanov
+67132 Plaveč
+67132 Vevčice
+67133 Mikulovice
+67134 Horní Dunajovice
+67134 Tvořihráz
+67134 Výrovice
+67134 Želetice
+67134 Žerotice
+67138 Višňové
+67139 Běhařovice
+67140 Tavíkovice
+67140 Horní Kounice
+67140 Křepice
+67140 Medlice
+67140 Přeskače
+67140 Běhařovice
+67140 Újezd
+67142 Vémyslice
+67151 Znojmo
+67151 Kravsko
+67151 Olbramkostel
+67151 Plenkovice
+67151 Vranovská Ves
+67151 Žerůtky
+67152 Hluboké Mašůvky
+67152 Plaveč
+67153 Bojanovice
+67153 Černín
+67153 Jevišovice
+67153 Němčičky
+67153 Rozkoš
+67153 Rudlice
+67153 Slatina
+67153 Střelice
+67153 Vevčice
+67154 Blanné
+67154 Boskovštejn
+67154 Ctidružice
+67154 Hostim
+67154 Jiřice u Moravských Budějovic
+67154 Prokopov
+67155 Blížkovice
+67156 Grešlové Mýto
+67156 Pavlice
+67161 Bantice
+67161 Kyjovice
+67161 Práče
+67161 Prosiměřice
+67161 Stošíkovice na Louce
+67161 Těšetice
+67161 Vítonice
+67162 Oleksovice
+67163 Lechovice
+67164 Božice
+67164 Šanov
+67165 Břežany
+67167 Hrušovany nad Jevišovkou
+67167 Šanov
+67168 Hrabětice
+67168 Šanov
+67169 Hevlín
+67171 Džbánice
+67171 Hostěradice
+67171 Morašice
+67171 Skalice
+67171 Trstěnice
+67172 Miroslav
+67172 Miroslavské Knínice
+67172 Suchohrdly u Miroslavi
+67173 Čermákovice
+67173 Dolní Dubňany
+67173 Horní Dubňany
+67173 Rešice
+67173 Tulešice
+67175 Jezeřany-Maršovice
+67175 Loděnice
+67175 Olbramovice
+67175 Moravský Krumlov
+67175 Šumice
+67175 Vedrovice
+67176 Bohutice
+67176 Kubšice
+67176 Našiměřice
+67176 Olbramovice
+67177 Branišovice
+67178 Borotice
+67178 Čejkovice
+67178 Damnice
+67178 Dolenice
+67178 Jiřice u Miroslavi
+67178 Litobratřice
+67178 Mackovice
+67178 Pravice
+67178 Trnové Pole
+67178 Troskotovice
+67181 Nový Šaldorf-Sedlešovice
+67181 Znojmo
+67182 Dobšice
+67182 Znojmo
+67201 Dobelice
+67201 Dobřínsko
+67201 Jamolice
+67201 Kadov
+67201 Lesonice
+67201 Moravský Krumlov
+67201 Petrovice
+67201 Rybníky
+67201 Tulešice
+67401 Třebíč
+67401 Kožichovice
+67401 Okřešice
+67401 Střítež
+67401 Trnava
+67401 Výčapy
+67501 Číměř
+67501 Vladislav
+67501 Kožichovice
+67501 Slavičky
+67501 Smrk
+67501 Zárubice
+67502 Koněšín
+67502 Kozlany
+67502 Okarec
+67502 Studenec
+67502 Třesov
+67503 Budišov
+67503 Hodov
+67503 Kamenice
+67503 Kamenná
+67503 Kojatín
+67503 Nárameč
+67503 Pozďatín
+67503 Studnice
+67503 Valdíkov
+67504 Hodov
+67505 Bochovice
+67505 Horní Heřmanice
+67505 Hroznatín
+67505 Nový Telečkov
+67505 Oslavička
+67505 Přeckov
+67505 Rohy
+67505 Rudíkov
+67505 Vlčatín
+67506 Benetice
+67507 Čechtín
+67507 Červená Lhota
+67507 Číhalín
+67507 Horní Smrčné
+67507 Horní Vilémovice
+67507 Chlum
+67507 Radošov
+67507 Svatoslav
+67507 Benetice
+67508 Kouty
+67521 Bransouze
+67521 Číchov
+67521 Heraltice
+67521 Hvězdoňovice
+67521 Krahulov
+67521 Zašovice
+67521 Nová Ves
+67521 Okříšky
+67521 Petrovice
+67521 Pokojovice
+67521 Přibyslavice
+67521 Radonín
+67521 Kněžice
+67522 Čechočovice
+67522 Horní Újezd
+67522 Chlístov
+67522 Stařeč
+67522 Loukovice
+67522 Markvartice
+67522 Mastník
+67522 Mikulovice
+67522 Rokytnice nad Rokytnou
+67522 Římov
+67523 Kojetice
+67524 Čáslavice
+67525 Rokytnice nad Rokytnou
+67526 Želetava
+67526 Cidlina
+67526 Jindřichovice
+67526 Komárovice
+67526 Lesná
+67526 Meziříčko
+67526 Štěpkov
+67527 Brtnička
+67527 Předín
+67527 Hrutov
+67527 Štěměchy
+67528 Opatov
+67529 Kněžice
+67531 Chotěbudice
+67531 Jemnice
+67531 Lhotice
+67531 Lomy
+67531 Lovčovice
+67531 Menhartice
+67531 Pálovice
+67531 Slavíkovice
+67532 Bačkovice
+67532 Hornice
+67532 Jiratice
+67532 Kdousov
+67532 Kojatice
+67532 Kostníky
+67532 Mladoňovice
+67532 Oponešice
+67532 Rácovice
+67532 Radotice
+67532 Třebelovice
+67533 Dešov
+67534 Police
+67541 Dědice
+67541 Moravské Budějovice
+67541 Kojatice
+67541 Nové Syrovice
+67541 Láz
+67541 Nimpšov
+67542 Budkov
+67543 Domamil
+67544 Babice
+67544 Cidlina
+67544 Lesonice
+67544 Jakubov u Moravských Budějovic
+67544 Litohoř
+67544 Martínkov
+67544 Moravské Budějovice
+67545 Šebkovice
+67550 Dukovany
+67551 Blatnice
+67551 Bohušice
+67551 Jaroměřice nad Rokytnou
+67551 Dolní Lažany
+67551 Lesůňky
+67551 Příštpo
+67551 Výčapy
+67552 Dolní Vilémovice
+67552 Třebenice
+67552 Klučov
+67552 Lipník
+67552 Myslibořice
+67552 Ostašov
+67552 Petrůvky
+67552 Zárubice
+67553 Valeč
+67554 Dalešice
+67555 Bačice
+67555 Hrotovice
+67555 Krhov
+67555 Odunec
+67555 Račice
+67555 Slavětice
+67555 Stropešín
+67556 Dukovany
+67557 Biskupice-Pulkov
+67557 Litovany
+67557 Přešovice
+67557 Rouchovany
+67559 Radkovice u Hrotovic
+67560 Myslibořice
+67571 Zahrádka
+67571 Hluboké
+67571 Jasenice
+67571 Náměšť nad Oslavou
+67571 Jinošov
+67571 Kralice nad Oslavou
+67571 Krokočín
+67571 Naloučany
+67571 Ocmanice
+67571 Pucov
+67571 Pyšel
+67571 Sedlec
+67571 Vícenice u Náměště nad Oslavou
+67573 Kralice nad Oslavou
+67573 Lesní Jakubov
+67573 Rapotice
+67573 Sudice
+67574 Březník
+67575 Kladeruby nad Oslavou
+67575 Kuroslepy
+67575 Lhánice
+67575 Mohelno
+67575 Popůvky
+67575 Senorady
+67576 Hartvíkovice
+67577 Kramolín
+67578 Čikov
+67579 Tasov
+67602 Častohostice
+67602 Moravské Budějovice
+67602 Lukov
+67602 Vícenice
+67602 Zvěrkovice
+67801 Blansko
+67801 Šebrov-Kateřina
+67901 Jabloňany
+67901 Krhov
+67901 Lhota Rapotina
+67901 Lysice
+67901 Boskovice
+67901 Obora
+67901 Skalice nad Svitavou
+67901 Voděrady
+67902 Blansko
+67902 Rájec-Jestřebí
+67902 Kuničky
+67902 Petrovice
+67902 Ráječko
+67902 Spešov
+67902 Žďár
+67903 Blansko
+67903 Olomučany
+67904 Adamov
+67904 Habrůvka
+67904 Olomučany
+67905 Březina
+67905 Bukovina
+67905 Bukovinka
+67905 Habrůvka
+67905 Křtiny
+67905 Hostěnice
+67906 Jedovnice
+67906 Kotvrdovice
+67906 Krasová
+67906 Kulířov
+67906 Lipovec
+67906 Rudice
+67906 Senetářov
+67906 Vilémovice
+67907 Kotvrdovice
+67911 Doubravice nad Svitavou
+67913 Holštejn
+67913 Vysočany
+67913 Sloup
+67913 Vavřinec
+67913 Šošůvka
+67914 Ostrov u Macochy
+67915 Lipovec
+67921 Bořitov
+67921 Brťov-Jeneč
+67921 Černá Hora
+67921 Lubě
+67921 Malá Lhota
+67921 Žernovník
+67922 Černá Hora
+67922 Lažany
+67922 Lipůvka
+67922 Milonice
+67922 Svinošice
+67922 Šebrov-Kateřina
+67922 Újezd u Černé Hory
+67922 Závist
+67923 Běleč
+67923 Brumov
+67923 Lomnice
+67923 Bukovice
+67923 Hluboké Dvory
+67923 Ochoz u Tišnova
+67923 Osiky
+67923 Rašov
+67923 Rohozec
+67923 Strhaře
+67923 Synalov
+67923 Zhoř
+67924 Hluboké Dvory
+67924 Unín
+67931 Sebranice
+67931 Svitávka
+67932 Svitávka
+67933 Vísky
+67934 Knínice
+67935 Světlá
+67935 Šebetov
+67936 Vanovice
+67937 Borotín
+67938 Cetkovice
+67939 Úsobrno
+67951 Němčice
+67952 Žďárná
+67953 Benešov
+67953 Okrouhlá
+67961 Letovice
+67961 Velké Opatovice
+67961 Deštná
+67961 Horní Poříčí
+67961 Horní Smržov
+67961 Míchov
+67961 Nýrov
+67961 Pamětice
+67961 Roubanina
+67961 Skrchov
+67961 Stvolová
+67961 Vranová
+67961 Sulíkov
+67962 Křetín
+67962 Horní Poříčí
+67962 Lazinov
+67962 Petrov
+67962 Prostřední Poříčí
+67962 Sulíkov
+67962 Vranová
+67963 Velké Opatovice
+67963 Malá Roudka
+67963 Světlá
+67963 Šebetov
+67963 Uhřice
+67971 Bedřichov
+67971 Býkovice
+67971 Dlouhá Lhota
+67971 Kozárov
+67971 Kunčina Ves
+67971 Kunice
+67971 Štěchov
+67971 Lhota u Lysic
+67971 Lysice
+67971 Žerůtky
+67972 Kunštát
+67972 Makov
+67972 Nýrov
+67972 Zbraslavec
+67973 Rozseč nad Kunštátem
+67974 Crhov
+67974 Kněževes
+67974 Křtěnov
+67974 Lhota u Olešnice
+67974 Louka
+67974 Olešnice
+67974 Rozsíčka
+67974 Ústup
+67975 Černovice
+67975 Hodonín
+67975 Tasovice
+67976 Drnovice
+68001 Boskovice
+68001 Chrudichromy
+68001 Kořenec
+68001 Ludíkov
+68001 Okrouhlá
+68001 Sudice
+68001 Suchý
+68001 Újezd u Boskovic
+68001 Valchov
+68001 Vážany
+68001 Velenov
+68201 Prusy-Boškůvky
+68201 Vyškov
+68201 Březina
+68201 Hoštice-Heroltice
+68201 Hlubočany
+68201 Křižanovice u Vyškova
+68201 Kučerov
+68201 Lysovice
+68201 Medlovice
+68201 Moravské Málkovice
+68201 Orlovice
+68201 Rostěnice-Zvonovice
+68201 Rybníček
+68201 Topolany
+68201 Vážany
+68301 Rousínov
+68301 Dražovice
+68301 Habrovany
+68301 Komořany
+68301 Kovalovice
+68301 Olšany
+68301 Podbřežice
+68301 Tučapy
+68301 Velešovice
+68303 Luleč
+68303 Nemojany
+68304 Drnovice
+68304 Ježkovice
+68304 Krásensko
+68304 Podomí
+68304 Ruprechtov
+68305 Račice-Pístovice
+68308 Nové Sady
+68308 Studnice
+68321 Drysice
+68321 Podivice
+68321 Pustiměř
+68321 Radslavice
+68321 Zelená Hora
+68323 Dětkovice
+68323 Ivanovice na Hané
+68323 Švábenice
+68333 Brankovice
+68333 Dobročkovice
+68333 Kožušice
+68333 Nesovice
+68333 Malínky
+68333 Milonice
+68333 Mouchnice
+68333 Nemochovice
+68333 Nemotice
+68333 Snovídky
+68333 Uhřice
+68335 Letonice
+68341 Bohdalice-Pavlovice
+68341 Chvalkovice
+68341 Kozlany
+68341 Hvězdlice
+68351 Holubice
+68352 Hostěrádky-Rešov
+68352 Hrušky
+68352 Křenovice
+68352 Šaratice
+68352 Zbýšov
+68354 Bošovice
+68354 Lovčičky
+68354 Milešovice
+68354 Otnice
+68401 Heršpice
+68401 Hodějice
+68401 Kobeřice u Brna
+68401 Němčany
+68401 Nížkovice
+68401 Slavkov u Brna
+68401 Vážany nad Litavou
+68501 Bohaté Málkovice
+68501 Bučovice
+68501 Heršpice
+68501 Hodějice
+68501 Kojátky
+68501 Křižanovice
+68501 Letonice
+68501 Mouřínov
+68501 Nevojice
+68501 Rašovice
+68501 Ždánice
+68601 Uherské Hradiště
+68601 Kostelany nad Moravou
+68601 Staré Hutě
+68601 Staré Město
+68601 Stupava
+68603 Staré Město
+68604 Kunovice
+68604 Podolí
+68604 Popovice
+68605 Uherské Hradiště
+68606 Uherské Hradiště
+68609 Uherské Hradiště
+68703 Babice
+68703 Huštěnovice
+68703 Kudlovice
+68704 Jankovice
+68704 Košíky
+68704 Sušice
+68704 Traplice
+68705 Jalubí
+68706 Modrá
+68706 Salaš
+68706 Velehrad
+68707 Tupesy
+68708 Břestek
+68708 Buchlovice
+68709 Boršice
+68709 Břestek
+68709 Buchlovice
+68709 Osvětimany
+68709 Stříbrnice
+68709 Tučapy
+68710 Zlechov
+68711 Topolná
+68712 Bílovice
+68712 Částkov
+68712 Mistřice
+68712 Kněžpole
+68712 Nedachlebice
+68712 Svárov
+68712 Zlámanec
+68713 Březolupy
+68722 Ostrožská Nová Ves
+68723 Ostrožská Lhota
+68724 Uherský Ostroh
+68725 Hluk
+68731 Šumice
+68732 Nezdenice
+68732 Rudice
+68733 Drslavice
+68733 Hradčovice
+68733 Veletiny
+68734 Uherský Brod
+68737 Ořechov
+68737 Polešovice
+68737 Vážany
+68738 Nedakonice
+68741 Hostějov
+68741 Medlovice
+68741 Újezdec
+68742 Osvětimany
+68751 Nivnice
+68752 Korytná
+68753 Suchá Loz
+68754 Bánov
+68755 Bystřice pod Lopeníkem
+68756 Pašovice
+68756 Prakšice
+68761 Vlčnov
+68762 Dolní Němčí
+68763 Boršice u Blatnice
+68764 Horní Němčí
+68764 Slavkov
+68765 Strání
+68766 Strání
+68767 Březová
+68767 Bystřice pod Lopeníkem
+68767 Lopeník
+68771 Bojkovice
+68771 Hostětín
+68771 Komňa
+68771 Nezdenice
+68771 Pitín
+68771 Záhorovice
+68774 Bojkovice
+68774 Lopeník
+68774 Starý Hrozenkov
+68774 Vápenice
+68774 Vyškovec
+68774 Žítková
+68801 Uherský Brod
+69002 Břeclav
+69002 Tvrdonice
+69003 Břeclav
+69006 Břeclav
+69101 Moravský Žižkov
+69102 Velké Bílovice
+69103 Rakvice
+69104 Přítluky
+69105 Zaječí
+69106 Velké Pavlovice
+69107 Němčičky
+69108 Bořetice
+69109 Vrbice
+69110 Kobylí
+69111 Brumovice
+69112 Boleradice
+69121 Sedlec
+69122 Pasohlávky
+69123 Cvrčovice
+69123 Ivaň
+69123 Pohořelice
+69123 Pouzdřany
+69124 Přibice
+69125 Vranovice
+69126 Pouzdřany
+69127 Popice
+69129 Dolní Věstonice
+69130 Vlasatice
+69141 Břeclav
+69142 Valtice
+69143 Hlohovec
+69144 Břeclav
+69144 Lednice
+69145 Podivín
+69146 Břeclav
+69146 Ladná
+69151 Lanžhot
+69152 Kostice
+69152 Tvrdonice
+69153 Tvrdonice
+69154 Týnec
+69155 Moravská Nová Ves
+69156 Hrušky
+69162 Uherčice
+69163 Velké Němčice
+69164 Nosislav
+69164 Velké Němčice
+69165 Křepice
+69165 Nikolčice
+69167 Šakvice
+69168 Starovičky
+69171 Diváky
+69171 Nikolčice
+69172 Klobouky u Brna
+69172 Kašnice
+69172 Morkůvky
+69173 Dambořice
+69173 Krumvíř
+69174 Velké Hostěrádky
+69175 Borkovany
+69176 Šitbořice
+69181 Brod nad Dyjí
+69181 Březí
+69181 Dobré Pole
+69181 Horní Věstonice
+69181 Nový Přerov
+69181 Perná
+69182 Novosedly
+69183 Drnholec
+69183 Jevišovka
+69185 Dolní Dunajovice
+69186 Perná
+69188 Milovice
+69189 Bulhary
+69201 Bavory
+69201 Klentnice
+69201 Mikulov
+69201 Milovice
+69201 Přítluky
+69201 Pavlov
+69301 Horní Bojanovice
+69301 Hustopeče
+69301 Kurdějov
+69301 Starovice
+69301 Strachotín
+69501 Hodonín
+69601 Rohatec
+69602 Ratíškovice
+69603 Dubňany
+69604 Svatobořice-Mistřín
+69605 Milotice
+69606 Vacenovice
+69611 Mutěnice
+69612 Hovorany
+69613 Šardice
+69614 Čejč
+69614 Karlín
+69614 Terezín
+69615 Čejkovice
+69616 Dolní Bojanovice
+69616 Nový Poddvorov
+69616 Starý Poddvorov
+69617 Dolní Bojanovice
+69618 Lužice
+69619 Mikulčice
+69621 Josefov
+69621 Prušánky
+69631 Bukovany
+69631 Nechvalín
+69631 Ostrovánky
+69632 Ždánice
+69633 Archlebov
+69633 Dražůvky
+69634 Žarošice
+69634 Uhřice
+69635 Dambořice
+69636 Násedlovice
+69637 Nenkovice
+69637 Želetice
+69638 Stavěšice
+69638 Strážovice
+69639 Lovčice
+69641 Skoronice
+69641 Vlkoš
+69642 Vracov
+69647 Žeravice
+69648 Ježov
+69648 Labuty
+69648 Skalka
+69648 Vřesovice
+69649 Kelčany
+69649 Žádovice
+69650 Hýsly
+69650 Moravany
+69651 Čeložnice
+69651 Kostelec
+69655 Kyjov
+69661 Vnorovy
+69662 Strážnice
+69662 Sudoměřice
+69662 Tvarožná Lhota
+69663 Hroznová Lhota
+69663 Kozojídky
+69663 Tasov
+69663 Žeraviny
+69664 Kněždub
+69665 Petrov
+69666 Sudoměřice
+69667 Radějov
+69671 Blatnice pod Svatým Antonínkem
+69671 Blatnička
+69671 Suchov
+69672 Lipov
+69673 Hrubá Vrbka
+69673 Kuželov
+69673 Malá Vrbka
+69674 Javorník
+69674 Nová Lhota
+69674 Suchov
+69674 Velká nad Veličkou
+69676 Louka
+69681 Bzenec
+69683 Domanín
+69684 Syrovín
+69684 Těmice
+69685 Bzenec
+69685 Moravský Písek
+69701 Kyjov
+69701 Sobůlky
+69701 Věteřov
+69801 Veselí nad Moravou
+70030 Ostrava
+70200 Ostrava
+70300 Ostrava
+70800 Ostrava
+70900 Ostrava
+71000 Ostrava
+71100 Ostrava
+71100 Šilheřovice
+71200 Ostrava
+71300 Ostrava
+71500 Ostrava
+71600 Darkovice
+71600 Ostrava
+71700 Ostrava
+71800 Ostrava
+71900 Ostrava
+72000 Ostrava
+72100 Ostrava
+72200 Ostrava
+72300 Ostrava
+72400 Ostrava
+72525 Ostrava
+72526 Ostrava
+72527 Ostrava
+72528 Ostrava
+72529 Ostrava
+73301 Karviná
+73401 Karviná
+73503 Karviná
+73506 Karviná
+73511 Orlová
+73511 Petřvald
+73514 Orlová
+73514 Rychvald
+73531 Bohumín
+73531 Dolní Lutyně
+73532 Rychvald
+73533 Doubrava
+73534 Stonava
+73535 Horní Suchá
+73541 Petřvald
+73542 Těrlicko
+73543 Albrechtice
+73551 Bohumín
+73552 Bohumín
+73553 Dolní Lutyně
+73561 Chotěbuz
+73562 Český Těšín
+73564 Havířov
+73571 Dětmarovice
+73572 Petrovice u Karviné
+73581 Bohumín
+73601 Havířov
+73601 Kaňovice
+73701 Český Těšín
+73801 Frýdek-Místek
+73801 Staré Město
+73901 Baška
+73901 Staré Město
+73904 Krásná
+73904 Morávka
+73904 Pražmo
+73904 Raškovice
+73911 Frýdlant nad Ostravicí
+73911 Janovice
+73911 Malenovice
+73911 Pržno
+73911 Pstruží
+73912 Čeladná
+73913 Kunčice pod Ondřejníkem
+73914 Ostravice
+73915 Bílá
+73915 Staré Hamry
+73921 Paskov
+73923 Stará Ves nad Ondřejnicí
+73924 Krmelín
+73924 Ostrava
+73924 Stará Ves nad Ondřejnicí
+73925 Sviadnov
+73925 Žabeň
+73932 Vratimov
+73932 Ostrava
+73932 Řepiště
+73934 Ostrava
+73934 Šenov
+73934 Václavovice
+73936 Bruzovice
+73936 Kaňovice
+73936 Sedliště
+73937 Horní Bludovice
+73937 Žermanice
+73938 Dolní Domaslavice
+73938 Soběšovice
+73939 Lučina
+73941 Palkovice
+73942 Frýdek-Místek
+73943 Staříč
+73944 Brušperk
+73945 Fryčovice
+73946 Hukvaldy
+73946 Fryčovice
+73947 Kozlovice
+73947 Lhotka
+73947 Palkovice
+73949 Metylovice
+73951 Dobrá
+73951 Dobratice
+73951 Horní Domaslavice
+73951 Nižní Lhoty
+73951 Nošovice
+73951 Pazderna
+73951 Vojkovice
+73951 Vyšní Lhoty
+73953 Dobratice
+73953 Dolní Tošanovice
+73953 Hnojník
+73953 Horní Tošanovice
+73953 Komorní Lhotka
+73953 Třanovice
+73955 Třinec
+73955 Řeka
+73955 Smilovice
+73959 Střítež
+73959 Vělopolí
+73961 Třinec
+73961 Ropice
+73981 Košařiska
+73981 Milíkov
+73984 Písek
+73985 Bukovec
+73991 Bocanovice
+73991 Dolní Lomná
+73991 Horní Lomná
+73991 Jablunkov
+73991 Písečná
+73992 Návsí
+73994 Třinec
+73994 Vendryně
+73995 Bystřice
+73995 Nýdek
+73995 Vendryně
+73997 Hrádek
+73998 Hrčava
+73998 Mosty u Jablunkova
+74101 Bernartice nad Odrou
+74101 Jeseník nad Odrou
+74101 Nový Jičín
+74101 Starý Jičín
+74101 Hostašovice
+74201 Suchdol nad Odrou
+74213 Studénka
+74213 Bartošovice
+74221 Kopřivnice
+74221 Závišice
+74231 Starý Jičín
+74233 Jeseník nad Odrou
+74235 Odry
+74235 Vražné
+74235 Luboměř
+74235 Heřmanice u Oder
+74235 Heřmánky
+74235 Mankovice
+74236 Jakubčovice nad Odrou
+74236 Odry
+74237 Spálov
+74242 Šenov u Nového Jičína
+74243 Pustějov
+74245 Fulnek
+74245 Kujavy
+74245 Vrchy
+74247 Hladké Životice
+74251 Mošnov
+74253 Kunín
+74254 Bartošovice
+74255 Albrechtičky
+74256 Sedlnice
+74257 Libhošť
+74258 Fryčovice
+74258 Příbor
+74258 Kateřinice
+74258 Hukvaldy
+74258 Skotnice
+74258 Trnávka
+74260 Petřvald
+74265 Rybí
+74266 Štramberk
+74267 Ženklava
+74271 Hodslavice
+74272 Mořkov
+74272 Životice u Nového Jičína
+74273 Veřovice
+74274 Tichá
+74275 Lichnov
+74281 Bravantice
+74282 Jistebník
+74283 Klimkovice
+74283 Olbramice
+74283 Zbyslavice
+74285 Klimkovice
+74285 Vřesina
+74291 Velké Albrechtice
+74292 Bílovec
+74293 Slatina
+74301 Bílov
+74301 Bílovec
+74301 Bítov
+74301 Slatina
+74301 Olbramice
+74301 Skřipov
+74301 Tísek
+74401 Bordovice
+74401 Frenštát pod Radhoštěm
+74401 Trojanovice
+74601 Opava
+74601 Stěbořice
+74705 Opava
+74706 Chvalíkovice
+74706 Opava
+74706 Nové Sedlice
+74707 Opava
+74711 Kozmice
+74714 Ludgeřovice
+74714 Markvartovice
+74715 Šilheřovice
+74716 Hať
+74717 Darkovice
+74718 Píšť
+74719 Bohuslavice
+74719 Závada
+74720 Vřesina
+74721 Kravaře
+74722 Dolní Benešov
+74723 Bělá
+74723 Bolatice
+74724 Chuchelná
+74724 Strahovice
+74725 Rohov
+74725 Sudice
+74725 Třebom
+74727 Kobeřice
+74728 Štěpánkovice
+74728 Opava
+74728 Služovice
+74731 Chlebičov
+74731 Velké Hoštice
+74733 Oldřišov
+74735 Hněvošice
+74741 Hradec nad Moravicí
+74741 Branka u Opavy
+74741 Skřipov
+74743 Větřkovice
+74744 Březová
+74745 Skřipov
+74747 Vítkov
+74751 Stěbořice
+74752 Bratříkovice
+74752 Hlavnice
+74753 Jakartovice
+74754 Mladecko
+74755 Jakartovice
+74755 Dolní Životice
+74755 Jezdkovice
+74755 Lhotka u Litultovic
+74755 Litultovice
+74756 Dolní Životice
+74757 Slavkov
+74761 Raduň
+74761 Vršovice
+74762 Mokré Lazce
+74763 Hrabyně
+74764 Budišovice
+74764 Čavisov
+74764 Horní Lhota
+74764 Hrabyně
+74764 Těškovice
+74764 Velká Polom
+74764 Hradec nad Moravicí
+74766 Dolní Lhota
+74767 Hrabyně
+74768 Kyjovice
+74769 Hlubočec
+74769 Pustá Polom
+74770 Opava
+74771 Brumovice
+74773 Opava
+74774 Holasovice
+74774 Neplachovice
+74775 Velké Heraltice
+74781 Otice
+74782 Štáblovice
+74784 Hradec nad Moravicí
+74784 Štáblovice
+74784 Melč
+74784 Mikolajice
+74784 Moravice
+74784 Radkov
+74784 Uhlířov
+74784 Vítkov
+74786 Kružberk
+74787 Budišov nad Budišovkou
+74787 Svatoňovice
+74791 Štítina
+74792 Háj ve Slezsku
+74794 Děhylov
+74794 Dobroslavice
+74795 Opava
+74801 Hlučín
+74901 Čermná ve Slezsku
+74901 Staré Těchanovice
+74901 Vítkov
+74901 Nové Lublice
+74901 Větřkovice
+75002 Beňov
+75002 Bochoř
+75002 Přerov
+75002 Dobrčice
+75002 Přestavlky
+75002 Stará Ves
+75101 Tovačov
+75101 Lobodice
+75101 Oplocany
+75102 Troubky
+75103 Brodek u Přerova
+75103 Císařov
+75103 Citov
+75103 Čelechovice
+75103 Majetín
+75103 Nelešovice
+75104 Rokytnice
+75105 Kokory
+75111 Hradčany
+75111 Oldřichov
+75111 Pavlovice u Přerova
+75111 Radslavice
+75111 Sušice
+75111 Šišma
+75114 Dřevohostice
+75114 Křtomil
+75114 Lipová
+75114 Nahošovice
+75114 Radkova Lhota
+75114 Radkovy
+75114 Turovice
+75115 Čechy
+75115 Domaželice
+75115 Líšná
+75115 Beňov
+75116 Podolí
+75116 Tučín
+75116 Želatovice
+75117 Horní Moštěnice
+75118 Říkovice
+75119 Vlkoš
+75119 Věžky
+75121 Buk
+75121 Grymov
+75121 Prosenice
+75121 Radvanice
+75121 Sobíšky
+75122 Osek nad Bečvou
+75123 Dolní Újezd
+75124 Přerov
+75124 Lhotka
+75125 Lazníčky
+75125 Lazníky
+75125 Dolní Újezd
+75125 Veselíčko
+75125 Výkleky
+75127 Přerov
+75127 Zábeštní Lhota
+75131 Bohuslávky
+75131 Hlinsko
+75131 Jezernice
+75131 Kladníky
+75131 Lhota
+75131 Lipník nad Bečvou
+75131 Kozlov
+75131 Týn nad Bečvou
+75144 Polkovice
+75201 Kojetín
+75201 Křenovice
+75201 Měrovice nad Hanou
+75201 Stříbrnice
+75201 Uhřičice
+75301 Olšovec
+75301 Hrabůvka
+75301 Hranice
+75301 Jindřichov
+75301 Partutovice
+75301 Radíkov
+75301 Teplice nad Bečvou
+75301 Ústí
+75301 Zámrsky
+75352 Skalička
+75353 Býškovice
+75353 Dolní Těšice
+75353 Horní Těšice
+75353 Horní Újezd
+75353 Malhotice
+75353 Provodovice
+75353 Rouské
+75353 Všechovice
+75354 Bezuchov
+75354 Dolní Nětčice
+75354 Horní Nětčice
+75354 Hranice
+75354 Oprostovice
+75354 Radotín
+75354 Rakov
+75354 Soběchleby
+75354 Žákovice
+75355 Paršovice
+75356 Opatovice
+75361 Hranice
+75361 Klokočí
+75361 Milenov
+75362 Potštát
+75362 Luboměř pod Strážnou
+75363 Střítež nad Ludinou
+75364 Bělotín
+75364 Polom
+75366 Hustopeče nad Bečvou
+75366 Špičky
+75367 Milotice nad Bečvou
+75368 Černotín
+75501 Vsetín
+75501 Janová
+75501 Lhota u Vsetína
+75501 Ústí
+75601 Hovězí
+75602 Huslenky
+75603 Halenkov
+75603 Huslenky
+75604 Nový Hrozenkov
+75605 Karolinka
+75606 Velké Karlovice
+75607 Zděchov
+75611 Leskovec
+75611 Lužná
+75611 Pozděchov
+75611 Prlov
+75611 Seninka
+75611 Valašská Polanka
+75612 Horní Lideč
+75612 Lačnov
+75612 Lidečko
+75612 Francova Lhota
+75612 Střelná
+75612 Študlov
+75612 Valašské Příkazy
+75614 Francova Lhota
+75614 Valašská Senice
+75621 Kateřinice
+75621 Ratiboř
+75622 Hošťálková
+75623 Jablůnka
+75623 Pržno
+75624 Bystřička
+75624 Jarcová
+75624 Mikulůvka
+75624 Oznice
+75625 Růžďka
+75627 Malá Bystřice
+75627 Valašská Bystřice
+75627 Velká Lhota
+75631 Liptál
+75641 Lešná
+75642 Choryně
+75642 Valašské Meziříčí
+75643 Kelč
+75643 Kladeruby
+75644 Kunovice
+75644 Loučka
+75644 Podolí
+75644 Police
+75645 Branky
+75651 Zašová
+75652 Střítež nad Bečvou
+75653 Vidče
+75654 Zašová
+75654 Zubří
+75655 Dolní Bečva
+75656 Prostřední Bečva
+75657 Horní Bečva
+75661 Dolní Bečva
+75661 Rožnov pod Radhoštěm
+75661 Vigantice
+75662 Hutisko-Solanec
+75663 Krhová
+75701 Valašské Meziříčí
+75701 Jarcová
+75701 Lešná
+75701 Velká Lhota
+75701 Mikulůvka
+75701 Poličná
+75701 Růžďka
+76001 Březnice
+76001 Březůvky
+76001 Doubravy
+76001 Zlín
+76001 Provodov
+76001 Racková
+76001 Velký Ořechov
+76005 Zlín
+76301 Hostišová
+76301 Machová
+76301 Mysločovice
+76301 Sazovice
+76302 Zlín
+76302 Karlovice
+76302 Lhota
+76302 Tečovice
+76307 Dobrkovice
+76307 Hřivínův Újezd
+76307 Kelníky
+76307 Velký Ořechov
+76310 Hvozdná
+76311 Zlín
+76311 Lípa
+76311 Ostrata
+76311 Želechovice nad Dřevnicí
+76312 Bratřejov
+76312 Vizovice
+76312 Jasenná
+76312 Lhotsko
+76312 Lutonina
+76312 Zádveřice-Raková
+76312 Ublo
+76313 Jasenná
+76313 Lutonina
+76314 Zlín
+76315 Březová
+76315 Dešná
+76315 Hrobice
+76315 Neubuz
+76315 Slušovice
+76315 Veselá
+76315 Všemina
+76316 Fryšták
+76316 Lukoveček
+76317 Lukov
+76318 Podkopná Lhota
+76318 Trnava
+76319 Držková
+76319 Kašava
+76319 Vlčková
+76321 Bohuslavice nad Vláří
+76321 Slavičín
+76321 Rokytnice
+76321 Lipová
+76321 Petrůvka
+76321 Rudimov
+76321 Šanov
+76323 Dolní Lhota
+76323 Horní Lhota
+76323 Sehradice
+76323 Slopné
+76324 Haluzice
+76324 Vlachovice
+76325 Drnovice
+76325 Loučka
+76325 Újezd
+76325 Vysoké Pole
+76326 Dolní Lhota
+76326 Luhačovice
+76326 Podhradí
+76326 Pozlovice
+76331 Brumov-Bylnice
+76332 Návojná
+76332 Nedašov
+76332 Nedašova Lhota
+76333 Jestřabí
+76333 Štítná nad Vláří-Popov
+76334 Brumov-Bylnice
+76341 Biskupice
+76341 Kaňovice
+76341 Ludkovice
+76341 Luhačovice
+76345 Březůvky
+76345 Doubravy
+76345 Provodov
+76351 Bohuslavice u Zlína
+76351 Zlín
+76351 Šarovy
+76361 Komárov
+76361 Napajedla
+76361 Oldřichovice
+76361 Pohořelice
+76361 Spytihněv
+76361 Žlutava
+76362 Tlumačov
+76363 Halenkovice
+76364 Spytihněv
+76502 Otrokovice
+76601 Křekov
+76601 Valašské Klobouky
+76601 Poteč
+76601 Tichov
+76601 Vlachova Lhota
+76701 Bařice-Velké Těšany
+76701 Bezměrov
+76701 Kroměříž
+76701 Kostelany
+76701 Lubná
+76701 Lutopecny
+76701 Skaštice
+76701 Šelešovice
+76801 Jarohněvice
+76802 Cetechovice
+76802 Zdounky
+76802 Zborovice
+76802 Soběsuky
+76802 Šelešovice
+76802 Troubky-Zdislavice
+76803 Roštín
+76804 Střílky
+76805 Koryčany
+76805 Chvalnov-Lísky
+76805 Střílky
+76805 Zástřizly
+76811 Chropyně
+76811 Kyselovice
+76811 Záříčí
+76812 Rataje
+76813 Honětice
+76813 Hoštice
+76813 Kunkovice
+76813 Litenčice
+76813 Nítkovice
+76821 Bělov
+76821 Karolín
+76821 Kvasice
+76821 Nová Dědina
+76821 Střížovice
+76821 Sulimov
+76821 Vrbka
+76823 Břest
+76823 Žalkovice
+76824 Hulín
+76824 Pravčice
+76831 Zlobice
+76832 Zborovice
+76833 Dřínov
+76833 Morkovice-Slížany
+76833 Počenice-Tetětice
+76833 Pačlavice
+76833 Prasklice
+76833 Uhřice
+76833 Věžky
+76834 Pačlavice
+76841 Bystřice pod Hostýnem
+76841 Lukoveček
+76841 Rusava
+76842 Prusinovice
+76843 Kostelec u Holešova
+76843 Němčice
+76843 Pacetluky
+76843 Roštění
+76852 Kurovice
+76852 Lechotice
+76852 Ludslavice
+76852 Míškovice
+76861 Bystřice pod Hostýnem
+76861 Blazice
+76861 Brusné
+76861 Chomýž
+76861 Loukov
+76861 Lukoveček
+76861 Mrlínek
+76861 Osíčko
+76861 Slavkov pod Hostýnem
+76861 Vítonice
+76871 Komárno
+76871 Podhradní Lhota
+76871 Rajnochovice
+76872 Chvalčov
+76875 Loukov
+76901 Bořenovice
+76901 Holešov
+76901 Horní Lapač
+76901 Jankovice
+76901 Martinice
+76901 Přílepy
+76901 Roštění
+76901 Rymice
+76901 Třebětice
+76901 Zahnašovice
+76901 Žeranovice
+77900 Olomouc
+77900 Bukovany
+77900 Bystročice
+77900 Bystrovany
+77900 Daskabát
+77900 Krčmaň
+77900 Samotišky
+78301 Olomouc
+78305 Horní Loděnice
+78306 Domašov nad Bystřicí
+78306 Hraničné Petrovice
+78307 Město Libavá
+78307 Libavá
+78313 Štěpánov
+78313 Liboš
+78314 Bohuňovice
+78314 Hlušovice
+78314 Štarnov
+78316 Bělkovice-Lašťany
+78316 Dolany
+78316 Jívová
+78316 Tovéř
+78321 Bílá Lhota
+78321 Haňovice
+78321 Litovel
+78321 Mladeč
+78322 Bílsko
+78322 Senice na Hané
+78322 Dubčany
+78322 Cholina
+78322 Loučka
+78322 Olbramice
+78322 Vilémov
+78324 Luká
+78324 Bílá Lhota
+78324 Měrotín
+78324 Litovel
+78324 Slavětín
+78325 Bouzov
+78332 Náklo
+78332 Střeň
+78333 Příkazy
+78335 Horka nad Moravou
+78335 Olomouc
+78335 Skrbeň
+78336 Křelov-Břuchotín
+78342 Slatinice
+78342 Slatinky
+78342 Lutín
+78344 Drahanovice
+78344 Loučany
+78344 Náměšť na Hané
+78345 Senice na Hané
+78345 Senička
+78346 Luběnice
+78346 Těšetice
+78346 Ústín
+78347 Hněvotín
+78349 Lutín
+78353 Velká Bystřice
+78354 Přáslavice
+78354 Svésedlice
+78355 Velký Újezd
+78356 Doloplazy
+78356 Přáslavice
+78357 Tršice
+78357 Kozlov
+78357 Suchonice
+78361 Hlubočky
+78365 Hlubočky
+78365 Mrsklesy
+78372 Velký Týnec
+78373 Grygov
+78375 Blatec
+78375 Dub nad Moravou
+78375 Charváty
+78375 Kožušany-Tážaly
+78375 Věrovany
+78383 Troubelice
+78383 Lipinka
+78383 Medlov
+78383 Nová Hradečná
+78385 Šumvald
+78386 Dlouhá Loučka
+78386 Paseka
+78386 Jiříkov
+78391 Uničov
+78391 Medlov
+78391 Želechovice
+78396 Újezd
+78397 Paseka
+78401 Litovel
+78401 Červenka
+78401 Mladeč
+78401 Pňovice
+78401 Strukov
+78401 Žerotín
+78501 Babice
+78501 Šternberk
+78501 Domašov u Šternberka
+78501 Hlásnice
+78501 Hnojice
+78501 Komárov
+78501 Lipina
+78501 Lužice
+78501 Mladějovice
+78501 Štěpánov
+78501 Mutkov
+78501 Řídeč
+78701 Bratrušov
+78701 Rapotín
+78701 Rejchartice
+78701 Šumperk
+78801 Oskava
+78803 Nový Malín
+78804 Hrabišín
+78805 Libina
+78811 Loučná nad Desnou
+78813 Rapotín
+78813 Vikýřovice
+78814 Petrov nad Desnou
+78814 Rapotín
+78815 Velké Losiny
+78815 Hraběšice
+78815 Vernířovice
+78816 Sobotín
+78816 Petrov nad Desnou
+78820 Dolní Studénky
+78821 Kolšov
+78821 Sudkov
+78823 Jindřichov
+78825 Branná
+78825 Ostružná
+78825 Šléglov
+78825 Vikantice
+78832 Staré Město
+78832 Hanušovice
+78833 Hanušovice
+78833 Králíky
+78833 Kopřivná
+78833 Malá Morava
+78901 Dlouhomilov
+78901 Štíty
+78901 Hynčina
+78901 Zábřeh
+78901 Drozdov
+78901 Horní Studénky
+78901 Hoštejn
+78901 Hrabová
+78901 Chromeč
+78901 Maletín
+78901 Jedlí
+78901 Jestřebí
+78901 Kosov
+78901 Krchleby
+78901 Lesnice
+78901 Lukavice
+78901 Nemile
+78901 Mírov
+78901 Postřelmůvek
+78901 Rájec
+78901 Rovensko
+78901 Svébohov
+78901 Vyšehoří
+78901 Zborov
+78901 Zvole
+78961 Bludov
+78962 Bohutín
+78962 Bušín
+78962 Olšany
+78963 Ruda nad Moravou
+78964 Bohdíkov
+78969 Postřelmov
+78971 Leština
+78972 Bohuslavice
+78972 Dubicko
+78973 Úsov
+78973 Klopina
+78973 Police
+78973 Stavenice
+78973 Třeština
+78974 Rohle
+78974 Kamenná
+78974 Libina
+78975 Brníčko
+78982 Moravičany
+78983 Loštice
+78983 Palonín
+78985 Mohelnice
+78985 Líšnice
+78985 Pavlov
+78991 Štíty
+78991 Písařov
+78991 Jakubovice
+78991 Janoušov
+79001 Bělá pod Pradědem
+79001 Jeseník
+79051 Supíkovice
+79052 Velké Kunětice
+79053 Stará Červená Voda
+79054 Černá Voda
+79055 Vidnava
+79057 Bernartice
+79058 Velká Kraš
+79061 Lipová-lázně
+79063 Lipová-lázně
+79064 Vápenná
+79065 Vlčice
+79065 Uhelná
+79065 Kobylá nad Vidnavkou
+79065 Skorošice
+79065 Žulová
+79069 Bílá Voda
+79070 Javorník
+79070 Uhelná
+79081 Česká Ves
+79082 Písečná
+79084 Hradec-Nová Ves
+79084 Mikulovice
+79201 Bruntál
+79201 Dlouhá Stráň
+79201 Václavov u Bruntálu
+79201 Mezina
+79201 Milotice nad Opavou
+79201 Moravskoslezský Kočov
+79201 Nová Pláň
+79201 Staré Město
+79201 Nové Heřminovy
+79201 Oborná
+79201 Široká Niva
+79201 Razová
+79201 Roudno
+79201 Lomnice
+79201 Valšov
+79302 Lomnice
+79303 Dětřichov nad Bystřicí
+79305 Moravský Beroun
+79305 Dětřichov nad Bystřicí
+79305 Norberčany
+79312 Horní Benešov
+79312 Horní Životice
+79312 Sosnová
+79312 Staré Heřminovy
+79312 Svobodné Heřmanice
+79315 Lichnov
+79316 Čaková
+79316 Zátor
+79323 Karlovice
+79324 Karlova Studánka
+79326 Vrbno pod Pradědem
+79326 Krasov
+79326 Ludvíkov
+79326 Karlovice
+79331 Andělská Hora
+79331 Světlá Hora
+79331 Rudná pod Pradědem
+79336 Malá Morávka
+79342 Rýmařov
+79344 Horní Město
+79344 Tvrdkov
+79351 Břidličná
+79351 Huzová
+79351 Jiříkov
+79351 Rýmařov
+79351 Velká Štáhle
+79356 Ryžoviště
+79368 Bílčice
+79368 Dvorce
+79368 Křišťanovice
+79368 Leskovec nad Moravicí
+79371 Holčovice
+79374 Heřmanovice
+79376 Zlaté Hory
+79382 Třemešná
+79383 Jindřichov
+79384 Janov
+79384 Petrovice
+79391 Úvalno
+79393 Brantice
+79395 Město Albrechtice
+79397 Slezské Rudoltice
+79397 Rusín
+79397 Bohušov
+79399 Vysoká
+79399 Bohušov
+79399 Liptaň
+79399 Dívčí Hrad
+79399 Hlinka
+79399 Osoblaha
+79399 Slezské Pavlovice
+79401 Býkov-Láryšov
+79401 Lichnov
+79401 Hošťálkovy
+79401 Krnov
+79401 Krasov
+79401 Brantice
+79501 Dolní Moravice
+79501 Rýmařov
+79501 Malá Štáhle
+79501 Stará Ves
+79601 Prostějov
+79603 Prostějov
+79604 Prostějov
+79607 Držovice
+79802 Mostkovice
+79803 Plumlov
+79803 Ptení
+79803 Krumsín
+79803 Ohrozim
+79803 Malé Hradisko
+79803 Prostějovičky
+79803 Stínava
+79803 Vícov
+79804 Alojzov
+79804 Dětkovice
+79804 Myslejovice
+79804 Seloutky
+79804 Určice
+79804 Vincencov
+79805 Myslejovice
+79806 Otaslavice
+79807 Brodek u Prostějova
+79807 Dobrochov
+79807 Hradčany-Kobeřice
+79807 Ondratice
+79807 Želeč
+79808 Vranovice-Kelčice
+79809 Vřesovice
+79809 Výšovice
+79811 Prostějov
+79812 Biskupice
+79812 Vrbátky
+79812 Hrdibořice
+79812 Kralice na Hané
+79813 Vrbátky
+79814 Olšany u Prostějova
+79816 Čelechovice na Hané
+79817 Smržice
+79821 Bedihošť
+79821 Čehovice
+79821 Hrubčice
+79821 Klopotovice
+79823 Čelčice
+79823 Ivaň
+79823 Klenovice na Hané
+79823 Obědkovice
+79823 Tvorovice
+79824 Pivín
+79824 Skalka
+79825 Dobromilice
+79826 Doloplazy
+79826 Dřevnovice
+79826 Nezamyslice
+79826 Víceměřice
+79827 Vrchoslavice
+79827 Hruška
+79827 Němčice nad Hanou
+79827 Srbce
+79827 Pavlovice u Kojetína
+79827 Vitčice
+79828 Mořice
+79829 Koválovice-Osíčany
+79829 Tištín
+79830 Pavlovice u Kojetína
+79841 Bílovice-Lutotín
+79841 Hluchov
+79841 Čelechovice na Hané
+79841 Kostelec na Hané
+79841 Stařechovice
+79842 Lešany
+79843 Ptení
+79843 Stražisko
+79843 Zdětín
+79844 Stražisko
+79845 Lipová
+79845 Suchdol
+79845 Brodek u Konice
+79846 Brodek u Konice
+79847 Horní Štěpánov
+79848 Buková
+79848 Protivanov
+79849 Malé Hradisko
+79851 Přemyslovice
+79852 Březsko
+79852 Budětsko
+79852 Konice
+79852 Šubířov
+79852 Kladky
+79852 Hvozd
+79852 Ochoz
+79852 Ludmírov
+79852 Skřípov
+79852 Přemyslovice
+79853 Dzbel
+79853 Jesenec
+79854 Kladky
+79855 Ludmírov
+79855 Hačky
+79855 Hvozd
+79855 Polomí
+79856 Bohuslavice
+79857 Laškov
+79857 Pěnčín
+79857 Raková u Konice
+79857 Rakůvka
+79858 Čechy pod Kosířem
+79861 Rozstání
+79861 Bousín
+79861 Drahany
+79861 Niva
+79861 Otinoves
+79862 Rozstání

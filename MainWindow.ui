@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Závozy</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <spacer name="horizontalSpacer_8">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QGroupBox" name="sekcePacient">
+        <property name="title">
+         <string>Pacient:</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QWidget" name="subsekcePacientFormular" native="true">
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <widget class="QLabel" name="stalyPopisekPrijmeni">
+              <property name="text">
+               <string>Příjmení:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="vstupPrijmeni">
+              <property name="toolTip">
+               <string>Příjmení</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="stalyPopisekAdresa">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Doručovací adresa:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="stalyPopisekJmeno">
+              <property name="text">
+               <string>Jméno:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QPushButton" name="tlacitkoVyhledat">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Vyhledat</string>
+              </property>
+              <property name="default">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="stalyPopisekTelefony">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Telefon(y):</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLineEdit" name="vstupJmeno">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="toolTip">
+               <string>Jméno</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1" colspan="4">
+             <widget class="QLabel" name="popisekAdresa">
+              <property name="styleSheet">
+               <string notr="true">font-weight: bold;</string>
+              </property>
+              <property name="lineWidth">
+               <number>1</number>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="textFormat">
+               <enum>Qt::AutoText</enum>
+              </property>
+              <property name="wordWrap">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1" colspan="4">
+             <widget class="QLabel" name="popisekTelefony">
+              <property name="styleSheet">
+               <string notr="true">font-weight: bold;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1" colspan="4">
+             <widget class="QLineEdit" name="vstupPoznamka">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="placeholderText">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QCheckBox" name="volbaPoznamka">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Vytisknout poznámku:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="popisekPacientUpozorneni">
+           <property name="styleSheet">
+            <string notr="true">color: red;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="subsekcePacientTlacitka" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="tlacitkoZrusitVolbuPacienta">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Zrušit volbu pacienta</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="tlacitkoUpravitZvolenehoPacienta">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Upravit zvoleného pacienta</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="sekcePomucky">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="title">
+         <string>Pomůcky:</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QScrollArea" name="rolovatelnaOblastSeznamPomucek">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>654</width>
+              <height>68</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="subsekcePomuckyNovaPolozka" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="stalyPopisekNovaPolozka">
+              <property name="text">
+               <string>Nová položka:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="vstupNovaPolozka">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>64</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>kód VZP</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="tlacitkoPridatPolozku">
+              <property name="minimumSize">
+               <size>
+                <width>100</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Přidat položku</string>
+              </property>
+              <property name="autoDefault">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="popisekPomuckyUpozorneni">
+           <property name="styleSheet">
+            <string notr="true">color: red;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="subsekcePomuckyVytvoritPruvodku" native="true">
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0">
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="6">
+             <spacer name="horizontalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="stalyPopisekDatumZavozu">
+              <property name="text">
+               <string>Datum závozu:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QDateEdit" name="vstupDatumZavozu">
+              <property name="displayFormat">
+               <string>d.M.yyyy</string>
+              </property>
+              <property name="calendarPopup">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="stalyPopisekPocetKopii">
+              <property name="text">
+               <string>Vytisknout kopií:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="5">
+             <widget class="QPushButton" name="tlacitkoVytvoritPruvodku">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="toolTip">
+               <string>Vytvořit průvodku a uložit (Ctrl+Enter)</string>
+              </property>
+              <property name="text">
+               <string>Vytvořit průvodku a uložit</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QSpinBox" name="vstupPocetKopii">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="sekcePruvodky" native="true">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="stalyPopisekPocetPruvodek">
+           <property name="text">
+            <string>Počet nevytištěných průvodek:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="popisekPocetPruvodek">
+           <property name="minimumSize">
+            <size>
+             <width>20</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="tlacitkoVytisknoutPruvodky">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="toolTip">
+            <string>Vytisknout průvodky (Ctrl+P)</string>
+           </property>
+           <property name="text">
+            <string>Vytisknout průvodky</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="popisekVerzeCiselniku">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: grey;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_9">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuUzivatel">
+    <property name="title">
+     <string>Uživatel</string>
+    </property>
+    <addaction name="actionPrihlasit"/>
+    <addaction name="actionZmenitHeslo"/>
+    <addaction name="separator"/>
+    <addaction name="actionPridatUzivatele"/>
+    <addaction name="actionUpravitSmazatUzivatele"/>
+    <addaction name="separator"/>
+    <addaction name="actionOdhlasit"/>
+    <addaction name="actionUkoncitAplikaci"/>
+   </widget>
+   <widget class="QMenu" name="menuPacient">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Pacient</string>
+    </property>
+    <addaction name="actionNovyPacient"/>
+    <addaction name="actionUpravitPacienta"/>
+    <addaction name="separator"/>
+    <addaction name="actionUpravitAktualnihoPacienta"/>
+    <addaction name="actionZrusitVolbuPacienta"/>
+    <addaction name="separator"/>
+    <addaction name="actionZobrazitSeznamVsechPacientu"/>
+   </widget>
+   <widget class="QMenu" name="menuTisk">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Tisk</string>
+    </property>
+    <addaction name="actionVytisknoutNevytistenePruvodky"/>
+    <addaction name="actionZobrazitPrehledNevytistenychPruvodek"/>
+    <addaction name="separator"/>
+    <addaction name="actionOpetovneZaraditPruvodkyDoTiskoveFronty"/>
+   </widget>
+   <widget class="QMenu" name="menuPrehledy">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Přehledy</string>
+    </property>
+    <addaction name="actionPrehledZavozuProPacienta"/>
+    <addaction name="actionPrehledZavozuProAktualnihoPacienta"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrehledZavozuVychystanychUzivatelem"/>
+    <addaction name="actionPrehledZavozuJednotlivePomucky"/>
+    <addaction name="actionPrehledVsechZavozuZaObdobi"/>
+   </widget>
+   <widget class="QMenu" name="menuUdrzba">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Údržba</string>
+    </property>
+    <addaction name="actionOtevritWebstrankuSCiselnikyPomucek"/>
+    <addaction name="actionAktualizovatCiselnikPomucekZeSouboru"/>
+    <addaction name="separator"/>
+    <addaction name="actionSpustitOkamzitouZalohuDatabaze"/>
+    <addaction name="actionObnovitDatabaziZeZalohy"/>
+   </widget>
+   <widget class="QMenu" name="menuNapoveda">
+    <property name="title">
+     <string>Nápověda</string>
+    </property>
+    <addaction name="actionUzivatelskaPrirucka"/>
+    <addaction name="actionPrehledZmen"/>
+    <addaction name="actionOAplikaci"/>
+   </widget>
+   <addaction name="menuUzivatel"/>
+   <addaction name="menuPacient"/>
+   <addaction name="menuTisk"/>
+   <addaction name="menuPrehledy"/>
+   <addaction name="menuUdrzba"/>
+   <addaction name="menuNapoveda"/>
+  </widget>
+  <action name="actionPrihlasit">
+   <property name="text">
+    <string>Přihlásit…</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+P</string>
+   </property>
+  </action>
+  <action name="actionZmenitHeslo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Změnit heslo…</string>
+   </property>
+  </action>
+  <action name="actionPridatUzivatele">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Přidat uživatele…</string>
+   </property>
+  </action>
+  <action name="actionUpravitSmazatUzivatele">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Upravit/smazat uživatele…</string>
+   </property>
+  </action>
+  <action name="actionOdhlasit">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Odhlásit</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+O</string>
+   </property>
+  </action>
+  <action name="actionUkoncitAplikaci">
+   <property name="text">
+    <string>Ukončit aplikaci</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+U</string>
+   </property>
+  </action>
+  <action name="actionNovyPacient">
+   <property name="text">
+    <string>Nový pacient…</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="actionUpravitPacienta">
+   <property name="text">
+    <string>Upravit pacienta…</string>
+   </property>
+  </action>
+  <action name="actionUpravitAktualnihoPacienta">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Upravit aktuálního pacienta…</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="actionZrusitVolbuPacienta">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Zrušit volbu pacienta</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </action>
+  <action name="actionZobrazitSeznamVsechPacientu">
+   <property name="text">
+    <string>Zobrazit seznam všech pacientů</string>
+   </property>
+  </action>
+  <action name="actionVytisknoutNevytistenePruvodky">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Vytisknout nevytištěné průvodky…</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionZobrazitPrehledNevytistenychPruvodek">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Zobrazit přehled nevytištěných průvodek</string>
+   </property>
+  </action>
+  <action name="actionOpetovneZaraditPruvodkyDoTiskoveFronty">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Opětovně zařadit průvodky do tiskové fronty…</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+P</string>
+   </property>
+  </action>
+  <action name="actionPrehledZavozuProPacienta">
+   <property name="text">
+    <string>Přehled závozů pro pacienta</string>
+   </property>
+  </action>
+  <action name="actionPrehledZavozuProAktualnihoPacienta">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Přehled závozů pro aktuálního pacienta</string>
+   </property>
+  </action>
+  <action name="actionPrehledZavozuVychystanychUzivatelem">
+   <property name="text">
+    <string>Přehled závozů vychystaných uživatelem</string>
+   </property>
+  </action>
+  <action name="actionPrehledZavozuJednotlivePomucky">
+   <property name="text">
+    <string>Přehled závozů jednotlivé pomůcky</string>
+   </property>
+  </action>
+  <action name="actionPrehledVsechZavozuZaObdobi">
+   <property name="text">
+    <string>Přehled všech závozů za období</string>
+   </property>
+  </action>
+  <action name="actionOtevritWebstrankuSCiselnikyPomucek">
+   <property name="text">
+    <string>Otevřít webstránku s číselníky pomůcek</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+W</string>
+   </property>
+  </action>
+  <action name="actionAktualizovatCiselnikPomucekZeSouboru">
+   <property name="text">
+    <string>Aktualizovat číselník pomůcek ze souboru…</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+A</string>
+   </property>
+  </action>
+  <action name="actionSpustitOkamzitouZalohuDatabaze">
+   <property name="text">
+    <string>Spustit okamžitou zálohu databáze</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+Z</string>
+   </property>
+  </action>
+  <action name="actionObnovitDatabaziZeZalohy">
+   <property name="text">
+    <string>Obnovit databázi ze zálohy…</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+D</string>
+   </property>
+  </action>
+  <action name="actionUzivatelskaPrirucka">
+   <property name="text">
+    <string>Uživatelská příručka</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actionOAplikaci">
+   <property name="text">
+    <string>O aplikaci</string>
+   </property>
+  </action>
+  <action name="actionPrehledZmen">
+   <property name="text">
+    <string>Přehled změn</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>vstupPrijmeni</tabstop>
+  <tabstop>vstupJmeno</tabstop>
+  <tabstop>tlacitkoVyhledat</tabstop>
+  <tabstop>vstupPoznamka</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

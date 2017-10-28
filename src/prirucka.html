@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Závozy – uživatelská příručka</title>
+	<style>
+	html {
+		background-color: #B0E2FF;
+		font-family: "Georgia", serif;
+		font-size: 12pt;
+	}
+
+	body {
+		max-width: 42em;
+		margin: auto;
+		line-height: 1.5em;
+		margin-bottom: 3rem;
+		counter-reset: heading2;
+	}
+
+	h1 {
+		text-align: center;
+		margin: 0.5rem 0;
+		font-size: 2rem;
+		color: #00f;
+		text-shadow: #fff 2px -2px;
+	}
+
+	h2 {
+		margin: 0.5em 0;
+		padding: 0.25em 0;
+		font-size: 1.5rem;
+		color: #00f;
+		counter-reset: heading3;
+	}
+
+	main h2 {
+		clear: both;
+		border-top: 2px dotted #00f;
+	}
+
+	main h2::before {
+		counter-increment: heading2;
+		content: counter(heading2) ". ";
+	}
+
+	h3 {
+		margin: 0.5em 0;
+		padding: 0.25em 0;
+		text-indent: 2rem;
+		font-size: 1.25rem;
+		color: #00f;
+	}
+
+	h3::before {
+		counter-increment: heading3;
+		content: counter(heading2) "." counter(heading3) " ";
+	}
+
+	p {
+		margin: .5em 0;
+		text-align: justify;
+		text-indent: 2rem;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: none;
+		border-bottom: 1px dotted #00f;
+	}
+
+	a:hover {
+		color: #B0E2FF;
+		background-color: #00f;
+		border: none;
+	}
+
+	ul {
+		margin: 1em 0 1em 4em;
+		padding: 0;
+		text-align: justify;
+		list-style-type: disc;
+	}
+
+	dl {
+		margin: 1em 0 1em 0em;
+		text-align: justify;
+		counter-reset: definice;
+	}
+
+	dt {
+		font-weight: bold;
+		margin: .5em 0 0 0;
+	}
+
+	dt::before {
+		counter-increment: definice;
+		content: counter(definice) ". ";
+	}
+
+	dd {
+		margin: 0 0 0 2em;
+	}
+
+	a[rel=external]::after {
+		content: " ↗";
+	}
+
+	nav ol {
+		margin: 0 0 .5em;
+		padding: 0 1em;
+		list-style-type: none;
+		counter-reset: obsah;
+	}
+
+	nav ol li::before {
+		counter-increment: obsah;
+		content: counters(obsah, ".") " ";
+	}
+
+	nav > ol > li::before {
+		counter-increment: obsah;
+		content: counter(obsah) ". ";
+	}
+
+	.menu {
+		font-style: italic;
+		font-weight: bold;
+		color: #00f;
+	}
+
+	.prvek-gui {
+		quotes: "\201E" "\201C";
+		font-style: italic;
+		color: #00f;
+	}
+	.prvek-gui::before {
+		content: open-quote;
+	}
+	.prvek-gui::after {
+		content: close-quote;
+	}
+
+	.adresar {
+		font-family: monospace;
+		font-size: smaller;
+		color: #00f;
+	}
+	.adresar::before {
+		content: "[";
+	}
+	.adresar::after {
+		content: "]";
+	}
+
+	.soubor {
+		font-family: monospace;
+		font-size: smaller;
+		color: #00f;
+	}
+
+	kbd {
+		background-color:#f7f7f7;
+		border:1px solid #ccc;
+		border-radius:3px;
+		box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+		color:#333;
+		display:inline-block;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:11px;
+		line-height:1.4;
+		margin:0 .1em;
+		padding:.1em .5em;
+		text-shadow:0 1px 0 #fff;
+		text-indent: 0;
+	}
+
+	footer {
+		padding: 1em 0;
+		text-align: center;
+		border-top: 2px dotted #00f;
+		border-bottom: 2px dotted #00f;
+		color: #00f;
+	}
+
+	#logo {
+		float: right;
+		display: block;
+	}
+
+	#zpet-na-obsah {
+		box-sizing: border-box;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		width: 8rem;
+		height: 3rem;
+		padding: .5rem;
+		text-align: right;
+		background-color: transparent;
+		transition: all 500ms ease-out;
+	}
+
+	@media (max-width: 57rem) {
+		#logo {
+			float: none;
+			margin: auto;
+		}
+		#zpet-na-obsah {
+			background-color: #B0E2FF;
+			width: 100%;
+		}
+	}
+	</style>
+</head>
+<body>
+	<h1>Závozy v1.2 – uživatelská příručka</h1>
+
+	<nav>
+		<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" version="1.1" id="logo">
+			<g transform="translate(0 -796.362)" stroke-miterlimit="4">
+				<ellipse cx="-212.132" cy="971.55" rx="21.213" ry="6.061" opacity="1" fill="none" fill-opacity="1" stroke="none" stroke-width="10.34" stroke-dashoffset="0" stroke-opacity=".996"/>
+				<g transform="translate(-6.532 -7788.518) scale(8.40826)">
+					<path d="M11.822 1029.417c-1.304 0-4.595 4.464-6.758 6.328-.786.678-2.507.546-3.011.799-1.49.748-.492 4.976-.492 4.976h2.537a2.966 2.966 0 0 1-.004-.091 2.966 2.966 0 0 1 2.967-2.965 2.966 2.966 0 0 1 2.966 2.965 2.966 2.966 0 0 1-.004.091h11.678a2.966 2.966 0 0 1-.002-.091 2.966 2.966 0 0 1 2.965-2.965 2.966 2.966 0 0 1 2.967 2.965 2.966 2.966 0 0 1-.004.091h3.121l-.492-12.103H11.822z" fill="#fff" fill-rule="evenodd" stroke="#00f" stroke-width=".912" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
+					<circle r="2.067" cy="1041.429" cx="7.061" opacity="1" fill="#00f" fill-opacity="1" stroke="none" stroke-width="10.34" stroke-dashoffset="0" stroke-opacity=".996"/>
+					<circle cx="24.665" cy="1041.429" r="2.067" opacity="1" fill="#00f" fill-opacity="1" stroke="none" stroke-width="10.34" stroke-dashoffset="0" stroke-opacity=".996"/>
+					<path d="M17.064 1030.983l-.517 2.883h-2.883l-.574 3.205h2.883l-.516 2.883h3.205l.516-2.883h2.883l.574-3.205h-2.883l.517-2.883h-3.205z" opacity="1" fill="#00f" fill-opacity="1" stroke="none" stroke-width="30" stroke-dashoffset="0" stroke-opacity=".996"/>
+				</g>
+			</g>
+		</svg>
+
+		<h2 id="obsah">Obsah</h2>
+		<ol>
+			<li><a href="#aplikace">Aplikace</a>
+				<ol>
+					<li><a href="#ovladani">Ovládání</a></li>
+					<li><a href="#prihlaseni">Přihlášení</a></li>
+					<li><a href="#odhlaseni">Odhlášení</a></li>
+					<li><a href="#ukonceni-aplikace">Ukončení aplikace</a></li>
+				</ol>
+			</li>
+			<li><a href="#uzivatele">Uživatelé</a>
+				<ol>
+					<li><a href="#zalozeni-noveho-uzivatele">Založení nového uživatele</a></li>
+					<li><a href="#zmena-vlastniho-hesla">Změna vlastního hesla</a></li>
+					<li><a href="#uprava-smazani-uzivatele">Úprava/smazání uživatele</a></li>
+				</ol>
+			</li>
+			<li><a href="#pacienti">Pacienti</a>
+				<ol>
+					<li><a href="#zalozeni-noveho-pacienta">Založení nového pacienta</a></li>
+					<li><a href="#vyhledani-pacienta-v-databazi">Vyhledání pacienta v&nbsp;databázi</a></li>
+					<li><a href="#uprava-stavajiciho-pacienta">Úprava stávajícího pacienta</a></li>
+					<li><a href="#zruseni-aktualniho-pacienta">Zrušení aktuálního pacienta</a></li>
+					<li><a href="#seznam-vsech-pacientu">Seznam všech pacientů</a></li>
+				</ol>
+			</li>
+			<li><a href="#zavozy">Závozy</a>
+				<ol>
+					<li><a href="#typy-polozek">Typy položek</a></li>
+					<li><a href="#seznam-polozek">Seznam položek</a></li>
+					<li><a href="#nova-pomucka">Nová pomůcka</a></li>
+					<li><a href="#nova-nepomucka">Nová nepomůcka</a></li>
+					<li><a href="#smazani-polozky">Smazání položky</a></li>
+					<li><a href="#uzavreni-zavozu">Uzavření závozu</a></li>
+				</ol>
+			</li>
+			<li><a href="#pruvodky">Průvodky</a>
+				<ol>
+					<li><a href="#zalozeni-pruvodky">Založení průvodky</a></li>
+					<li><a href="#nevytistene-pruvodky">Nevytištěné průvodky</a></li>
+					<li><a href="#tisk-pruvodek">Tisk průvodek</a></li>
+					<li><a href="#vytistene-pruvodky">Vytištěné průvodky</a></li>
+				</ol>
+			</li>
+			<li><a href="#prehledy">Přehledy</a>
+				<ol>
+					<li><a href="#prehled-zavozu-pro-pacienta">Přehled závozů pro pacienta</a></li>
+					<li><a href="#prehled-zavozu-pro-aktualniho-pacienta">Přehled závozů pro aktuálního pacienta</a></li>
+					<li><a href="#prehled-zavozu-vychystanych-uzivatelem">Přehled závozů vychystaných uživatelem</a></li>
+					<li><a href="#prehled-zavozu-jednotlive-pomucky">Přehled závozů jednotlivé pomůcky</a></li>
+					<li><a href="#prehled-vsech-zavozu-za-obdobi">Přehled všech závozů za období</a></li>
+				</ol>
+			</li>
+			<li><a href="#ciselnik-pomucek">Číselník pomůcek</a>
+				<ol>
+					<li><a href="#stazeni-souboru-s-ciselnikem">Stažení souboru s&nbsp;číselníkem</a></li>
+					<li><a href="#aktualizace-ciselniku">Aktualizace číselníku</a></li>
+				</ol>
+			</li>
+			<li><a href="#databaze">Databáze</a>
+				<ol>
+					<li><a href="#rucni-zaloha-databaze">Ruční záloha databáze</a></li>
+					<li><a href="#obnova-databaze-ze-zalohy">Obnova databáze ze zálohy</a></li>
+				</ol>
+			</li>
+		</ol>
+	</nav>
+
+	<main>
+		<h2 id="aplikace">Aplikace</h2>
+		<p>Aplikace <i>Závozy</i> má za cíl umožnit dlouhodobě evidovat v&nbsp;<a href="#databaze">databázi</a> záznamy o&nbsp;závozech zdravotnického materiálu pacientům a&nbsp;zároveň rychle a&nbsp;pohodlně vystavovat <a href="#pruvodky">průvodky</a> k&nbsp;jednotlivým závozům. Aby bylo zaručeno, že každé vytištěné průvodce reálně odpovídá provedený (nebo připravovaný) závoz zdravotnického materiálu, provádí aplikace <i>Závozy</i> uložení záznamu o&nbsp;závozu do databáze v&nbsp;jednom kroku s&nbsp;vystavením žádanky k&nbsp;tisku.</p>
+
+		<h3 id="ovladani">Ovládání</h3>
+		<p>Hlavní činnosti (vystavování průvodek a&nbsp;ukládání záznamů o&nbsp;závozech do databáze) probíhají v&nbsp;<b>hlavním okně</b> aplikace. Hlavní okno obsahuje dva <b>formuláře</b> (<span class="prvek-gui">Pacient</span> a&nbsp;<span class="prvek-gui">Pomůcky</span>) a&nbsp;dvě <b>informační oblasti</b> (<span class="prvek-gui">Nevytištěné průvodky</span> a&nbsp;<span class="prvek-gui">Verze číselníku</span>). Pomocné činnosti (přihlašování/zakládání/úprava uživatelů, zakládání/úprava pacientů, zobrazování různých přehledů, opětovný tisk průvodek) probíhají ve speciálních <b>pomocních oknech (dialozích)</b>.</p>
+
+		<p>Aplikaci lze ovládat pomocí myši prostřednictvím <b>hlavního menu</b> v&nbsp;záhlaví hlavního okna nebo pomocí <b>tlačítek</b> přímo v&nbsp;těle hlavního okna nebo dialogů. Některé akce lze vyvolat i&nbsp;pomocí přidělených <b>klavesových zkratek</b>. Klávesové zkratky se snaží respektovat konvence prostředí operačního systému Windows a&nbsp;programu Farmis. Klávesové zkratky jsou uvedené u&nbsp;názvu akce v&nbsp;menu nebo v&nbsp;pomocné bublině tlačítka.</p>
+
+		<h3 id="prihlaseni">Přihlášení</h3>
+		<p>Použití aplikace a&nbsp;tím i&nbsp;přístup k&nbsp;databázi pacientů a&nbsp;závozů je z&nbsp;bezpečnostních důvodů umožněno pouze přihlášeným uživatelům. Přihlášení probíhá prostřednictvím dialogu <span class="gui-dialog">Přihlášení</span> zadáním uživatelského jména a&nbsp;hesla. Pokud uživatel zadá neplatnou kombinaci jména a&nbsp;hesla, je upozorněn na chybu a&nbsp;přihlášení neproběhne.</p>
+
+		<p>Dialog <span class="gui-dialog">Přihlášení</span> se objeví automaticky při spuštění aplikace nebo po <a href="#odhlaseni">odhlášení uživatele</a> za běhu aplikace. Po zavření lze přihlašovací dialog vyvolat přes hlavní menu volbou <span class="menu">Uživatel → Přihlásit…</span> nebo klávesovou zkratkou <kbd>Alt</kbd>+<kbd>P</kbd>.</p>
+
+		<h3 id="odhlaseni">Odhlášení</h3>
+		<p>Po ukončení práce s&nbsp;aplikací by se měl uživatel odhlásit, aby sa zamezilo použití aplikace neoprávněnou osobou.</p>
+
+		<p>Odhlášení proběhne automaticky při ukončení aplikace. Za běhu aplikace lze odhlášení vyvolat přes hlavní menu volbou <span class="menu">Uživatel → Odhlásit</span> či klávesovou zkratkou <kbd>Alt</kbd>+<kbd>O</kbd>.</p>
+
+		<p>Neuzavřený závoz se s&nbsp;odhlášením ztratí. Při každém pokusu o&nbsp;odhlášení s&nbsp;neuzavřeným závozem je uživatel na tuto skutečnost předem upozorněn.</p>
+
+		<h3 id="ukonceni-aplikace">Ukončení aplikace</h3>
+		<p>Aplikaci lze ukončit přes hlavní menu volbou <span class="menu">Uživatel → Ukončit aplikaci</span> nebo klávesovou zkratkou <kbd>Alt</kbd>+<kbd>U</kbd>. Lze také použít standardní medoty ukončování aplikací v&nbsp;prostředí Windows (křížek v&nbsp;titulním pruhu hlavního okna, kontextovou nabídku na hlavním panelu nebo klávesovou zkratku <kbd>Alt</kbd>+<kbd>F4</kbd>).</p>
+
+		<p>Při ukončení aplikace dojde automaticky i&nbsp;k odhlášení uživatele. Neuzavřený závoz se s&nbsp;ukončením aplikace ztratí. Při každém pokusu o&nbsp;ukončení aplikace s&nbsp;neuzavřeným závozem je uživatel na tuto skutečnost předem upozorněn.</p>
+
+		<h2 id="uzivatele">Uživatelé</h2>
+		<p>Používat aplikaci <i>Závozy</i> a&nbsp;tím přistupovat k&nbsp;databázi pacientů a&nbsp;závozů smí z&nbsp;bezpečnostních důvodů pouze registrovaní uživatelé. Aplikace rozlišuje dva typy uživatelů:</p>
+		<ul>
+			<li><b>běžné uživatele</b>, již mají právo <a href="#zalozeni-noveho-pacienta">zakládat</a>, <a href="#seznam-vsech-pacientu">prohlížet</a> nebo <a href="#uprava-stavajiciho-pacienta">upravovat</a> pacienty, <a href="#uzavreni-zavozu">ukládat závozy</a>, <a href="#tisk-pruvodek">tisknout průvodky</a>, prohlížet nebo exportovat <a href="#prehledy">přehledy</a>, <a href="#aktualizace-ciselniku">aktualizovat číselník pomůcek</a> a&nbsp;<a href="#rucni-zaloha-databaze">zálohovat databázi</a>,</li>
+			<li><b>administrátory</b> (správce), již mají všechna práva běžného uživatele, ale navíc smí <a href="#zalozeni-noveho-uzivatele">přidávat nové uživatele</a>, <a href="#uprava-smazani-uzivatele">upravovat</a> stávajícím uživatelům celé jméno, heslo nebo typ a&nbsp;<a href="#obnova-databaze-ze-zalohy">obnovovat databázi ze zálohy</a>.</li>
+		</ul>
+
+		<p>Každý registrovaný uživatel je charakterizován následujícími údaji, jež jsou uloženy v&nbsp;<a href="#databaze">databázi</a> aplikace:</p>
+		<dl>
+			<dt>celé jméno</dt>
+			<dd>Řetezec znaků obsahující minimálně reálné jméno a&nbsp;příjmení uživatele a&nbsp;volitelně i&nbsp;tituly. Celé jméno smí sobě nebo jinému uživateli <a href="#uprava-smazani-uzivatele">změnit</a> pouze administrátor.</dd>
+			<dt>uživatelské jméno</dt>
+			<dd>Řetězec písmen (zpravidla třípísmenná zkratka příjmení) sloužící k&nbsp;jednoznačné identifikaci uživatele v&nbsp;datbázových záznamech a&nbsp;k <a href="#prihlaseni">přihlašování</a> uživatele do aplikace. Každý uživatel musí mít jedinečné uživatelské jméno. Jednou uložené uživatelské jméno nejde později změnit.</dd>
+			<dt>heslo</dt>
+			<dd>Minimálně pětiznakový řetězec libovolných znaků, jímž uživatel při <a href="#prihlaseni">přihlašováni</a> do aplikace prokazuje svou totožnost. Heslo je v&nbsp;databázi uloženo v&nbsp;zašifrované podobě, z&nbsp;níž nelze původní heslo zrekonstruovat. Každý uživatel smí sám sobě <a href="#zmena-vlastniho-hesla">změnit heslo</a> pod podmínkou, že uvede svoje stávající heslo. Administrátor smí <a href="#uprava-smazani-uzivatele">nastavit nové heslo</a> kterémukoliv jinému uživateli včetně sebe nebo jiného administrátora bez znalosti hesla původního.</dd>
+			<dt>typ uživatele</dt>
+			<dd>Běžný uživatel nebo administrátor. Pro správnou činnost aplikace musí být v&nbsp;databázi vždy minimálně jeden uživatel s&nbsp;právem administrátora, optimálně dva. Administrátor smí změnit typ jinému uživateli, ale ne sám sobě.</dd>
+			<dt>stav uživatele</dt>
+			<dd>Určuje, zda je uživatel aktivní nebo neaktivní. Každý uživatel je po založení automaticky aktivní, neaktivním se stane po <a href="#uprava-smazani-uzivatele">smazání</a> ze strany administrátora. Neaktivní uživatel se víc nemůže přihlásit do aplikace ani není možné opětovně použít jeho uživatelské jméno. Administrátor smí smazat jiného uživatele, ale ne sám sebe.</dd>
+		</dl>
+
+		<h3 id="zalozeni-noveho-uzivatele">Založení nového uživatele</h3>
+		<p>Založení uživatele probíha prostřednictvím dialogu <span class="prvek-gui">Založení uživatele</span>. Tento dialog lze vyvolat pouze přes hlavní menu volbou <span class="menu">Uživatel → Přidat uživatele…</span> V&nbsp;dialogu je potřeba vyplnit všechny údaje nového uživatele, čili <b>uživatelské jméno</b>, <b>celé jméno</b>, <b>heslo</b> a&nbsp;<b>typ</b> uživatele. Dialog neumožní založení uživatele, dokud nebudou všechny údaje vyplněny správně.</p>
+
+		<p>Zmáčknutí tlačítka <span class="prvek-gui">Zrušit</span> nebo klávesy <kbd>Esc</kbd> zavře dialog bez uložení změn. Založení uživatele lze provést buď pomocí tlačítka <span class="prvek-gui">Založit</span>, nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Enter</kbd>.</p>
+
+		<p>Zakládat nové uživatele smí pouze administrátoři.</p>
+
+		<h3 id="zmena-vlastniho-hesla">Změna vlastního hesla</h3>
+		<p>Změna hesla probíha prostřednictvím dialogu <span class="prvek-gui">Změna hesla</span>. Tento dialog lze vyvolat pouze přes hlavní menu volbou <span class="menu">Uživatel → Změnit heslo…</span> Ke změně hesla je potřeba zadat správně stávající heslo a&nbsp;dvakrát stejné nové heslo. Dialog neumožní změnu hesla, dokud nebudou všechny údaje vyplněny správně.</p>
+
+		<p>Zmáčknutí tlačítka <span class="prvek-gui">Zrušit</span> nebo klávesy <kbd>Esc</kbd> zavře dialog bez uložení změn. Změnu hesla lze provést buď pomocí tlačítka <span class="prvek-gui">Uložit</span>, nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Enter</kbd>.</p>
+
+		<p>Změnu vlastního hesla smí provést každý uživatel. Uživatel by si měl změnit heslo po prvním přihlášení do aplikace. (K prvnímu přihlášení využije heslo zvolené administrátorem při <a href="#zalozeni-noveho-uzivatele">zakládání uživatele</a>.)</p>
+
+		<h3 id="uprava-smazani-uzivatele">Úprava/smazání uživatele</h3>
+		<p>Úprava stávajícího uživatele probíha prostřednictvím dialogu <span class="prvek-gui">Úprava/smazání uživatele</span>. Tento dialog lze vyvolat pouze přes hlavní menu volbou <span class="menu">Uživatel → Upravit/smazat uživatele…</span> Upravovat uživatele smí pouze administrátoři.</p>
+
+		<p>Aplikace umožňuje následovné úpravy uživatele:</p>
+		<dl>
+			<dt>změna jména nebo práv</dt>
+			<dd>Administrátor smí upravit <b>celé jméno</b> kterémukoliv jinému uživateli nebo sobě a&nbsp;<b>typ</b> kterémukoliv jinému uživateli kromě sebe. Pokud nedochází zároveň k&nbsp;obnově zapomenutého hesla uživatele, políčka <span class="prvek-gui">Nové heslo</span> a&nbsp;<span class="prvek-gui">Potvrzení hesla</span> se nevyplní. <b>Uživatelské jméno</b> uživatele nelze změnit.</dd>
+			<dt>obnova zapomenutého hesla</dt>
+			<dd>V případě, že uživatel zapomene svoje heslo, administrátor mu může nastavit nové heslo i&nbsp;bez znalosti původního hesla. (Administrátor může tento dialog alternativně využít i&nbsp;ke změně vlastního hesla.) Pokud nedochází zároveň ke změně jména nebo práv uživatele, hodnota políčka <span class="prvek-gui">Celé jméno</span> a&nbsp;stav zaškrtávacího políčka <span class="prvek-gui">Administrátor</span> se nemění.</dd>
+			<dt>smazání uživatele</dt>
+			<dd>Pokud z&nbsp;objektivních příčin není možné nebo žádoucí, aby uživatel dál přistupoval k&nbsp;aplikaci, zaškrtnutím políčka <span class="prvek-gui">Smazat uživatele</span> je možné jej smazat. Změny v&nbsp;jiných políčkách dialogu budou při smazání uživatele ignorovány. Smazaný uživatel je dál veden v&nbsp;databázi, aby se nenarušila konzistence předchozích záznamů, ale je označen jako <b>neaktivní</b>. Neaktivní uživatel se víc nemůže přihlásit do aplikace, nemůže být později reaktivován ani není možné opětovně použít jeho uživatelské jméno. Administrátor smí smazat jiného uživatele, ale ne sám sebe.</dd>
+		</dl>
+
+		<p>Zmáčknutí tlačítka <span class="prvek-gui">Zrušit</span> nebo klávesy <kbd>Esc</kbd> zavře dialog bez uložení změn. Úpravu/smazání uživatele lze provést buď pomocí tlačítka <span class="prvek-gui">Uložit</span>, nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Enter</kbd>.</p>
+
+		<h2 id="pacienti">Pacienti</h2>
+		<p>Aplikace <i>Závozy</i> umožňuje do <a href="#databaze">databáze</a> ukládat záznamy o&nbsp;pacientech, již jsou adresáty závozů. Tyto údaje slouží k&nbsp;urychlení procesu vystavení průvodky závozu. Záznam každého pacienta v&nbsp;databázi musí obsahovat následující údaje (povinné položky):</p>
+		<ul>
+			<li><b>identifikační číslo</b> (ID), přiděleno automaticky databázovým systémem, nezměnitelné,</li>
+			<li><b>příjmení</b>,</li>
+			<li><b>jméno</b>,</li>
+			<li>doručovací adresu, čili <b>ulici s&nbsp;číslem</b> domu a&nbsp;<b>PSČ s&nbsp;názvem obce</b>,</li>
+			<li><b>telefon</b> nebo informaci, že pacient telefon nemá.</li>
+		</ul>
+		Dál může záznam pacienta obsahovat další volitelné údaje (nepovinné položky):
+		<ul>
+			<li>alternativní telefon,</li>
+			<li>poznámku ke každému uvedenému telefonu,</li>
+			<li>stálou poznámku.</li>
+		</ul>
+
+		<p>Činnosti spojené s&nbsp;pacienty smí provádět všichni uživatelé.</p>
+
+		<h3 id="zalozeni-noveho-pacienta">Založení nového pacienta</h3>
+		<p>Založení nového pacienta probíha prostřednictvím dialogu <span class="prvek-gui">Nový pacient</span>. Tento dialog lze vyvolat přes hlavní menu volbou <span class="menu">Pacient → Nový pacient…</span>, klávesou <kbd>F2</kbd> nebo neúspěšným <a href="#vyhledani-pacienta-v-databazi">vyhledáním pacienta</a> přes formulář <span class="prvek-gui">Pacient</span> v&nbsp;hlavním okně.</p>
+
+		<p>V dialogu je potřeba vyplnit všechny povinné údaje pacienta, čili <b>příjmení</b>, <b>jméno</b>, údaje o&nbsp;<b>doručovací adrese</b> a&nbsp;<b>telefon</b>. (Údaje o doručovací adrese jsou rozděleny do dvou políček. Políčko <span class="prvek-gui">Ulice, číslo</span> nemá předepsanou formu, ale musí být vyplněno. Políčko <span class="prvek-gui">PSČ, obec</span> musí začínat PSČ, jež může být následováno názvem obce. Hodnotu políčka může uživatel vybrat z našeptávače PSČ, který čerpá data ze souboru <span class="soubor">psc.txt</span> v adresáři <span class="adresar">data</span>.) Dál je možné vyplnit nepovinné údaje, čili <b>alternativní telefon</b>, poznámku ke každému vyplněnému telefonu a&nbsp;taky <b>poznámku</b>, jež se vytiskne na konci každé průvodky, neurčí-li uživatel vystavující průvodku jinak.</p>
+
+		<p>Dialog neumožní založení pacienta, dokud nebudou všechny údaje vyplněny správně. Proto pokud není uživateli známo PSČ cílové obce, je potřeba vyplnit místo něj pět nul, a&nbsp;pokud pacient nemá telefon, je potřeba zaškrtnout políčko s&nbsp;touto volbou.</p>
+
+		<p>Taky není možné založit dva pacienty se stejnou kombinaci příjmení a&nbsp;jména. Pokud by došlo k&nbsp;pokusu o&nbsp;založení pacienta, jehož kombinace příjmení a&nbsp;jména je už obsazena, je na to uživatel upozorněn. V&nbsp;případě, že nově zakládaný pacient je opravdu jiná osoba než jeho jmenovec v&nbsp;databázi, je nutné rozšířit jméno zakládaného pacienta o&nbsp;rozlišující řetězec, ideálně rok narození. Stejným způsobem by pak mělo být rozšířeno i&nbsp;jméno původního jmenovce.</p>
+
+		<p>Zmáčknutí tlačítka <span class="prvek-gui">Zrušit</span> nebo klávesy <kbd>Esc</kbd> zavře dialog bez uložení změn. Založení pacienta lze provést buď pomocí tlačítka <span class="prvek-gui">Založit</span>, nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Enter</kbd>.</p>
+
+		<h3 id="vyhledani-pacienta-v-databazi">Vyhledání pacienta v&nbsp;databázi</h3>
+		<p>Ve formuláři <span class="prvek-gui">Pacient</span> v&nbsp;hlavním okně, v&nbsp;dialogu <span class="prvek-gui">Úprava pacienta</span> vyvolaném volbou <span class="menu">Pacient → Upravit pacienta…</span> v&nbsp;hlavním menu nebo v&nbsp;dialogu <span class="prvek-gui">Přehled závozů pro pacienta</span> probíhá vyhledávání pacienta v&nbsp;databázi. Na všech těchto místech má vyhledávání jednotný postup o&nbsp;dvou krocích.</p>
+		<p>V prvním kroku je potřeba zadat příjmení pacienta. Příjmení není potřeba psát celé, po zadání jednoho nebo více znaků aplikace nabídne seznam příjmení pacientů začínajících zadaným řetězcem, z&nbsp;nichž si může uživatel vybrat. V&nbsp;každém případě je potřeba zadání příjmení zakončit zmáčknutím klávesy <kbd>Enter</kbd>.</p>
+		<p>V druhém kroku je potřeba zadat křestní jméno pacienta. Jméno není potřeba psát celé, po zadání jednoho nebo více znaků aplikace nabídne seznam jmen pacientů s&nbsp;uvedeným příjmením začínajících zadaným řetězcem. Zadání jména je potřeba zakončit zmáčknutím klávesy <kbd>Enter</kbd>.</p>
+
+		<h3 id="uprava-stavajiciho-pacienta">Úprava stávajícího pacienta</h3>
+		<p>Úprava stávajícího pacienta probíha prostřednictvím dialogu <span class="prvek-gui">Úprava pacienta</span>. Tento dialog lze vyvolat více způsoby:</p>
+		<ul>
+			<li>Volba <span class="menu">Pacient → Upravit pacienta…</span> v&nbsp;hlavním menu otevře prázdný dialog. Před samotnou úpravou je nutné <a href="#vyhledani-pacienta-v-databazi">vyhledat pacienta</a> k&nbsp;úpravě. Po úspěšném vyhledání pacienta se dialog naplní jeho údaji.</li>
+			<li>Volba <span class="menu">Pacient → Upravit aktuálního pacienta…</span> v&nbsp;hlavním menu nebo zmáčknutí klávesy <kbd>F3</kbd> otevře dialog vyplněný údaji pacienta aktuálně načteného ve formuláři <span class="prvek-gui">Pacient</span> v&nbsp;hlavním okně. Pokud ve formuláři není načten žádný pacient, tato volba není dostupná.</li>
+			<li>Dvojité kliknutí na řádek se záznamem pacienta v&nbsp;<a href="#seznam-vsech-pacientu">seznamu všech pacientů</a> otevře dialog vyplněný údaji daného pacienta.</li>
+		</ul>
+
+		<h3 id="zruseni-aktualniho-pacienta">Zrušení aktuálního pacienta</h3>
+		<p>Pokud uživatel nechce dál pracovat s&nbsp;pacientem vyhledaným přes formulář <span class="prvek-gui">Pacient</span> v&nbsp;hlavním okně, může volbu pacienta zrušit a&nbsp;připravit formulář k&nbsp;vyhledání dalšího pacienta jedním z&nbsp;následujících způsobů:</p>
+		<ul>
+			<li>pomocí tlačítka <span class="prvek-gui">Zrušit volbu pacienta</span> v&nbsp;spodní části formuláře <span class="prvek-gui">Pacient</span>,</li>
+			<li>volbou <span class="menu">Pacient → Zrušit volbu pacienta</span> v&nbsp;hlavním menu,</li>
+			<li>zmáčknutím klávesy <kbd>Esc</kbd>.</li>
+		</ul>
+
+		<p>Pokud u&nbsp;aktuálního pacienta proběhly neuložené změny ve formuláři <span class="prvek-gui">Pomůcky</span>, zrušením volby pacienta se ztratí. Uživatel je na tuto skutečnost předem upozorněn.</p>
+
+		<h3 id="seznam-vsech-pacientu">Seznam všech pacientů</h3>
+		<p>Volbou <span class="menu">Pacient → Seznam všech pacientů</span> v&nbsp;hlavním menu se vyvolá pomocné okno s&nbsp;přehledem všech pacientů vedených v&nbsp;databázi a&nbsp;všech jejich uložených údajů.</p>
+
+		<p>Kliknutím na záhlaví sloupce je možné záznamy setřídit podle daného kritéria. Dvojitým kliknutím na řádek se záznamem pacienta se otevře dialog <span class="prvek-gui">Úprava pacienta</span>. Zmáčknutí tlačítka <span class="prvek-gui">Zrušit</span> nebo klávesy <kbd>Esc</kbd> zavře okno se seznamem pacientů.</p>
+
+		<p>Kliknutím na tlačítko <span class="prvek-gui">Exportovat CSV</span> nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>E</kbd> je možné zobrazený seznam exportovat do <b>souboru formátu CSV</b> editovatelného pomocí tabulkového procesoru (MS Excel, LibreOffice Calc apod.). Pokud uživatel nezvolí jiné umístění, exportované soubory se ukládají do podadresáře <span class="adresar">exporty</span> v&nbsp;adresáři aplikace.</p>
+
+		<h2 id="zavozy">Závozy</h2>
+		<p>Závozem se v&nbsp;kontextu aplikace <i>Závozy</i> rozumí soubor následujících informací o&nbsp;jednotlivé zásilce:</p>
+		<ul>
+			<li><b>jméno pacienta</b>, jemuž je zásilka určena,</li>
+			<li><b>doručovací adresa</b>,</li>
+			<li>kontaktní <b>telefon(y)</b> pacienta nebo jím pověřené osoby,</li>
+			<li><b>poznámka</b> – buď stálá poznámka uložená v&nbsp;záznamu pacienta, nebo jednorázová poznámka vyplněná <i>ad hoc</i> ve formuláři <span class="prvek-gui">Pacient</span>,</li>
+			<li><b>seznam doručovaných položek</b>,</li>
+			<li><b>datum vychystání</b> – datum, kdy uživatel v&nbsp;programu závoz zakládá a&nbsp;tiskne k&nbsp;němu průvodku, mělo by odpovídat datu pořízení doručovaných položek ve Farmisu,</li>
+			<li><b>datum závozu</b> – datum, kdy se plánuje fyzické předání zásilky dopravní společnosti,</li>
+			<li>uživatelské jméno uživatele, jenž závoz založil.</li>
+		</ul>
+		<p>Jméno, doručovací adresa, telefon(y), poznámka a&nbsp;seznam doručovaných položek se tisknou na <a href="#pruvodky">průvodku</a> k&nbsp;závozu. Všechny jmenované údaje vyjma telefonů a&nbsp;poznámky se ukládají do databáze závozů pro pozdější kontrolu.</p>
+
+		<h3 id="typy-polozek">Typy položek</h3>
+		<p>Položky doručované závozem mohou být dvojího typu:</p>
+		<ul>
+			<li>zdravotnické prostředky (dál jen <b>„pomůcky“</b>), které mají přidělen kód VZP a&nbsp;jsou vedeny v&nbsp;interním <a href="#ciselnik-pomucek">číselníku pomůcek</a>,</li>
+			<li>jiné položky, jež nemají přidělen kód VZP nebo nesplňují charakter zdravotnického prostředku (dál jen <b>„nepomůcky“</b>).</li>
+		</ul>
+
+		<h3 id="seznam-polozek">Seznam položek</h3>
+		<p>Po vyhledání pacienta ve formuláři <span class="prvek-gui">Pacient</span> v&nbsp;hlavním okně se ve formuláři <span class="prvek-gui">Pomůcky</span> objeví seznam veškerých pomůcek, které se kdy danému pacientovi posílaly závozem. Takto načtené položky nelze ze seznamu odstranit, ale pokud se jim nevyplní počet, budou při zakládání nového závozu ignorovány. Naopak, pokud se jim vyplní nenulový počet, stanou se součástí nově založeného závozu. Do seznamu je možné přidávat <a href="#nova-pomucka">nové pomůcky</a>.</p>
+
+		<p>Nepomůcky se do databáze neukládají, protože na rozdíl od pomůcek nemají jednoznačný kód, který by je identifikoval. V&nbsp;případě potřeby ale lze do seznamu položek <a href="#nova-nepomucka">nové nepomůcky</a> přidat.</p>
+
+		<h3 id="nova-pomucka">Nová pomůcka</h3>
+		<p>Novou pomůcku lze do seznamu položek přidat pouze prostřednictvím jejího kódu VZP zadaného do vstupního políčka <span class="prvek-gui">Nová položka</span>. Pokud pomůcka s&nbsp;uvedeným kódem existuje v&nbsp;<a href="#ciselnik-pomucek">číselníku pomůcek</a>, po kliknutí na tlačítko <span class="prvek-gui">Přidat položku</span> nebo zmáčknutí klávesy <kbd>Enter</kbd> se objeví v&nbsp;seznamu položek a&nbsp;aktivuje se vstupní políčko jejího počtu. To samé se uděje, pokud se už pomůcka s&nbsp;daným kódem nachází v&nbsp;seznamu položek, ale nemá vyplněný počet.</p>
+
+		<p>Počet lze zadat pomocí numerické klávesnice nebo pomocí šipek nahoru a&nbsp;dolů. Zpět do políčka <span class="prvek-gui">Nová položka</span> se lze vrátit zmáčknutím kláves <kbd>Enter</kbd> nebo <kbd>Tab</kbd>.</p>
+
+		<h3 id="nova-nepomucka">Nová nepomůcka</h3>
+		<p>Novou nepomůcku lze do seznamu položek přidat pouze prostřednictvím speciálního dialogu <span class="prvek-gui">Jiná položka než pomůcka</span>. Tento dialog se vyvolá ze vstupního políčka <span class="prvek-gui">Nová položka</span> tak, že se do něj uvede kód 0 (nebo se ponechá zcela prázdné) a&nbsp;klikne se na tlačítko <span class="prvek-gui">Přidat položku</span> nebo zmáčkne klávesa <kbd>Enter</kbd>. Do dialogu je potřeba zadat název nepomůckové položky a&nbsp;potvrdit. Dál je postup stejný jako u&nbsp;<a href="#nova-pomucka">pomůcek</a>.</p>
+
+		<p>Do seznamu položek je možné přidat neomezené množství nepomůcek libovolných (i stejných) názvů. Do databáze se ale všechny uloží pouze jako „jiná položka než pomůcka“ a&nbsp;při opětovném vyhledání pacienta pres formulář <span class="prvek-gui">Pacient</span> se do <a href="#seznam-polozek">seznamu položek</a> nenačtou.</p>
+
+		<h3 id="smazani-polozky">Smazání položky</h3>
+		<p>Položku lze ze seznamu položek smazat kliknutím na tlačítko <span class="prvek-gui">X</span> na konci jejího řádku. Položky lze taky mazat pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Del</kbd>, a&nbsp;to dvěma způsoby, podle toho, které vstupní políčko je zrovna aktivní. Pokud je to políčko <span class="prvek-gui">Nová položka</span>, smaže se poslední položka v&nbsp;seznamu, pokud políčko počtu, smaže položka na daném řádku.</p>
+
+		<p>Položky v&nbsp;minulosti odebrané pacientem načtené po vyhledání pacienta nelze ze seznamu smazat, ale v&nbsp;případě, že se jim nevyplní počet, budou při zakládání nového závozu ignorovány.</p>
+
+		<h3 id="uzavreni-zavozu">Uzavření závozu</h3>
+		<p>Po přidání všech potřebných položek a&nbsp;vyplnění jejich počtů je potřeba závoz uzavřít. Uzavřením závozu se současně vygeneruje <a href="#pruvodky">průvodka závozu k&nbsp;tisku</a> a&nbsp;uloží záznam o&nbsp;závozu do <a href="#databaze">databáze</a>. Uzavření závozu lze realizovat buď kliknutím na tlačítko <span class="prvek-gui">Vytvořit průvodku a&nbsp;uložit</span> v&nbsp;spodní části formuláře <span class="prvek-gui">Pomůcky</span>, nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Enter</kbd>. Zkratku lze aktivovat jak z&nbsp;políčka <span class="prvek-gui">Nová položka</span>, tak i&nbsp;ze vstupního políčka počtu libovolné položky.</p>
+
+		<p>Pokud je seznam položek prázdný nebo obsahuje pouze položky s&nbsp;nevyplněným či nulovým počtem, nelze závoz uzavřít a&nbsp;uživatel je na tuto skutečnost upozorněn. Stejně tak nejde uzavřít víc závozů pro stejného pacienta se stejným datem.</p>
+
+		<p>Před uložením závozu může uživatel volitelně změnit datum závozu pomocí vstupního pole <span class="prvek-gui">Datum závozu</span>, jestli přednastavené datum (nejbližší středa nebo pátek) nekoresponduje s&nbsp;realitou. Tato změna se projeví pouze v&nbsp;databázovém záznamu daného závozu. Jestli se dá očekávat, že položky závozu budou rozděleny do více krabic, může uživatel nastavit pomocí příslušného políčka počet kopií průvodky k&nbsp;tisku. Průvodky lze <a href="#vytistene-pruvodky">dotisknout i&nbsp;dodatečně</a>.</p>
+
+		<h2 id="pruvodky">Průvodky</h2>
+		<p>Průvodka je průvodní list přikládaný ke každé zásilce jako informace pro dopravní firmu realizující závozy. Průvodka obsahuje hlavičku (<b>jméno pacienta</b>, <b>doručovací adresu</b>, kontaktní <b>telefon(y)</b> pacienta nebo jím pověřené osoby), <b>seznam doručovaných položek</b> a&nbsp;případně i&nbsp;<b>poznámku</b> pro řidiče dopravní firmy. Poznámka se na průvodku vytiskne, pouze pokud je ve formuláři <span class="prvek-gui">Pacient</span>, zaškrtnuta volba <span class="prvek-gui">Vytisknout poznámku</span>.</p>
+
+		<h3 id="zalozeni-pruvodky">Založení průvodky</h3>
+		<p>Průvodka v&nbsp;aplikaci <i>Závozy</i> vzniká <a href="#uzavreni-zavozu">uzavřením závozu</a> současně s&nbsp;vytvořením databázového záznamu o&nbsp;závozu. Vytvořená průvodka se zařadí do <a href="#nevytistene-pruvodky">fronty průvodek k&nbsp;tisku</a>. Jednou vyvtořenou průvodku nelze změnit stejně jako databázový záznam, s&nbsp;nímž vznikla.</p>
+
+		<h3 id="nevytistene-pruvodky">Nevytištěné průvodky</h3>
+		<p>Vytvořené, ale dosud nevytištěné průvodky se hromadí ve frontě průvodek k&nbsp;tisku. Aktuální počet nevytištěných průvodek ve frontě se zobrazuje v&nbsp;informační oblasti <span class="prvek-gui">Nevytištěné průvodky</span> hlavního okna. Kompletní přehled nevytištěných průvodek lze zobrazit pomocí dialogu <span class="prvek-gui">Průvodky v&nbsp;tiskové frontě</span>, který lze vyvolat pouze přes hlavní menu volbou <span class="menu">Tisk → Zobrazit přehled nevytištěných průvodek</span>. Tento dialog neumožňuje uživateli žádnou interakci, lze ho pouze zavřít zmáčknutí tlačítka <span class="prvek-gui">Zrušit</span> nebo klávesy <kbd>Esc</kbd>.</p>
+
+		<p>Nevytištěné průvodky zůstávají ve frontě po neomezenou dobu, a&nbsp;to i&nbsp;po ukončení a&nbsp;opětovném spuštění aplikace. Fronta nevytištěných průvodek je společná pro všechny uživatele aplikace. K&nbsp;vyprázdnění fronty dojde pouze <a href="#tisk-pruvodek">vytištěním průvodek</a>.</p>
+
+		<h3 id="tisk-pruvodek">Tisk průvodek</h3>
+		<p><a href="#nevytistene-pruvodky">Nevytištěné průvodky</a> ve frontě lze vytisknout prostřednictvím tlačítka <span class="prvek-gui">Vytisknout průvodky</span> v&nbsp;informační oblasti <span class="prvek-gui">Nevytištěné průvodky</span> hlavního okna, volby <span class="menu">Tisk → Vytisknout nevytištěné průvodky…</span> v&nbsp;hlavním menu nebo klávesové zkratky <kbd>Ctrl</kbd>+<kbd>P</kbd>.</p>
+
+		<p>Průvodka vytvořena aplikací <i>Závozy</i> zabírá vždy polovinu listu formátu A4. Je-li ve frontě víc průvodek, tisknou se dvě na jeden list. Pokud obsahuje závoz víc položek, než je k&nbsp;dispozici rádků na půlce listu, seznam položek se automaticky rozdělí na dvě nebo víc průvodek se stejnou hlavičkou.</p>
+
+		<p>Aplikace přímo nekomunikuje s&nbsp;ovladači tiskárny, ale pouze vytvoří dočasný <b>PDF soubor</b>, který musí uživatel vytisknout přes standardní rozhraní předvoleného prohlížeče PDF souborů. Tento dočasný soubor je uložen v&nbsp;podadresáři <span class="adresar">temp</span> v&nbsp;adresáři aplikace a&nbsp;po ukončení aplikace je odstraněn.</p>
+
+		<p>Tiskem průvodek se vyprázdní tisková fronta průvodek. V&nbsp;případě potřeby dotisku jednotlivých průvodek je možné je <a href="#vytistene-pruvodky">opětovně zařadit do tiskové fronty</a> a&nbsp;následně provést nový tisk.</p>
+
+		<h3 id="vytistene-pruvodky">Vytištěné průvodky</h3>
+		<p>Průvodky se po vytištění ukládají do seznamu vytištěných průvodek, který lze zobrazit pomocí dialogu <span class="prvek-gui">Přehled vytištěných průvodek</span>. Ten se vyvolá volbou <span class="menu">Tisk → Opětovně zařadit průvodky do tiskové fronty…</span> v&nbsp;hlavním menu nebo klávesovou zkratkou <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>.</p>
+
+		<p>Dialog <span class="prvek-gui">Přehled vytištěných průvodek</span> umožňuje taky opětovné zařazení už vytištěné průvodky do tiskové fronty. Opětovné zařazení průvodky do fronty lze provést buď označením názvu příslušné průvodky a&nbsp;kliknutím na tlačítko <span class="prvek-gui">Zařadit do fronty</span>, nebo rychleji dvojitým kliknutím na název příslušné průvodky. Zařazení do fronty je nutné potvrdit buď kliknutím na tlačítko <span class="prvek-gui">Potvrdit</span>, nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Enter</kbd>. Zmáčknutí tlačítka <span class="prvek-gui">Zrušit</span> nebo klávesy <kbd>Esc</kbd> zavře dialog bez uložení změn. Uživatel je na tuto skutečnost předem upozorněn.</p>
+
+		<p>Vytištěné průvodky zůstávají v&nbsp;seznamu vytištěných průvodek pouze do konce dne, kdy byly vystaveny. Při každém spuštění aplikace se prohlíží podadresář <span class="adresar">temp</span> a&nbsp;soubory s&nbsp;nevytištěnými průvodkami z&nbsp;jiného než aktuálního dne jsou smazány.</p>
+
+		<h2 id="prehledy">Přehledy</h2>
+		<p>Aplikace <i>Závozy</i> umožňuje zobrazovat přehledy týkající se provedených závozu podle různých kriterií. Jednotlivé přehledy jsou dostupné přes hlavní menu v&nbsp;nabídce <span class="menu">Přehledy</span>. Každý přehled se zobrazuje ve vlastním dialogu. Dialogy jednotlivých přehledů mají následující vlastnosti společné.</p>
+
+		<p><b>Vyhledávání</b> lze ve všech dialozích provést až po zadání platného vyhledávacího kretéria, a&nbsp;to buď kliknutím na tlačítko <span class="prvek-gui">Vyhledat</span>, nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>Enter</kbd>.</p>
+
+		<p>Výsledky vyhledávání lze omezit na jisté <b>časové rozmezí</b>. Časové rozmezí lze definovat buď ruční volbou pačátečního a&nbsp;koncového data v&nbsp;příslušných vstupních polích <span class="prvek-gui">od</span> a&nbsp;<span class="prvek-gui">do</span>, nebo volbou některé z&nbsp;přednastavených hodnot v&nbsp;rozbalovací nabídce <span class="prvek-gui">Zvolte období</span>. Výchozí rozmezí je 14 dní kolem aktuálního dne.</p>
+
+		<p>Aktuálně zobrazený seznam výsledků lze exportovat do <b>souboru formátu CSV</b> editovatelného pomocí tabulkového procesoru (MS Excel, LibreOffice Calc apod.). Export lze vyvolat kliknutím na tlačítko <span class="prvek-gui">Exportovat CSV</span> nebo pomocí klávesové zkratky <kbd>Ctrl</kbd>+<kbd>E</kbd>. Pokud uživatel nezvolí jiné umístění, exportované soubory se ukládají do podadresáře <span class="adresar">exporty</span> v&nbsp;adresáři aplikace.</p>
+
+		<h3 id="prehled-zavozu-pro-pacienta">Přehled závozů pro pacienta</h3>
+		<p>Volbou <span class="menu">Přehledy → Přehled závozů pro pacienta</span> v&nbsp;hlavním menu se vyvolá dialog <span class="prvek-gui">Přehled závozů pro pacienta</span>. V&nbsp;tomto dialogu je před vyhledáním výsledků nutné <a href="#vyhledani-pacienta-v-databazi">vyhledat pacienta</a> v&nbsp;databázi. Volbu pacienta lze zrušit kliknutím na tlačítko <span class="prvek-gui">Jiný pacient</span>.</p>
+
+		<h3 id="prehled-zavozu-pro-aktualniho-pacienta">Přehled závozů pro aktuálního pacienta</h3>
+		<p>Pokud je ve formuláři <span class="prvek-gui">Pacient</span> v&nbsp;hlavním okně načtený pacient, lze volbou <span class="menu">Přehledy → Přehled závozů pro aktuálního pacienta</span> v&nbsp;hlavním menu vyvolat dialog <span class="prvek-gui">Přehled závozů pro pacienta</span> s&nbsp;předvyplněnými údaji aktuálně načteného pacienta a&nbsp;zobrazenými výsledky za výchozí rozmezí. V&nbsp;tomto dialogu nelze změnit volbu pacienta.</p>
+
+		<h3 id="prehled-zavozu-vychystanych-uzivatelem">Přehled závozů vychystaných uživatelem</h3>
+		<p>Volbou <span class="menu">Přehledy → Přehled závozů vychystaných uživatelem</span> v&nbsp;hlavním menu se vyvolá dialog <span class="prvek-gui">Přehled závozů vychystaných uživatelem</span>. V&nbsp;tomto dialogu je před vyhledáním výsledků nutné vybrat uživatelské jméno příslušného uživatele v&nbsp;rozbalovací nabídce <span class="prvek-gui">Zvolte uživatele</span>.</p>
+
+		<h3 id="prehled-zavozu-jednotlive-pomucky">Přehled závozů jednotlivé pomůcky</h3>
+		<p>Volbou <span class="menu">Přehledy → Přehled závozů jednotlivé pomůcky</span> v&nbsp;hlavním menu se vyvolá dialog <span class="prvek-gui">Přehled závozů jednotlivé pomůcky</span>. V&nbsp;tomto dialogu je před vyhledáním výsledků nutné vyhledat pomůcku v&nbsp;<a href="#ciselnik-pomucek">číselníku</a> zadáním jejího kódu do vstupního políčka <span class="prvek-gui">Kód VZP</span> a&nbsp;kliknutím na tlačítko <span class="prvek-gui">Najít v&nbsp;číselníku</span> nebo zmáčknutím klávesy <kbd>Enter</kbd>. Volbu pomůcky lze změnit vyhledáním jiné pomůcky po přepsání vstupního políčka <span class="prvek-gui">Kód VZP</span>. V&nbsp;tomto přehledu nelze vyhledávat nepomůcky.</p>
+
+		<h3 id="prehled-vsech-zavozu-za-obdobi">Přehled všech závozů za období</h3>
+		<p>Volbou <span class="menu">Přehledy → Přehled všech závozů za období</span> v&nbsp;hlavním menu se vyvolá dialog <span class="prvek-gui">Přehled všech závozů za období</span>. V&nbsp;tomto dialogu je jediným vyhledávacím kritériem časové rozmezí.</p>
+
+		<h2 id="ciselnik-pomucek">Číselník pomůcek</h2>
+		<p>Číselníkem pomůcek se v&nbsp;kontextu aplikace <i>Závozy</i> myslí záznamy o&nbsp;zdravotnických prostředcích (pomůckách) v&nbsp;<a href="#databaze">databázi</a>. Každý záznam sestáva z&nbsp;těchto údajů: kód VZP pomůcky, název pomůcky a&nbsp;doplněk názvu. Jednotlivé záznamy vychází ze skutečného číselníku zdravotnických prostředků, jímž se řídí zdravotní pojišťovny. Jedinou výjimkou je záznam s&nbsp;kódem 0, který v&nbsp;aplikaci reprezentuje veškeré <a href="#typy-polozek">nepomůcky</a>.</p>
+
+		<p>Jelikož v&nbsp;číselníku zdravotnických prostědků dochází periodicky ke změnám, měl by se interní číselník pomůcek pravidelně <a href="#aktualizace-ciselniku">aktualizovat</a>, aby tyto změny reflektoval. V&nbsp;informační oblasti <span class="prvek-gui">Verze číselníku</span> hlavního okna aplikace se zobrazuje aktuální verze nahraného číselníku, datum aktualizace a&nbsp;jméno uživatele, jenž aktualizaci provedl. V&nbsp;případě, že číselník nebyl aktualizován víc než dva měsíce, zobrazí se na to v&nbsp;informační oblasti <span class="prvek-gui">Verze číselníku</span> upozornění.</p>
+
+		<h3 id="stazeni-souboru-s-ciselnikem">Stažení souboru s&nbsp;číselníkem</h3>
+
+		<p>Aplikace <i>Závozy</i> umí aktualizovat svůj interní číselník z&nbsp;TXT verze číselníku zdravotnických prostředků zveřejněného na stránkách <a href="http://szpcr.cz/zdravotnicke_prostredky" rel="external">Svazu zdravotních pojišťoven ČR</a>. Volbou <span class="menu">Údržba → Otevřít webstránku s&nbsp;číselníky pomůcek</span> v&nbsp;hlavním menu nebo klávesovou zkratkou <kbd>Alt</kbd>+<kbd>W</kbd> se předmětná stránka otevře v&nbsp;přednastaveném internetovém prohlížeči. Před <a href="#aktualizace-ciselniku">aktualizací</a> interního číselníku je nutné ze stránky stáhnout <b>TXT soubor</b> s&nbsp;nejnovější verzí číselníku na lokální disk, ideálně na pracovní plochu. Po provedení aktualizace lze tento soubor z&nbsp;počítače odstranit.</p>
+
+		<h3 id="aktualizace-ciselniku">Aktualizace číselníku</h3>
+		<p>Před samotnou aktualizací je potřeba <a href="#stazeni-souboru-s-ciselnikem">stáhnout</a> TXT verzi s&nbsp;nejnovější verzí číselníku zdravotnických prostředků ze stránek <a href="http://szpcr.cz/zdravotnicke_prostredky" rel="external">Svazu zdravotních pojišťoven ČR</a>. Následně se volbou <span class="menu">Údržba → Aktualizovat číselník pomůcek ze souboru…</span> v&nbsp;hlavním menu nebo klávesovou zkratkou <kbd>Alt</kbd>+<kbd>A</kbd> vyvolá dialog <span class="prvek-gui">Otevřít soubor s&nbsp;číselníkem</span>, kde uživatel vybere stažený soubor a&nbsp;otevře ho. Po potvrzení dotazu se spustí proces aktualizace. Během aktualizace nelze aplikaci používat. Násilné ukončení aplikace během aktualizace by mohlo vést k&nbsp;<a href="#obnova-databaze-ze-zalohy">poškození databázového souboru</a>. Po dokončení aktualizace sa aktualizuje informační oblast <span class="prvek-gui">Verze číselníku</span> v&nbsp;hlavním okně.</p>
+
+		<h2 id="databaze">Databáze</h2>
+		<p>Aplikace <i>Závozy</i> využívá vlastní databázi, v&nbsp;niž má uložený interní <a href="#ciselnik-pomucek">číselník pomůcek</a> a&nbsp;záznamy o&nbsp;všech svých <a href="#uzivatele">uživatelích</a>, <a href="#pacienti">pacientech</a>, provedených <a href="#zavozy">závozech</a> i&nbsp;proběhlých <a href="#aktualizace-ciselniku">aktualizacích číselníku</a>. Celá databáze je uložena v&nbsp;souboru <span class="soubor">zavozy.dat</span> v&nbsp;podadresáři <span class="adresar">data</span> v&nbsp;adresáři aplikace.</p>
+
+		<p>Smazání nebo poškození databázového souboru by vedlo ke zničení části nebo veškerých záznamů a&nbsp;znemožnilo práci s&nbsp;aplikací. Proto pokud v&nbsp;průběhu použití aplikace dojde k&nbsp;jakékoliv změně v&nbsp;databázi, při ukončování aplikace se databázový soubor automaticky zálohuje. Záložní soubory databáze se ukládají do podadresáře <span class="adresar">zalohy</span> v&nbsp;adresáři aplikace. Aplikace udržuje pouze pět nejnovějších záloh. Starší zálohové soubory jsou průběžně mazány při startu aplikace. Databázi lze <a href="#rucni-zaloha-databaze">zálohovat taky ručně</a>.</p>
+
+		<h3 id="rucni-zaloha-databaze">Ruční záloha databáze</h3>
+		<p>Volbou <span class="menu">Údržba → Spustit okamžitou zálohu databáze</span> v&nbsp;hlavním menu nebo klávesovou zkratkou <kbd>Alt</kbd>+<kbd>Z</kbd> se vytvoří okamžitá záloha <a href="#databaze">databázového souboru</a>. Tato volba je dostupná, pouze pokud došlo ke změně databáze od poslední zálohy. Jelikož se databáze automaticky zálohuje při ukončení aplikace, není normálně důvod spouštět zálohu ručně.</p>
+
+		<h3 id="obnova-databaze-ze-zalohy">Obnova databáze ze zálohy</h3>
+		<p>Pokud dojde k&nbsp;poškození <a href="#databaze">databázového souboru</a> <span class="soubor">zavozy.dat</span>, je možné databázi obnovit ze zálohového souboru. Obnovu databáze ze zálohy lze spustit volbou <span class="menu">Údržba → Obnovit databázi ze zálohy...</span> v&nbsp;hlavním menu nebo klávesovou zkratkou <kbd>Alt</kbd>+<kbd>D</kbd>. V&nbsp;následně otevřeném dialogu <span class="prvek-gui">Otevřít soubor zálohy databáze</span> je pak potřeba zvolit nejnovější zálohový soubor v&nbsp;podadresáři <span class="adresar">data</span> v&nbsp;adresáři aplikace. Jenom v&nbsp;případě, že se chyba neodstranila, je potřeba zkoušet postupně starší zálohové soubory.</p>
+
+		<p>Při obnově databáze se ztratí veškeré záznamy a&nbsp;změny provedené od poslední zálohy. Proto jestli od poslední zálohy uživatel měnil heslo, po obnově platí původní heslo z&nbsp;období před změnou. Stejně tak jestli byl od poslední zálohy založen nový uživatel, po obnově jej bude potřeba založit znova. Jestli je to zrovna uživatel, jenž obnovu ze zálohy provádí, bude z&nbsp;aplikace automaticky odhlášen.</p>
+
+		<p>Pokud dojde k&nbsp;úplné ztrátě databázového souboru nebo k&nbsp;takovému poškození, že nebude možné se přihlásit do aplikace, může systémový správce provést obnovu databáze na úrovni souborového systému.</p>
+	</main>
+
+	<footer>
+		&copy; 2017 Mgr. Radovan Bednár<br>
+		kontakt: <i>radovan.bednar[at]gmail.com</i>
+	</footer>
+
+	<div id="zpet-na-obsah">
+		<a href="#top">zpět na obsah</a>
+	</div>
+</body>
+</html>

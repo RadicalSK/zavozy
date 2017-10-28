@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Závozy – přehled změn</title>
+	<style>
+	html {
+		background-color: #B0E2FF;
+		font-family: "Georgia", serif;
+		font-size: 12pt;
+	}
+
+	body {
+		max-width: 42em;
+		margin: auto;
+		line-height: 1.5em;
+		margin-bottom: 3rem;
+		counter-reset: heading2;
+	}
+
+	h1 {
+		text-align: center;
+		margin: 0.5rem 0;
+		font-size: 2rem;
+		color: #00f;
+		text-shadow: #fff 2px -2px;
+	}
+
+	h2 {
+		margin: 0.5em 0;
+		padding: 0.25em 0;
+		font-size: 1.5rem;
+		color: #00f;
+	}
+
+	main h2 {
+		clear: both;
+		border-top: 2px dotted #00f;
+	}
+
+	p {
+		margin: .5em 0;
+		text-align: justify;
+		text-indent: 2rem;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: none;
+		border-bottom: 1px dotted #00f;
+	}
+
+	a:hover {
+		color: #B0E2FF;
+		background-color: #00f;
+		border: none;
+	}
+
+	dl {
+		margin: 1em 0 1em 0em;
+		text-align: justify;
+	}
+
+	dt {
+		font-weight: bold;
+		margin: .5em 0 0 0;
+	}
+
+	dd {
+		margin: 0 0 0 2em;
+		display: list-item;
+		list-style-type: disc;
+	}
+
+	a[rel=external]::after {
+		content: " ↗";
+	}
+
+	nav ol {
+		margin: 0 0 .5em;
+		padding: 0 1em;
+		list-style-type: none;
+		counter-reset: obsah;
+	}
+
+	nav ol li::before {
+		counter-increment: obsah;
+		content: counters(obsah, ".") " ";
+	}
+
+	nav > ol > li::before {
+		counter-increment: obsah;
+		content: counter(obsah) ". ";
+	}
+
+	.menu {
+		font-style: italic;
+		font-weight: bold;
+		color: #00f;
+	}
+
+	.prvek-gui {
+		quotes: "\201E" "\201C";
+		font-style: italic;
+		color: #00f;
+	}
+	.prvek-gui::before {
+		content: open-quote;
+	}
+	.prvek-gui::after {
+		content: close-quote;
+	}
+
+	.adresar {
+		font-family: monospace;
+		font-size: smaller;
+		color: #00f;
+	}
+	.adresar::before {
+		content: "[";
+	}
+	.adresar::after {
+		content: "]";
+	}
+
+	.soubor {
+		font-family: monospace;
+		font-size: smaller;
+		color: #00f;
+	}
+
+	kbd {
+		background-color:#f7f7f7;
+		border:1px solid #ccc;
+		border-radius:3px;
+		box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+		color:#333;
+		display:inline-block;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:11px;
+		line-height:1.4;
+		margin:0 .1em;
+		padding:.1em .5em;
+		text-shadow:0 1px 0 #fff;
+		text-indent: 0;
+	}
+
+	footer {
+		padding: 1em 0;
+		text-align: center;
+		border-top: 2px dotted #00f;
+		border-bottom: 2px dotted #00f;
+		color: #00f;
+	}
+
+	#logo {
+		float: right;
+		display: block;
+	}
+
+	#zpet-na-obsah {
+		box-sizing: border-box;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		width: 8rem;
+		height: 3rem;
+		padding: .5rem;
+		text-align: right;
+		background-color: transparent;
+		transition: all 500ms ease-out;
+	}
+
+	@media (max-width: 57rem) {
+		#logo {
+			float: none;
+			margin: auto;
+		}
+		#zpet-na-obsah {
+			background-color: #B0E2FF;
+			width: 100%;
+		}
+	}
+	</style>
+</head>
+<body>
+	<h1>Závozy – přehled změn</h1>
+
+	<nav>
+		<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" version="1.1" id="logo">
+			<g transform="translate(0 -796.362)" stroke-miterlimit="4">
+				<ellipse cx="-212.132" cy="971.55" rx="21.213" ry="6.061" opacity="1" fill="none" fill-opacity="1" stroke="none" stroke-width="10.34" stroke-dashoffset="0" stroke-opacity=".996"/>
+				<g transform="translate(-6.532 -7788.518) scale(8.40826)">
+					<path d="M11.822 1029.417c-1.304 0-4.595 4.464-6.758 6.328-.786.678-2.507.546-3.011.799-1.49.748-.492 4.976-.492 4.976h2.537a2.966 2.966 0 0 1-.004-.091 2.966 2.966 0 0 1 2.967-2.965 2.966 2.966 0 0 1 2.966 2.965 2.966 2.966 0 0 1-.004.091h11.678a2.966 2.966 0 0 1-.002-.091 2.966 2.966 0 0 1 2.965-2.965 2.966 2.966 0 0 1 2.967 2.965 2.966 2.966 0 0 1-.004.091h3.121l-.492-12.103H11.822z" fill="#fff" fill-rule="evenodd" stroke="#00f" stroke-width=".912" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
+					<circle r="2.067" cy="1041.429" cx="7.061" opacity="1" fill="#00f" fill-opacity="1" stroke="none" stroke-width="10.34" stroke-dashoffset="0" stroke-opacity=".996"/>
+					<circle cx="24.665" cy="1041.429" r="2.067" opacity="1" fill="#00f" fill-opacity="1" stroke="none" stroke-width="10.34" stroke-dashoffset="0" stroke-opacity=".996"/>
+					<path d="M17.064 1030.983l-.517 2.883h-2.883l-.574 3.205h2.883l-.516 2.883h3.205l.516-2.883h2.883l.574-3.205h-2.883l.517-2.883h-3.205z" opacity="1" fill="#00f" fill-opacity="1" stroke="none" stroke-width="30" stroke-dashoffset="0" stroke-opacity=".996"/>
+				</g>
+			</g>
+		</svg>
+
+		<h2 id="obsah">Obsah</h2>
+		<ol>
+			<li><a href="#v1-2">Verze 1.2 (<time datetime="2017-10-25">25.&nbsp;10&nbsp;2017</time>)</a></li>
+			<li><a href="#v1-1">Verze 1.1 (<time datetime="2017-09-24">24.&nbsp;9&nbsp;2017</time>)</a></li>
+		</ol>
+	</nav>
+
+	<main>
+		<h2 id="v1-2">Verze 1.2 (<time datetime="2017-10-25">25.&nbsp;10.&nbsp;2017</time>)</h2>
+
+		<dl>
+			<dt>Všeobecné</dt>
+			<dd>přidaná ikona aplikace</dd>
+			<dd>přidaná <b>Uživatelská příručka</b> a <b>Přehled změn</b></dd>
+			<dd>opraveno zobrazení čísla verze v&nbsp;záhlaví hlavního okna</dd>
+			<dd>volba <span class="menu">Údržba → Okamžitá záloha databáze</span> v hlavním menu se zpřístupní pouze v&nbsp;případě provedené změny v&nbsp;databázi</dd>
+			<dd>do hlavního menu přidaná volba <span class="menu">Nápověda → Přehled změn</span> otevírající tento dokument</dd>
+
+			<dt>Hlavní formulář</dt>
+			<dd>po odhlášení uživatele se automaticky otevře dialog <span class="prvek-gui">Přihlášení</span></dd>
+			<dd>upravena formulace textu v&nbsp;nabídce založení pacienta, jenž nebyl nalezen v&nbsp;databázi</dd>
+			<dd>políčka <span class="prvek-gui">Příjmení</span> a <span class="prvek-gui">Jméno</span> nelze víc označit, pokud je načtený pacient</dd>
+			<dd>našeptávač příjmení se aktualizuje nejen po založení, ale i&nbsp;po upravení pacienta</dd>
+
+			<dt>Pacient</dt>
+			<dd>přidaná možnost upravit příjmení a/nebo jméno pacienta</dd>
+
+			<dt>Přehledy</dt>
+			<dd>okna s&nbsp;přehledy se zobrazují maximalizované</dd>
+			<dd>při volbě časového rozmezí &#x201E;Za celou dobu&#x201C; se počáteční datum místo 1.&nbsp;8. nastaví na 1.&nbsp;9.&nbsp;2017</dd>
+
+			<dt>Tisk</dt>
+			<dd>na průvodku se netiskne PSČ, pokud je nulové, čili neznámé v&nbsp;čase zakládání pacienta</dd>
+		</dl>
+
+		<h2 id="v1-1">Verze 1.1 (<time datetime="2017-09-24">24.&nbsp;9.&nbsp;2017</time>)</h2>
+
+		<dl>
+			<dt>Všeobecné</dt>
+			<dd>hlavní okno se zobrazí v&nbsp;prostředku šiřky obrazovky a na celou její výšku</dd>
+			<dd>zpřístupněna volba <span class="menu">Nápověda → Uživatelská příručka</span> v&nbsp;hlavním menu</dd>
+
+			<dt>Hlavní formulář</dt>
+			<dd>seznam položek se vykresluje v&nbsp;rolovatelné sekci, takže výška okna se víc nemění s&nbsp;přidávanými položkami</dd>
+			<dd>počet nepomůcek se namísto přes dialog zadává přes vstupní pole (stejně jako u&nbsp;pomůcek)</dd>
+
+			<dt>Pacient</dt>
+			<dd>opraveno tabulátorové pořadí políček v&nbsp;dialogu <span class="prvek-gui">Nový pacient</span></dd>
+			<dd>opraveno kódování názvů obcí v našeptávači PSČ v dialozích <span class="prvek-gui">Nový pacient</span> a&nbsp;<span class="prvek-gui">Úprava pacienta</span></dd>
+
+			<dt>Tisk</dt>
+			<dd>opraveno tiskové rozložení průvodek (šířka okrajů nastavena relativně)</dd>
+			<dd>opraveno zahrnutí prázdné stránky na konci souboru</dd>
+			<dd>opraveno automatické otevření tiskového souboru</dd>
+		</dl>
+
+	</main>
+
+	<footer>
+		&copy; 2017 Mgr. Radovan Bednár<br>
+		kontakt: <i>radovan.bednar[at]gmail.com</i>
+	</footer>
+
+	<div id="zpet-na-obsah">
+		<a href="#top">zpět na obsah</a>
+	</div>
+</body>
+</html>

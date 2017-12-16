@@ -376,6 +376,10 @@ void MainWindow::on_tlacitkoUpravitZvolenehoPacienta_clicked() {
     on_actionUpravitAktualnihoPacienta_triggered();
 }
 
+void MainWindow::on_tlacitkoZalozitJmenovcePacienta_clicked() {
+    DialogPacient::otevritNovyPacient(ui->vstupPrijmeni->text(), ui->vstupJmeno->text(), this);
+}
+
 void MainWindow::zobrazitUdajeAktualnihoPacienta(bool zobrazit) {
     // znepristupni/zpristupni vstupy Prijmeni a Jmeno
     foreach (QLineEdit *policko, QList<QLineEdit*>({ui->vstupPrijmeni, ui->vstupJmeno})) {
@@ -398,7 +402,7 @@ void MainWindow::zobrazitUdajeAktualnihoPacienta(bool zobrazit) {
     foreach (QWidget *prvek, QList<QWidget*>({ui->stalyPopisekAdresa, ui->popisekAdresa,
                                              ui->stalyPopisekTelefony, ui->popisekTelefony,
                                              ui->volbaPoznamka, ui->tlacitkoZrusitVolbuPacienta,
-                                             ui->tlacitkoUpravitZvolenehoPacienta})) {
+                                             ui->tlacitkoUpravitZvolenehoPacienta, ui->tlacitkoZalozitJmenovcePacienta})) {
         prvek->setEnabled(zobrazit);
     };
 

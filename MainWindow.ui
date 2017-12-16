@@ -235,6 +235,22 @@
              </widget>
             </item>
             <item>
+             <widget class="QPushButton" name="tlacitkoZalozitJmenovcePacienta">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Založit jmenovce pacienta</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <spacer name="horizontalSpacer_2">
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
@@ -287,7 +303,7 @@
              <rect>
               <x>0</x>
               <y>0</y>
-              <width>654</width>
+              <width>701</width>
               <height>68</height>
              </rect>
             </property>

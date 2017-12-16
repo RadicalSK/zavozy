@@ -94,6 +94,7 @@ private slots:
     void on_volbaPoznamka_clicked(bool checked);
     void on_tlacitkoZrusitVolbuPacienta_clicked();
     void on_tlacitkoUpravitZvolenehoPacienta_clicked();
+    void on_tlacitkoZalozitJmenovcePacienta_clicked();
     void zobrazitUdajeAktualnihoPacienta(bool zobrazit);
 
     // hlavni formular - sekce Pomucky

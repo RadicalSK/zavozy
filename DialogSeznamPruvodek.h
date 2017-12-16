@@ -16,8 +16,8 @@ class DialogSeznamPruvodek : public QDialog
     Q_OBJECT
 
 public:
-    static bool otevritNevytistene(QList<Zavoz> *nevytistenePruvodky);
-    static bool otevritOpetovneZarazeniDoFronty(QList<Zavoz> *dnesVytistenePruvodky, QList<Zavoz> *nevytistenePruvodky);
+    static bool otevritNevytistene(QList<Zavoz> *nevytistenePruvodky, QWidget *rodic);
+    static bool otevritOpetovneZarazeniDoFronty(QList<Zavoz> *dnesVytistenePruvodky, QList<Zavoz> *nevytistenePruvodky, QWidget *rodic);
 
 private slots:
     void on_seznamDnesVytistene_currentRowChanged(int radek);

@@ -26,10 +26,10 @@ public:
         UpravaPacienta
     };
 
-    static bool otevritNovyPacient();
-    static bool otevritNovyPacient(QString prijmeni, QString jmeno);
-    static bool otevritUpravaPacienta();
-    static bool otevritUpravaPacienta(Pacient *upravovanyPacient);
+    static bool otevritNovyPacient(QWidget *rodic);
+    static bool otevritNovyPacient(QString prijmeni, QString jmeno, QWidget *rodic);
+    static bool otevritUpravaPacienta(QWidget *rodic);
+    static bool otevritUpravaPacienta(Pacient *upravovanyPacient, QWidget *rodic);
 
 private slots:
     void on_vstupPrijmeni_textChanged(const QString &text);

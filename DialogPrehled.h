@@ -28,8 +28,8 @@ public:
         ZavozyPacienta, ZavozyUzivatele, PomuckaZaObdobi, ZavozyZaObdobi, Pacienti
     };
 
-    static bool otevrit(TypPrehledu typ);
-    static bool otevritZavozyAktualnihoPacienta(Pacient *pacient);
+    static bool otevrit(TypPrehledu typ, QWidget *rodic);
+    static bool otevritZavozyAktualnihoPacienta(Pacient *pacient, QWidget *rodic);
 
 private slots:
     void on_vstupPrijmeni_textChanged(const QString &text);

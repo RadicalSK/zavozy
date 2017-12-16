@@ -25,8 +25,8 @@ DialogNovyUzivatel::~DialogNovyUzivatel() {
     delete validator_;
 }
 
-bool DialogNovyUzivatel::otevrit() {
-    DialogNovyUzivatel *dialog = new DialogNovyUzivatel();
+bool DialogNovyUzivatel::otevrit(QWidget *rodic) {
+    DialogNovyUzivatel *dialog = new DialogNovyUzivatel(rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }

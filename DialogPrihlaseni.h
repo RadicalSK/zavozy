@@ -16,7 +16,7 @@ class DialogPrihlaseni : public QDialog
     Q_OBJECT
 
 public:
-    static bool otevrit(Uzivatel *&prihlasenyUzivatel);
+    static bool otevrit(Uzivatel *&prihlasenyUzivatel, QWidget *rodic);
 
 private slots:
     void on_vstupUzivatel_textChanged(const QString &text);

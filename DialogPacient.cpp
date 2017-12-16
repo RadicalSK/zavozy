@@ -68,26 +68,26 @@ DialogPacient::~DialogPacient() {
     delete pacient_;
 }
 
-bool DialogPacient::otevritNovyPacient() {
-    DialogPacient *dialog = new DialogPacient(DialogPacient::NovyPacient);
+bool DialogPacient::otevritNovyPacient(QWidget *rodic) {
+    DialogPacient *dialog = new DialogPacient(DialogPacient::NovyPacient, nullptr, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }
 
-bool DialogPacient::otevritNovyPacient(QString prijmeni, QString jmeno) {
-    DialogPacient *dialog = new DialogPacient(prijmeni, jmeno);
+bool DialogPacient::otevritNovyPacient(QString prijmeni, QString jmeno, QWidget *rodic) {
+    DialogPacient *dialog = new DialogPacient(prijmeni, jmeno, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }
 
-bool DialogPacient::otevritUpravaPacienta() {
-    DialogPacient *dialog = new DialogPacient(DialogPacient::UpravaPacienta);
+bool DialogPacient::otevritUpravaPacienta(QWidget *rodic) {
+    DialogPacient *dialog = new DialogPacient(DialogPacient::UpravaPacienta, nullptr, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }
 
-bool DialogPacient::otevritUpravaPacienta(Pacient *upravovanyPacient) {
-    DialogPacient *dialog = new DialogPacient(upravovanyPacient);
+bool DialogPacient::otevritUpravaPacienta(Pacient *upravovanyPacient, QWidget *rodic) {
+    DialogPacient *dialog = new DialogPacient(upravovanyPacient, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }

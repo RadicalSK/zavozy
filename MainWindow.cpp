@@ -90,7 +90,7 @@ void MainWindow::on_actionPrihlasit_triggered() {
 //    ui->vstupNovaPolozka->setFocus();
 
 
-    if (DialogPrihlaseni::otevrit(prihlasenyUzivatel_)) {
+    if (DialogPrihlaseni::otevrit(prihlasenyUzivatel_, this)) {
         povolitUzivatelskeAkce(true);
         povolitAdministratorskeAkce(prihlasenyUzivatel_->admin());
         this->setWindowTitle(QString("Závozy " + cisloVerze + " - pracuje " + prihlasenyUzivatel_->celeJmeno()));
@@ -99,13 +99,13 @@ void MainWindow::on_actionPrihlasit_triggered() {
 }
 
 void MainWindow::on_actionZmenitHeslo_triggered() {
-    if (DialogUpravitSmazatUzivatele::otevritZmenaHesla(prihlasenyUzivatel_))
+    if (DialogUpravitSmazatUzivatele::otevritZmenaHesla(prihlasenyUzivatel_, this))
         nastavitZmenuDatabaze(true);
 }
 
 void MainWindow::on_actionPridatUzivatele_triggered() {
     bool zadniUzivateleVDatabazi = (Databaze::pocetAktivnichUzivatelu() == 0);
-    bool zalozenUzivatel = DialogNovyUzivatel::otevrit();
+    bool zalozenUzivatel = DialogNovyUzivatel::otevrit(this);
 
     if (zalozenUzivatel)
         nastavitZmenuDatabaze(true);
@@ -117,7 +117,7 @@ void MainWindow::on_actionPridatUzivatele_triggered() {
 }
 
 void MainWindow::on_actionUpravitSmazatUzivatele_triggered() {
-    if (DialogUpravitSmazatUzivatele::otevritUpravaUzivatele(prihlasenyUzivatel_))
+    if (DialogUpravitSmazatUzivatele::otevritUpravaUzivatele(prihlasenyUzivatel_, this))
         nastavitZmenuDatabaze(true);
 }
 
@@ -139,21 +139,21 @@ void MainWindow::on_actionUkoncitAplikaci_triggered() {
 }
 
 void MainWindow::on_actionNovyPacient_triggered() {
-    if (DialogPacient::otevritNovyPacient()) {
+    if (DialogPacient::otevritNovyPacient(this)) {
         nastavitZmenuDatabaze(true);
         pripravitNaseptavacPrijmeni();  // aktualizuje naseptavac
     }
 }
 
 void MainWindow::on_actionUpravitPacienta_triggered() {
-    if (DialogPacient::otevritUpravaPacienta()) {
+    if (DialogPacient::otevritUpravaPacienta(this)) {
         nastavitZmenuDatabaze(true);
         pripravitNaseptavacPrijmeni();  // aktualizuje naseptavac
     }
 }
 
 void MainWindow::on_actionUpravitAktualnihoPacienta_triggered() {
-    if (DialogPacient::otevritUpravaPacienta(aktualniPacient_)) {
+    if (DialogPacient::otevritUpravaPacienta(aktualniPacient_, this)) {
         zobrazitUdajeAktualnihoPacienta(true);  // aktualizace policek po uprave
         nastavitZmenuDatabaze(true);
     }
@@ -170,7 +170,7 @@ void MainWindow::on_actionZrusitVolbuPacienta_triggered() {
 }
 
 void MainWindow::on_actionZobrazitSeznamVsechPacientu_triggered() {
-    if (DialogPrehled::otevrit(DialogPrehled::Pacienti)) {
+    if (DialogPrehled::otevrit(DialogPrehled::Pacienti, this)) {
         nastavitZmenuDatabaze(true);    // v pripade, ze uzivatel zmenil udaje pacienta pres tabulku
         pripravitNaseptavacPrijmeni();  // aktualizuje naseptavac
     }
@@ -181,34 +181,34 @@ void MainWindow::on_actionVytisknoutNevytistenePruvodky_triggered() {
 }
 
 void MainWindow::on_actionZobrazitPrehledNevytistenychPruvodek_triggered() {
-    DialogSeznamPruvodek::otevritNevytistene(&nevytistene_);
+    DialogSeznamPruvodek::otevritNevytistene(&nevytistene_, this);
 }
 
 void MainWindow::on_actionOpetovneZaraditPruvodkyDoTiskoveFronty_triggered() {
-    if (DialogSeznamPruvodek::otevritOpetovneZarazeniDoFronty(&dnesVytistene_, &nevytistene_)) {
+    if (DialogSeznamPruvodek::otevritOpetovneZarazeniDoFronty(&dnesVytistene_, &nevytistene_, this)) {
         ulozitSeznamPruvodekDoSouboru(nevytistene_, Soubory::nevytistene);
         zobrazitPocetNevytistenychPruvodek();
     }
 }
 
 void MainWindow::on_actionPrehledZavozuProPacienta_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::ZavozyPacienta);
+    DialogPrehled::otevrit(DialogPrehled::ZavozyPacienta, this);
 }
 
 void MainWindow::on_actionPrehledZavozuProAktualnihoPacienta_triggered() {
-    DialogPrehled::otevritZavozyAktualnihoPacienta(aktualniPacient_);
+    DialogPrehled::otevritZavozyAktualnihoPacienta(aktualniPacient_, this);
 }
 
 void MainWindow::on_actionPrehledZavozuVychystanychUzivatelem_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::ZavozyUzivatele);
+    DialogPrehled::otevrit(DialogPrehled::ZavozyUzivatele, this);
 }
 
 void MainWindow::on_actionPrehledZavozuJednotlivePomucky_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::PomuckaZaObdobi);
+    DialogPrehled::otevrit(DialogPrehled::PomuckaZaObdobi, this);
 }
 
 void MainWindow::on_actionPrehledVsechZavozuZaObdobi_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::ZavozyZaObdobi);
+    DialogPrehled::otevrit(DialogPrehled::ZavozyZaObdobi, this);
 }
 
 void MainWindow::on_actionOtevritWebstrankuSCiselnikyPomucek_triggered() {
@@ -342,7 +342,7 @@ void MainWindow::on_tlacitkoVyhledat_clicked() {
             if (OknoZprav::potvrzeni(OknoZprav::Otazka,
                                      QString("Pacient " + Text::kurziva(ui->vstupPrijmeni->text(), ui->vstupJmeno->text())
                                              + " nebyl nalezen v databázi. Přejete si ho založit?"))) {
-                if (DialogPacient::otevritNovyPacient(ui->vstupPrijmeni->text(), ui->vstupJmeno->text())) {
+                if (DialogPacient::otevritNovyPacient(ui->vstupPrijmeni->text(), ui->vstupJmeno->text(), this)) {
                     pripravitNaseptavacPrijmeni();
                     on_tlacitkoVyhledat_clicked();
                 }
@@ -703,7 +703,7 @@ void MainWindow::vyzvatKZalozeniPrvnihoUzivatele() {
     ui->actionPrihlasit->setEnabled(false);
     ui->actionPridatUzivatele->setEnabled(true);
 
-    if (DialogNovyUzivatel::otevrit()) {
+    if (DialogNovyUzivatel::otevrit(this)) {
         vyzvatKPrihlaseniPrvnihoUzivatele();
     }
 }

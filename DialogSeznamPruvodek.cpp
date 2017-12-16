@@ -28,14 +28,15 @@ DialogSeznamPruvodek::DialogSeznamPruvodek(QList<Zavoz> *dnesVytistenePruvodky, 
     naplnitSeznamPruvodek(p_nevytistenePruvodky_, ui->seznamPruvodkyVeFronte);
 }
 
-bool DialogSeznamPruvodek::otevritNevytistene(QList<Zavoz> *nevytistenePruvodky) {
-    DialogSeznamPruvodek *dialog = new DialogSeznamPruvodek(nullptr, nevytistenePruvodky);
+bool DialogSeznamPruvodek::otevritNevytistene(QList<Zavoz> *nevytistenePruvodky, QWidget *rodic) {
+    DialogSeznamPruvodek *dialog = new DialogSeznamPruvodek(nullptr, nevytistenePruvodky, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }
 
-bool DialogSeznamPruvodek::otevritOpetovneZarazeniDoFronty(QList<Zavoz> *dnesVytistenePruvodky, QList<Zavoz> *nevytistenePruvodky) {
-    DialogSeznamPruvodek *dialog = new DialogSeznamPruvodek(dnesVytistenePruvodky, nevytistenePruvodky);
+bool DialogSeznamPruvodek::otevritOpetovneZarazeniDoFronty(QList<Zavoz> *dnesVytistenePruvodky,
+                                                           QList<Zavoz> *nevytistenePruvodky, QWidget *rodic) {
+    DialogSeznamPruvodek *dialog = new DialogSeznamPruvodek(dnesVytistenePruvodky, nevytistenePruvodky, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }

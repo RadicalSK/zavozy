@@ -16,8 +16,8 @@ DialogPrihlaseni::~DialogPrihlaseni() {
     delete validator_;
 }
 
-bool DialogPrihlaseni::otevrit(Uzivatel *&prihlasenyUzivatel) {
-    DialogPrihlaseni *dialog = new DialogPrihlaseni(prihlasenyUzivatel);
+bool DialogPrihlaseni::otevrit(Uzivatel *&prihlasenyUzivatel, QWidget *rodic) {
+    DialogPrihlaseni *dialog = new DialogPrihlaseni(prihlasenyUzivatel, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }

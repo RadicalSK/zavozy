@@ -18,8 +18,8 @@ class DialogUpravitSmazatUzivatele : public QDialog
     Q_OBJECT
 
 public:
-    static bool otevritZmenaHesla(Uzivatel *uzivatel);
-    static bool otevritUpravaUzivatele(Uzivatel *uzivatel);
+    static bool otevritZmenaHesla(Uzivatel *uzivatel, QWidget *rodic);
+    static bool otevritUpravaUzivatele(Uzivatel *uzivatel, QWidget *rodic);
 
 private slots:
     void on_seznamUzivJmeno_currentIndexChanged(const QString &uzivJmeno);

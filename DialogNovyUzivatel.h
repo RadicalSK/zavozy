@@ -17,7 +17,7 @@ class DialogNovyUzivatel : public QDialog
     Q_OBJECT
 
 public:
-    static bool otevrit();
+    static bool otevrit(QWidget *rodic);
 
 private slots:
     void on_vstupUzivJmeno_textChanged(const QString &text);

@@ -81,17 +81,17 @@ DialogPrehled::~DialogPrehled() {
     delete naseptavac_;
 }
 
-bool DialogPrehled::otevrit(DialogPrehled::TypPrehledu typ) {
+bool DialogPrehled::otevrit(DialogPrehled::TypPrehledu typ, QWidget *rodic) {
     provedenyZmenyVDb_ = false; // reset na vychozi hodnotu
-    DialogPrehled *dialog = new DialogPrehled(typ);
+    DialogPrehled *dialog = new DialogPrehled(typ, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     dialog->showMaximized();
     dialog->exec();
     return provedenyZmenyVDb_;  // bude false, dokud v typu Pacienti nedoslo k uprave pacienta
 }
 
-bool DialogPrehled::otevritZavozyAktualnihoPacienta(Pacient *pacient) {
-    DialogPrehled *dialog = new DialogPrehled(pacient);
+bool DialogPrehled::otevritZavozyAktualnihoPacienta(Pacient *pacient, QWidget *rodic) {
+    DialogPrehled *dialog = new DialogPrehled(pacient, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     dialog->showMaximized();
     return dialog->exec();
@@ -241,7 +241,7 @@ void DialogPrehled::on_tabulka_doubleClicked(const QModelIndex &index) {
         Databaze::vyhledatPacienta(ui->tabulka->model()->index(index.row(), 1).data().toString(),
                                    ui->tabulka->model()->index(index.row(), 2).data().toString(),
                                    pacient);
-        if (DialogPacient::otevritUpravaPacienta(pacient)) {
+        if (DialogPacient::otevritUpravaPacienta(pacient, this)) {
             provedenyZmenyVDb_ = true;
             queryModel_->query().exec();
         }

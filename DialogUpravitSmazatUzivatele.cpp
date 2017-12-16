@@ -44,14 +44,14 @@ DialogUpravitSmazatUzivatele::~DialogUpravitSmazatUzivatele() {
     delete validator_;
 }
 
-bool DialogUpravitSmazatUzivatele::otevritZmenaHesla(Uzivatel *uzivatel) {
-    DialogUpravitSmazatUzivatele *dialog = new DialogUpravitSmazatUzivatele(uzivatel, true);
+bool DialogUpravitSmazatUzivatele::otevritZmenaHesla(Uzivatel *uzivatel, QWidget *rodic) {
+    DialogUpravitSmazatUzivatele *dialog = new DialogUpravitSmazatUzivatele(uzivatel, true, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }
 
-bool DialogUpravitSmazatUzivatele::otevritUpravaUzivatele(Uzivatel *uzivatel) {
-    DialogUpravitSmazatUzivatele *dialog = new DialogUpravitSmazatUzivatele(uzivatel, false);
+bool DialogUpravitSmazatUzivatele::otevritUpravaUzivatele(Uzivatel *uzivatel, QWidget *rodic) {
+    DialogUpravitSmazatUzivatele *dialog = new DialogUpravitSmazatUzivatele(uzivatel, false, rodic);
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     return dialog->exec();
 }

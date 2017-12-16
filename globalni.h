@@ -9,7 +9,7 @@
 #include <QMessageBox>
 #include <QRegularExpression>
 
-const QString cisloVerze = "v1.2";
+const QString cisloVerze = "1.2";
 
 namespace Soubory {
     const QStringList adresare({"data", "export", "temp", "zalohy"});

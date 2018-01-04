@@ -57,6 +57,10 @@
 		border: none;
 	}
 
+	a[rel=external]::after {
+		content: " ↗";
+	}
+
 	dl {
 		margin: 1em 0 1em 0em;
 		text-align: justify;
@@ -73,8 +77,11 @@
 		list-style-type: disc;
 	}
 
-	a[rel=external]::after {
-		content: " ↗";
+	ul {
+		margin: 0;
+		padding: 0 1em;
+		list-style-type: circle;
+		font-size: 11pt;
 	}
 
 	nav ol {
@@ -202,12 +209,40 @@
 
 		<h2 id="obsah">Obsah</h2>
 		<ol>
+			<li><a href="#v1-3">Verze 1.3 ()</a></li>
 			<li><a href="#v1-2">Verze 1.2 (<time datetime="2017-10-25">25.&nbsp;10&nbsp;2017</time>)</a></li>
 			<li><a href="#v1-1">Verze 1.1 (<time datetime="2017-09-24">24.&nbsp;9&nbsp;2017</time>)</a></li>
 		</ol>
 	</nav>
 
 	<main>
+		<h2 id="v1-3">Verze 1.3 (<time datetime="2017-10-25" style="color: red">25.&nbsp;10.&nbsp;2017</time>)</h2>
+
+		<dl>
+			<dt>Všeobecné</dt>
+			<dd>dialogy se víc nezobrazují na hlavním panelu operačního systému jako samostatná okna</dd>
+			<dd>odstraněno duplicitní <q>v</q> z&nbsp;čísla verze v&nbsp;záhlaví hlavního okna</dd>
+
+			<dt>Hlavní formulář</dt>
+			<dd>přidáno tlačítko <span class="prvek-gui">Založit jmenovce pacienta</span> pro případ, že vyhledaný pacient je pouze jmenovcem kýženého pacienta</dd>
+
+			<dt>Uživatel</dt>
+			<dd style="color: red">v&nbsp;dialogu <span class="prvek-gui">Úprava/smazání uživatele</span> se po označení volby <span class="prvek-gui">smazat uživatele</span> změní text potvrzovacího tlačítka na <q>Smazat</q></dd>
+
+			<dt>Přehledy</dt>
+			<dd>opravena chyba při určování předchozího kvartálu</dd>
+			<dd>opravena pravopisní chyba v názvu sloupce <q>Datum závozu</q></dd>
+			<dd>v&nbsp;sekci <span class="prvek-gui">Časové rozmezí</span> všech přehledů přidána volba <q>Den nejbližšího závozu</q></dd>
+
+			<dd>přidány nové funkce v&nbsp;dialogu <span class="prvek-gui">Přehled všech závozů za období</span>:
+				<ul>
+					<li>přidána sekce <span class="prvek-gui">Typ zobrazení</span> umožňující volbu způsobu zobrazení záznamů pomocí přepínače – kromě dosavadního způsobu zobrazení záznamů <b>po jednotlivých pomůckách</b> je nově možné zobrazit záznamy i&nbsp;<b>po pacientech</b></li>
+					<li>při zobrazení záznamů po pacientech tabulka s&nbsp;výsledky vyhledávání obsahuje prázdný sloupec <q>Počet kartonů</q> umožňující dopsání příslušného údaje po exportu dat do CSV souboru nebo po jeho vytištění</li>
+					<li>časové rozmezí je přednastaveno na <b>den nejbližšího závozu</b></li>
+				</ul>
+			</dd>
+		</dl>
+
 		<h2 id="v1-2">Verze 1.2 (<time datetime="2017-10-25">25.&nbsp;10.&nbsp;2017</time>)</h2>
 
 		<dl>

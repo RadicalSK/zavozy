@@ -99,9 +99,17 @@ void DialogUpravitSmazatUzivatele::on_volbaSmazatUzivatele_toggled(bool checked)
                                            "Uživatel nebude víc oprávněn používat aplikaci, "
                                            "ale veškeré záznamy o jeho činnosti zůstanou uložené v databázi. "
                                            "Jeho uživatelské jméno nebude možné opětovně použít.");
-        if (!smazat) {
+        if (smazat) {
+            ui->tlacitkoUlozit->setText("Smazat");
+            ui->tlacitkoUlozit->setToolTip("Smazat (Ctrl+Enter)");
+        }
+        else {
             ui->volbaSmazatUzivatele->setChecked(false);
         }
+    }
+    else {
+        ui->tlacitkoUlozit->setText("Uložit");
+        ui->tlacitkoUlozit->setToolTip("Uložit (Ctrl+Enter)");
     }
 }
 

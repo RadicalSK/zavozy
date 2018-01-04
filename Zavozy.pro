@@ -25,7 +25,6 @@ SOURCES += main.cpp\
     Naseptavac.cpp \
     TiskarnaPruvodek.cpp \
     Databaze.cpp \
-    DialogPrehled.cpp \
     PolozkaZavozu.cpp \
     Zavoz.cpp \
     WidgetOdstranovaciTlacitko.cpp \
@@ -35,7 +34,13 @@ SOURCES += main.cpp\
     globalni.cpp \
     TiskoveFonty.cpp \
     TiskoveRozvrzeniPruvodky.cpp \
-    FiltrUdalostiVstupNovaPolozka.cpp
+    FiltrUdalostiVstupNovaPolozka.cpp \
+    AbstraktniDialogPrehled.cpp \
+    DialogPrehledZavozuProPacienta.cpp \
+    DialogPrehledZavozuVychystanychUzivatelem.cpp \
+    DialogPrehledZavozuJednotlivePomucky.cpp \
+    DialogPrehledVsechZavozuZaObdobi.cpp \
+    DialogPrehledPacientu.cpp
 
 HEADERS  += MainWindow.h \
     DialogPrihlaseni.h \
@@ -49,7 +54,6 @@ HEADERS  += MainWindow.h \
     Naseptavac.h \
     TiskarnaPruvodek.h \
     Databaze.h \
-    DialogPrehled.h \
     PolozkaZavozu.h \
     Zavoz.h \
     WidgetOdstranovaciTlacitko.h \
@@ -59,15 +63,21 @@ HEADERS  += MainWindow.h \
     globalni.h \
     TiskoveFonty.h \
     TiskoveRozvrzeniPruvodky.h \
-    FiltrUdalostiVstupNovaPolozka.h
+    FiltrUdalostiVstupNovaPolozka.h \
+    AbstraktniDialogPrehled.h \
+    DialogPrehledZavozuProPacienta.h \
+    DialogPrehledZavozuVychystanychUzivatelem.h \
+    DialogPrehledZavozuJednotlivePomucky.h \
+    DialogPrehledVsechZavozuZaObdobi.h \
+    DialogPrehledPacientu.h
 
 FORMS    += MainWindow.ui \
     DialogPrihlaseni.ui \
     DialogNovyUzivatel.ui \
     DialogUpravitSmazatUzivatele.ui \
     DialogPacient.ui \
-    DialogPrehled.ui \
-    DialogSeznamPruvodek.ui
+    DialogSeznamPruvodek.ui \
+    AbstraktniDialogPrehled.ui
 
 soubory.path = $$OUT_PWD/data
 soubory.files += src/prirucka.html \

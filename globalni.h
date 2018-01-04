@@ -68,4 +68,14 @@ namespace Heslo {
     QString sha256Hash(QString heslo);
 }
 
+namespace Datum {
+    QDate denNejblizsihoZavozu();
+    QDate prvniDenPredchozihoMesice();
+    QDate posledniDenPredchozihoMesice();
+    QDate prvniDenPredchozihoKvartalu();
+    QDate posledniDenPredchozihoKvartalu();
+    QDate prvniDenPrechodzihoRoku();
+    QDate posledniDenPredchozihoRoku();
+}
+
 #endif // GLOBALNI_H

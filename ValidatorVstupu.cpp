@@ -14,6 +14,21 @@ bool ValidatorVstupu::jeVyplneno(QLineEdit *policko, bool sUpozornenim) {
         return true;
 }
 
+bool ValidatorVstupu::obsahujeJmenoNeboJmenoARok(QLineEdit *policko, bool sUpozornenim) {
+    QRegularExpression jmenoNeboJmenoARok("^\\w+( \\d{4})?$");
+    QRegularExpressionMatch shoda = jmenoNeboJmenoARok.match(policko->text());
+    
+    if (shoda.hasMatch()) {
+        smazatUpozorneni(policko);
+        return true;
+    }
+    else {
+        if (sUpozornenim)
+            zobrazitUpozorneni(policko, true, "musí obsahovat jméno, popř. následované mezerou a rokem narození");
+        return false;
+    }
+}
+
 bool ValidatorVstupu::obsahujeMinPocetSlov(QLineEdit *policko, int minPocetSlov, bool sUpozornenim) {
     QRegularExpression pocetSlovRegExp("\\b(\\w+)\\b");
 

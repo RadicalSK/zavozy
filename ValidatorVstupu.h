@@ -15,6 +15,7 @@ public:
     ValidatorVstupu(QLabel *popisekUpozorneni);
 
     bool jeVyplneno(QLineEdit *policko, bool sUpozornenim = true);
+    bool obsahujeJmenoNeboJmenoARok(QLineEdit *policko, bool sUpozornenim = true);
     bool obsahujeMinPocetSlov(QLineEdit *policko, int minPocetSlov, bool sUpozornenim = true);
     bool obsahujeTelCislo(QLineEdit *policko, bool sUpozornenim = true);
     bool obsahujeTelCisloNeboJePrazdne(QLineEdit *policko, bool sUpozornenim = true);

@@ -123,10 +123,10 @@ bool OknoZprav::potvrzeni(TypPotvrzeni typ, QString zakladniText, QString doplnu
     QMessageBox dialog;
 
     switch (typ) {
-    case Otazka: dialog.setIcon(QMessageBox::Question);
-        break;
-    case Varovani: dialog.setIcon(QMessageBox::Warning);
-        break;
+        case Otazka: dialog.setIcon(QMessageBox::Question);
+            break;
+        case Varovani: dialog.setIcon(QMessageBox::Warning);
+            break;
     }
 
     dialog.setText(zakladniText);
@@ -157,4 +157,146 @@ QString Text::kurziva(const QString retezec) {
 
 QString Text::kurziva(const QString retezec1, const QString retezec2) {
     return QString("<i>" + retezec1 + " " + retezec2 + "</i>");
+}
+
+QDate Datum::denNejblizsihoZavozu() {
+    QDate dnes = QDate::currentDate();
+
+    switch (dnes.dayOfWeek()) {
+        case 1: return dnes.addDays(2);
+            break;
+        case 2: return dnes.addDays(1);
+            break;
+        case 3: return dnes.addDays(2);
+            break;
+        case 4: return dnes.addDays(1);
+            break;
+        case 5: return dnes.addDays(5);
+            break;
+        case 6: return dnes.addDays(4);
+            break;
+        case 7: return dnes.addDays(3);
+            break;
+        default: return dnes;
+    }
+}
+
+QDate Datum::prvniDenPredchozihoMesice() {
+    QDate dnes = QDate::currentDate();
+
+    int rok, mesic;
+
+    if (dnes.month() > 1) {
+        rok = dnes.year();
+        mesic = dnes.month() - 1;
+    }
+    else {
+        rok = dnes.year() - 1;
+        mesic = 12;
+    }
+
+    return QDate(rok, mesic, 1);
+}
+
+QDate Datum::posledniDenPredchozihoMesice() {
+    QDate dnes = QDate::currentDate();
+
+    int rok, mesic;
+
+    if (dnes.month() > 1) {
+        rok = dnes.year();
+        mesic = dnes.month() - 1;
+    }
+    else {
+        rok = dnes.year() - 1;
+        mesic = 12;
+    }
+
+    QDate datum = QDate(rok, mesic, 1);
+    datum.setDate(rok, mesic, datum.daysInMonth());
+    return datum;
+}
+
+QDate Datum::prvniDenPredchozihoKvartalu() {
+    QDate dnes = QDate::currentDate();
+
+    int rok, mesic;
+
+    switch (dnes.month()) {
+        case 1:
+        case 2:
+        case 3:
+            rok = dnes.year() - 1;
+            mesic = 10;
+            break;
+        case 4:
+        case 5:
+        case 6:
+            rok = dnes.year();
+            mesic = 1;
+            break;
+        case 7:
+        case 8:
+        case 9:
+            rok = dnes.year();
+            mesic = 4;
+            break;
+        case 10:
+        case 11:
+        case 12:
+        default:
+            rok = dnes.year();
+            mesic = 7;
+    }
+
+    return QDate(rok, mesic, 1);
+}
+
+QDate Datum::posledniDenPredchozihoKvartalu() {
+    QDate dnes = QDate::currentDate();
+
+    int rok, mesic;
+
+    switch (dnes.month()) {
+        case 1:
+        case 2:
+        case 3:
+            rok = dnes.year() - 1;
+            mesic = 12;
+            break;
+        case 4:
+        case 5:
+        case 6:
+            rok = dnes.year();
+            mesic = 3;
+            break;
+        case 7:
+        case 8:
+        case 9:
+            rok = dnes.year();
+            mesic = 6;
+            break;
+        case 10:
+        case 11:
+        case 12:
+        default:
+            rok = dnes.year();
+            mesic = 9;
+    }
+
+    QDate datum = QDate(rok, mesic, 1);
+    datum.setDate(rok, mesic, datum.daysInMonth());
+    return datum;
+}
+
+QDate Datum::prvniDenPrechodzihoRoku() {
+    QDate dnes = QDate::currentDate();
+
+    return QDate(dnes.year() - 1, 1, 1);
+}
+
+QDate Datum::posledniDenPredchozihoRoku() {
+    QDate dnes = QDate::currentDate();
+
+    return QDate(dnes.year() - 1, 12, 31);
 }

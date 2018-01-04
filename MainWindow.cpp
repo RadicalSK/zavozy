@@ -81,21 +81,21 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::on_actionPrihlasit_triggered() {
-//    prihlasenyUzivatel_ = new Uzivatel("Bed", "", "", 1);
-//    povolitUzivatelskeAkce(true);
-//    povolitAdministratorskeAkce(true);
+    prihlasenyUzivatel_ = new Uzivatel("Bed", "", "", 1);
+    povolitUzivatelskeAkce(true);
+    povolitAdministratorskeAkce(true);
+
 //    ui->vstupPrijmeni->setText("Novák");
 //    ui->vstupJmeno->setText("Jan");
 //    on_tlacitkoVyhledat_clicked();
 //    ui->vstupNovaPolozka->setFocus();
 
-
-    if (DialogPrihlaseni::otevrit(prihlasenyUzivatel_, this)) {
-        povolitUzivatelskeAkce(true);
-        povolitAdministratorskeAkce(prihlasenyUzivatel_->admin());
-        this->setWindowTitle(QString("Závozy " + cisloVerze + " - pracuje " + prihlasenyUzivatel_->celeJmeno()));
-        zobrazitVerziCiselniku();
-    }
+//    if (DialogPrihlaseni::otevrit(prihlasenyUzivatel_, this)) {
+//        povolitUzivatelskeAkce(true);
+//        povolitAdministratorskeAkce(prihlasenyUzivatel_->admin());
+//        this->setWindowTitle(QString("Závozy " + cisloVerze + " - pracuje " + prihlasenyUzivatel_->celeJmeno()));
+//        zobrazitVerziCiselniku();
+//    }
 }
 
 void MainWindow::on_actionZmenitHeslo_triggered() {
@@ -170,7 +170,7 @@ void MainWindow::on_actionZrusitVolbuPacienta_triggered() {
 }
 
 void MainWindow::on_actionZobrazitSeznamVsechPacientu_triggered() {
-    if (DialogPrehled::otevrit(DialogPrehled::Pacienti, this)) {
+    if (DialogPrehledPacientu::otevrit(this)) {
         nastavitZmenuDatabaze(true);    // v pripade, ze uzivatel zmenil udaje pacienta pres tabulku
         pripravitNaseptavacPrijmeni();  // aktualizuje naseptavac
     }
@@ -192,23 +192,23 @@ void MainWindow::on_actionOpetovneZaraditPruvodkyDoTiskoveFronty_triggered() {
 }
 
 void MainWindow::on_actionPrehledZavozuProPacienta_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::ZavozyPacienta, this);
+    DialogPrehledZavozuProPacienta::otevrit(this);
 }
 
 void MainWindow::on_actionPrehledZavozuProAktualnihoPacienta_triggered() {
-    DialogPrehled::otevritZavozyAktualnihoPacienta(aktualniPacient_, this);
+    DialogPrehledZavozuProPacienta::otevritZavozyAktualnihoPacienta(aktualniPacient_, this);
 }
 
 void MainWindow::on_actionPrehledZavozuVychystanychUzivatelem_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::ZavozyUzivatele, this);
+    DialogPrehledZavozuVychystanychUzivatelem::otevrit(this);
 }
 
 void MainWindow::on_actionPrehledZavozuJednotlivePomucky_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::PomuckaZaObdobi, this);
+    DialogPrehledZavozuJednotlivePomucky::otevrit(this);
 }
 
 void MainWindow::on_actionPrehledVsechZavozuZaObdobi_triggered() {
-    DialogPrehled::otevrit(DialogPrehled::ZavozyZaObdobi, this);
+    DialogPrehledVsechZavozuZaObdobi::otevrit(this);
 }
 
 void MainWindow::on_actionOtevritWebstrankuSCiselnikyPomucek_triggered() {
@@ -359,7 +359,7 @@ void MainWindow::on_tlacitkoVyhledat_clicked() {
         ui->vstupPrijmeni->selectAll();
         validatorPacient_->zobrazitUpozorneni(QString("Políčka " + Text::kurziva("Příjmení")
                                                       + " a " + Text::kurziva("Jméno")
-                                                      + " musí být vyplnena"));
+                                                      + " musí být vyplněna"));
     }
 }
 
@@ -659,29 +659,8 @@ void MainWindow::vycentrovatOkno() {
 }
 
 void MainWindow::pripravitVstupDatumZavozu() {
-    QDate dnes = QDate::currentDate();
-    QDate nejblizsiZavoz;
-
-    switch (dnes.dayOfWeek()) {
-        case 1: nejblizsiZavoz = dnes.addDays(2);
-        break;
-        case 2: nejblizsiZavoz = dnes.addDays(1);
-        break;
-        case 3: nejblizsiZavoz = dnes.addDays(2);
-        break;
-        case 4: nejblizsiZavoz = dnes.addDays(1);
-        break;
-        case 5: nejblizsiZavoz = dnes.addDays(5);
-        break;
-        case 6: nejblizsiZavoz = dnes.addDays(4);
-        break;
-        case 7: nejblizsiZavoz = dnes.addDays(3);
-        break;
-        default: nejblizsiZavoz = dnes;
-    }
-
-    ui->vstupDatumZavozu->setMinimumDate(dnes);
-    ui->vstupDatumZavozu->setDate(nejblizsiZavoz);
+    ui->vstupDatumZavozu->setMinimumDate(QDate::currentDate());
+    ui->vstupDatumZavozu->setDate(Datum::denNejblizsihoZavozu());
     ui->vstupDatumZavozu->calendarWidget()->setFirstDayOfWeek(Qt::Monday);
     QTextCharFormat dnyZavozu;
     dnyZavozu.setFontWeight(QFont::Bold);

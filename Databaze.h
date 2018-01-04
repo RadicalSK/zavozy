@@ -52,6 +52,7 @@ public:
     static bool prehledZavozuUzivatele(QString uzivJmeno, QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel);
     static bool prehledZavozuPomucky(QString kodVzp, QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel);
     static bool prehledZavozu(QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel);
+    static bool prehledZavozuPoPacientech(QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel);
 
 private:
     static const QMap<QString, QString> tabulkyDb_;

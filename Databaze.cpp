@@ -386,7 +386,7 @@ bool Databaze::prehledZavozuProPacienta(int pacId, QDate datumOd, QDate datumDo,
 
 bool Databaze::prehledZavozuUzivatele(QString uzivJmeno, QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel) {
     QSqlQuery qry;
-    qry.prepare("SELECT datumZavozu as 'Dátum závozu', SUBSTR('0000000' || kodVzp, -7, 7) AS 'Kód VZP', "
+    qry.prepare("SELECT datumZavozu as 'Datum závozu', SUBSTR('0000000' || kodVzp, -7, 7) AS 'Kód VZP', "
                 "nazev AS 'Název pomůcky', doplnek AS 'Doplněk názvu', pocet as 'Počet', prijmeni as 'Příjmení', "
                 "jmeno as 'Jméno', adresa as 'Adresa', poridil as 'Pořídil', datumVychystani as 'Pořízeno dne' "
                 "FROM zavoz JOIN polozkaZavozu USING (pacId, datumZavozu) JOIN pacient USING (pacId) JOIN pomucka USING (kodVzp) "
@@ -407,7 +407,7 @@ bool Databaze::prehledZavozuUzivatele(QString uzivJmeno, QDate datumOd, QDate da
 
 bool Databaze::prehledZavozuPomucky(QString kodVzp, QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel) {
     QSqlQuery qry;
-    qry.prepare("SELECT datumZavozu as 'Dátum závozu', pocet as 'Počet', prijmeni as 'Příjmení', "
+    qry.prepare("SELECT datumZavozu as 'Datum závozu', pocet as 'Počet', prijmeni as 'Příjmení', "
                 "jmeno as 'Jméno', adresa as 'Adresa', poridil as 'Pořídil', datumVychystani as 'Pořízeno dne' "
                 "FROM zavoz JOIN polozkaZavozu USING (pacId, datumZavozu) JOIN pacient USING (pacId) "
                 "WHERE kodVzp = :kodVzp AND datumZavozu >= :datumOd AND datumZavozu <= :datumDo "
@@ -427,12 +427,31 @@ bool Databaze::prehledZavozuPomucky(QString kodVzp, QDate datumOd, QDate datumDo
 
 bool Databaze::prehledZavozu(QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel) {
     QSqlQuery qry;
-    qry.prepare("SELECT datumZavozu as 'Dátum závozu', prijmeni as 'Příjmení', jmeno as 'Jméno', "
+    qry.prepare("SELECT datumZavozu as 'Datum závozu', prijmeni as 'Příjmení', jmeno as 'Jméno', "
                 "adresa as 'Adresa', kodVzp as 'Kód VZP', nazev as 'Název', doplnek as 'Doplněk', "
                 "pocet as 'Počet', poridil as 'Pořídil', datumVychystani as 'Pořízeno dne' "
                 "FROM pacient JOIN zavoz USING (pacId) JOIN polozkaZavozu USING (pacId, datumZavozu) "
                 "JOIN pomucka USING (kodVzp) WHERE datumZavozu >= :datumOd AND datumZavozu <= :datumDo "
                 "ORDER BY datumZavozu DESC, prijmeni ASC, kodVzp ASC");
+    qry.bindValue(":datumOd", datumOd.toString(Qt::ISODate));
+    qry.bindValue(":datumDo", datumDo.toString(Qt::ISODate));
+    qry.exec();
+
+    if (qry.next()) {
+        queryModel->setQuery(qry);
+        return true;
+    }
+
+    return false;
+}
+
+bool Databaze::prehledZavozuPoPacientech(QDate datumOd, QDate datumDo, QSqlQueryModel *&queryModel) {
+    QSqlQuery qry;
+    qry.prepare("SELECT datumZavozu as 'Datum závozu', prijmeni as 'Příjmení', jmeno as 'Jméno', "
+                "adresa as 'Adresa', poridil as 'Pořídil', datumVychystani as 'Pořízeno dne', "
+                "' ' as 'Počet kartonů' FROM pacient JOIN zavoz USING (pacId) "
+                "WHERE datumZavozu >= :datumOd AND datumZavozu <= :datumDo "
+                "ORDER BY datumZavozu DESC, prijmeni ASC");
     qry.bindValue(":datumOd", datumOd.toString(Qt::ISODate));
     qry.bindValue(":datumDo", datumDo.toString(Qt::ISODate));
     qry.exec();

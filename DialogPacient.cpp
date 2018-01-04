@@ -128,7 +128,8 @@ void DialogPacient::on_volbaUpravitJmeno_clicked(bool zvoleno) {
 
     if (zvoleno) {
         OknoZprav::upozorneni("Změna jména se promítne zpětně do všech záznamů daného pacienta v databázi.",
-                              "Použijte pouze k opravě překlepu ve jménu/příjmení nebo při změně příjmení u pacientky!");
+                              "Použijte pouze v odůvodněných případech (doplnění roku pro rozlišení jmenovců, "
+                              "oprava překlepu, změna příjmení u pacientky)!");
         ui->vstupPrijmeni->setFocus();
     }
     else {

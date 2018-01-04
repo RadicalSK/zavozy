@@ -60,6 +60,7 @@ namespace Text {
     QString cervene(const QString retezec);
     QString kurziva(const QString retezec);
     QString kurziva(const QString retezec1, const QString retezec2);
+    QString odstranitBileZnaky(const QString retezec);
 }
 
 namespace Heslo {

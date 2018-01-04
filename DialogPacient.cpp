@@ -390,8 +390,8 @@ void DialogPacient::zalozitNovehoPacienta() {
     else {
         pacient_ = new Pacient(0, ui->vstupPrijmeni->text(), ui->vstupJmeno->text(),
                                ui->vstupUlice->text(), ui->vstupObec->text(),
-                               ui->vstupTelefon->text(), ui->vstupPoznTel->text(),
-                               ui->vstupTelefon2->text(), ui->vstupPoznTel2->text(),
+                               Text::odstranitBileZnaky(ui->vstupTelefon->text()), ui->vstupPoznTel->text(),
+                               Text::odstranitBileZnaky(ui->vstupTelefon2->text()), ui->vstupPoznTel2->text(),
                                ui->vstupPoznamka->text());
         if (Databaze::zalozitNovehoPacienta(pacient_)) {
             accept();
@@ -418,9 +418,9 @@ void DialogPacient::upravitStavajicihoPacienta() {
     // jestli se neupravuje jmeno nebo upravene jmeno nekoliduje s jinym pacientem, stavajici pacient se upravi
     pacient_->setUlice(ui->vstupUlice->text());
     pacient_->setObec(ui->vstupObec->text());
-    pacient_->setTelefon1(ui->vstupTelefon->text());
+    pacient_->setTelefon1(Text::odstranitBileZnaky(ui->vstupTelefon->text()));
     pacient_->setPoznTel1(ui->vstupPoznTel->text());
-    pacient_->setTelefon2(ui->vstupTelefon2->text());
+    pacient_->setTelefon2(Text::odstranitBileZnaky(ui->vstupTelefon2->text()));
     pacient_->setPoznTel2(ui->vstupPoznTel2->text());
     pacient_->setPoznamka(ui->vstupPoznamka->text());
 

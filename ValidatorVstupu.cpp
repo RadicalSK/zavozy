@@ -45,7 +45,7 @@ bool ValidatorVstupu::obsahujeMinPocetSlov(QLineEdit *policko, int minPocetSlov,
 }
 
 bool ValidatorVstupu::obsahujeTelCislo(QLineEdit *policko, bool sUpozornenim) {
-    QRegularExpression telefonRegExp("^\\d{9}$");
+    QRegularExpression telefonRegExp("^ *(\\d *){9}$");
     QRegularExpressionMatch shoda = telefonRegExp.match(policko->text());
 
     if (shoda.hasMatch()) {
@@ -54,7 +54,7 @@ bool ValidatorVstupu::obsahujeTelCislo(QLineEdit *policko, bool sUpozornenim) {
     }
     else {
         if (sUpozornenim)
-            zobrazitUpozorneni(policko, true, "musí obsahovat právě 9 číslic bez mezer");
+            zobrazitUpozorneni(policko, true, "musí obsahovat právě 9 číslic");
         return false;
     }
 }
@@ -70,7 +70,7 @@ bool ValidatorVstupu::obsahujeTelCisloNeboJePrazdne(QLineEdit *policko, bool sUp
         }
         else {
             if (sUpozornenim)
-                zobrazitUpozorneni(policko, true, "musí být prázdné nebo obsahovat právě 9 číslic bez mezer");
+                zobrazitUpozorneni(policko, true, "musí být prázdné nebo obsahovat právě 9 číslic");
             return false;
         }
     }

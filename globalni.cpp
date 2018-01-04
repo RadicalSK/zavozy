@@ -159,6 +159,10 @@ QString Text::kurziva(const QString retezec1, const QString retezec2) {
     return QString("<i>" + retezec1 + " " + retezec2 + "</i>");
 }
 
+QString Text::odstranitBileZnaky(const QString retezec) {
+    return QString(retezec).replace(QRegularExpression("\\s"), "");
+}
+
 QDate Datum::denNejblizsihoZavozu() {
     QDate dnes = QDate::currentDate();
 

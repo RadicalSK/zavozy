@@ -4,7 +4,8 @@ Zavoz::Zavoz() {
 }
 
 Zavoz::Zavoz(Pacient *aktualniPacient, QString aktualniPoznamka, QList<PolozkaZavozu> seznamPolozek)
-    : prijmeni_(aktualniPacient->prijmeni()), jmeno_(aktualniPacient->jmeno()),
+    : prijmeni_(aktualniPacient->prijmeni()),
+      jmeno_(QString(aktualniPacient->jmeno()).replace(QRegularExpression("\\s+\\(?\\d+\\)?$"), "")),
       ulice_(aktualniPacient->ulice()), obec_(aktualniPacient->obec()),
       telefony_(aktualniPacient->telefony()), poznamka_(aktualniPoznamka), polozky_(seznamPolozek)
 {}

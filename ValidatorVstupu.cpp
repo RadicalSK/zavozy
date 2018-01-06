@@ -211,7 +211,7 @@ void ValidatorVstupu::nastavitFiltrUdalosti(QLineEdit *validovanyVstup) {
 
 void ValidatorVstupu::nastavitFiltrUdalosti(QList<QLineEdit*> validovaneVstupy) {
     foreach (QLineEdit *policko, validovaneVstupy) {
-        policko->installEventFilter(this);
+        nastavitFiltrUdalosti(policko);
     }
 }
 

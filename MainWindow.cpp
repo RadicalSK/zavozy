@@ -85,11 +85,6 @@ void MainWindow::on_actionPrihlasit_triggered() {
     povolitUzivatelskeAkce(true);
     povolitAdministratorskeAkce(true);
 
-//    ui->vstupPrijmeni->setText("Novák");
-//    ui->vstupJmeno->setText("Jan");
-//    on_tlacitkoVyhledat_clicked();
-//    ui->vstupNovaPolozka->setFocus();
-
 //    if (DialogPrihlaseni::otevrit(prihlasenyUzivatel_, this)) {
 //        povolitUzivatelskeAkce(true);
 //        povolitAdministratorskeAkce(prihlasenyUzivatel_->admin());

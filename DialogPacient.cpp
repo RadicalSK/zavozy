@@ -172,8 +172,12 @@ void DialogPacient::on_tlacitkoZrusit_clicked() {
 }
 
 void DialogPacient::on_tlacitkoUlozit_clicked() {
-    bool povinnePolozkyValidni = validovatVstupPrijmeni() && validovatVstupJmeno()
-            && validovatVstupUlice() && validovatVstupObec() && validovatVstupTelefon();
+    bool povinnePolozkyValidni = true;
+    povinnePolozkyValidni &= validovatVstupPrijmeni();
+    povinnePolozkyValidni &= validovatVstupJmeno();
+    povinnePolozkyValidni &= validovatVstupUlice();
+    povinnePolozkyValidni &= validovatVstupObec();
+    povinnePolozkyValidni &= validovatVstupTelefon();
 
     if (povinnePolozkyValidni) {
         bool nepovinnePolozkyValidni = validovatVstupPoznTel() && validovatVstupTelefon2() && validovatVstupPoznTel2();
@@ -189,7 +193,7 @@ void DialogPacient::on_tlacitkoUlozit_clicked() {
         }
     }
     else {
-        validator_->zobrazitUpozorneni(povinneVstupy_, "Vyplňte korektně všechny povinné položky");
+        validator_->zobrazitUpozorneni("Vyplňte korektně všechny povinné položky");
     }
 }
 
@@ -445,9 +449,10 @@ void DialogPacient::chybovaHlaskaDuplicita(Pacient *jmenovec) {
             += jmenovec->adresa() += QString("\n  telefon: ")
             += jmenovec->telefony();
 
-    QString doplnujiciText = "Jestli se jedná o jinou osobu, připojte k jejímu jménu "
-                      "pro odlišení rok narození (př. \"Petr 1954\") a zkuste znova. "
-                      "Následně upravte jmenovce obdobným způsobem pro jasné rozlišení.";
+    QString doplnujiciText = QString("Jestli se jedná o jinou osobu, připojte k jejímu jménu "
+                                     "pro odlišení rok narození (př. \"%1 1954\") a zkuste znova. "
+                                     "Při nejbližší příležitosti upravte jmenovce obdobným způsobem pro jasné "
+                                     "rozlišení.").arg(ui->vstupJmeno->text());
 
     OknoZprav::upozorneni(zprava, doplnujiciText);
 }

@@ -56,7 +56,13 @@ void DialogNovyUzivatel::on_tlacitkoZrusit_clicked() {
 }
 
 void DialogNovyUzivatel::on_tlacitkoZalozit_clicked() {
-    if (validovatVstupUzivJmeno() && validovatVstupCeleJmeno() && validovatVstupHeslo() && validovatVstupHeslo2()) {
+    bool polickaValidni = true;
+    polickaValidni &= validovatVstupUzivJmeno();
+    polickaValidni &= validovatVstupCeleJmeno();
+    polickaValidni &= validovatVstupHeslo();
+    polickaValidni &= validovatVstupHeslo2();
+
+    if (polickaValidni) {
         if (!jeZvolenTypUzivatele()) {
             validator_->zobrazitUpozorneni("Zvolte typ uživatele");
         }
@@ -79,7 +85,7 @@ void DialogNovyUzivatel::on_tlacitkoZalozit_clicked() {
         }
     }
     else {
-        validator_->zobrazitUpozorneni(vsechnaPolicka_, "Vyplňte korektně všechna políčka");
+        validator_->zobrazitUpozorneni("Vyplňte korektně všechna políčka");
     }
 }
 

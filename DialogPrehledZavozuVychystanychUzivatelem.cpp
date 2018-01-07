@@ -62,6 +62,6 @@ bool DialogPrehledZavozuVychystanychUzivatelem::vyhledatZaznamy() {
 }
 
 QString DialogPrehledZavozuVychystanychUzivatelem::navrhnoutNazevCsvSouboru() {
-    return QString(comboBoxUzivatel_->currentText().section(" ", 0, 0) + " - závozy "
-                   + datumOd_.toString(Qt::ISODate) + " - " + datumDo_.toString(Qt::ISODate) + ".csv");
+    return QString("závozy uživatele %1 za období %2.csv").arg(comboBoxUzivatel_->currentText().section(" ", 0, 0))
+            .arg(AbstraktniDialogPrehled::casoveRozpetiProNazev());
 }

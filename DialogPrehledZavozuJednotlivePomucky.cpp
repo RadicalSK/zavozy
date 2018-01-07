@@ -76,6 +76,6 @@ bool DialogPrehledZavozuJednotlivePomucky::vyhledatZaznamy() {
 }
 
 QString DialogPrehledZavozuJednotlivePomucky::navrhnoutNazevCsvSouboru() {
-    return QString("ZP" + vstupKodVzp_->text() + " " +
-            datumOd_.toString(Qt::ISODate) + " - " + datumDo_.toString(Qt::ISODate) + ".csv");
+    return QString("závozy pomůcky %1 za období %2.csv").arg(vstupKodVzp_->text())
+            .arg(AbstraktniDialogPrehled::casoveRozpetiProNazev());
 }

@@ -130,6 +130,6 @@ bool DialogPrehledZavozuProPacienta::vyhledatZaznamy() {
 }
 
 QString DialogPrehledZavozuProPacienta::navrhnoutNazevCsvSouboru() {
-    return QString("závozy pro " + vstupPrijmeni_->text() + " " + vstupJmeno_->text().at(0) + ". "
-                   + datumOd_.toString(Qt::ISODate) + " - " + datumDo_.toString(Qt::ISODate) + ".csv");
+    return QString("%1 %2. - závozy za období %3.csv").arg(vstupPrijmeni_->text()).arg(vstupJmeno_->text().at(0))
+            .arg(AbstraktniDialogPrehled::casoveRozpetiProNazev());
 }

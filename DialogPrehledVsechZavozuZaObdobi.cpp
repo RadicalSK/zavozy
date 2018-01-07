@@ -21,6 +21,14 @@ DialogPrehledVsechZavozuZaObdobi::DialogPrehledVsechZavozuZaObdobi(QWidget *rodi
     volbaPoPacientech_->setChecked(true);
     ui->comboBoxObdobi->setCurrentText("Den nejbližšího závozu");
     povolitVyhledavaciTlacitko(true);
+    ui->tlacitkoVyhledat->setFocus();
+
+    // navaze udalosti
+    connect(volbaPoPacientech_, &QRadioButton::toggled,
+            this, &DialogPrehledVsechZavozuZaObdobi::volbaZmenena);
+
+    connect(volbaPoPomuckach_, &QRadioButton::toggled,
+            this, &DialogPrehledVsechZavozuZaObdobi::volbaZmenena);
 }
 
 void DialogPrehledVsechZavozuZaObdobi::otevrit(QWidget *rodic) {
@@ -28,6 +36,12 @@ void DialogPrehledVsechZavozuZaObdobi::otevrit(QWidget *rodic) {
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     dialog->showMaximized();
     dialog->exec();
+}
+
+void DialogPrehledVsechZavozuZaObdobi::volbaZmenena(bool zaskrtnuto) {
+    if (zaskrtnuto) {
+        zpristupnitTabulku(false);
+    }
 }
 
 bool DialogPrehledVsechZavozuZaObdobi::vyhledatZaznamy() {
@@ -43,11 +57,10 @@ bool DialogPrehledVsechZavozuZaObdobi::vyhledatZaznamy() {
 }
 
 QString DialogPrehledVsechZavozuZaObdobi::navrhnoutNazevCsvSouboru() {
-    QString zacatek = "Závozy ";
+    QString zacatek = "Závozy";
     if (volbaPoPomuckach_->isChecked()) {
-        zacatek += "(položkovitě) ";
+        zacatek += " (položkovitě)";
     }
 
-    return QString(zacatek + "za období " +
-            datumOd_.toString(Qt::ISODate) + " - " + datumDo_.toString(Qt::ISODate) + ".csv");
+    return QString("%1 za období %2.csv").arg(zacatek).arg(AbstraktniDialogPrehled::casoveRozpetiProNazev());
 }

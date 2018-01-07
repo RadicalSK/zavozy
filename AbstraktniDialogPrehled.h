@@ -51,6 +51,7 @@ protected:
     void vyprazdnitTabulku();
 
     virtual QString navrhnoutNazevCsvSouboru() = 0;
+    QString casoveRozpetiProNazev();
     QString ziskatNazevCsvSouboru();
     QString vytvoritTextovaDataZTabulky();
 

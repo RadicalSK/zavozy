@@ -12,6 +12,7 @@ public:
     static void otevrit(QWidget *rodic);
 
 private slots:
+    void volbaZmenena(bool zaskrtnuto);
 
 private:
     DialogPrehledVsechZavozuZaObdobi(QWidget *rodic);

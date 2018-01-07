@@ -188,6 +188,16 @@ void AbstraktniDialogPrehled::vyprazdnitTabulku() {
     ui->tabulka->setModel(nullptr);
 }
 
+QString AbstraktniDialogPrehled::casoveRozpetiProNazev() {
+    // vrati jedno datum nebo rozpeti
+    QString obdobi = datumOd_.toString(Qt::ISODate);
+    if (datumOd_ != datumDo_) {
+        obdobi += QString(" - " + datumDo_.toString(Qt::ISODate));
+    }
+
+    return obdobi;
+}
+
 QString AbstraktniDialogPrehled::ziskatNazevCsvSouboru() {
     return QFileDialog::getSaveFileName(this, "Export CSV",
                                         QString(QDir::currentPath() + "/export/" + navrhnoutNazevCsvSouboru()),

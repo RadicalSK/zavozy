@@ -372,7 +372,13 @@ void MainWindow::on_tlacitkoUpravitZvolenehoPacienta_clicked() {
 }
 
 void MainWindow::on_tlacitkoZalozitJmenovcePacienta_clicked() {
-    DialogPacient::otevritNovyPacient(ui->vstupPrijmeni->text(), ui->vstupJmeno->text(), this);
+    QString prijmeni = ui->vstupPrijmeni->text();
+    if (DialogPacient::otevritNovyPacient(prijmeni, ui->vstupJmeno->text(), this)) {
+        pripravitNaseptavacPrijmeni();
+        on_actionZrusitVolbuPacienta_triggered();
+        ui->vstupPrijmeni->setText(prijmeni);
+        on_vstupPrijmeni_editingFinished();
+    }
 }
 
 void MainWindow::zobrazitUdajeAktualnihoPacienta(bool zobrazit) {

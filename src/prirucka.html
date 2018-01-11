@@ -76,6 +76,14 @@
 		border: none;
 	}
 
+	a[rel=external]::after {
+		content: " ↗";
+	}
+
+	a[href^="mailto:"]::after {
+		content: " 	✉";
+	}
+
 	ul {
 		margin: 1em 0 1em 4em;
 		padding: 0;
@@ -101,10 +109,6 @@
 
 	dd {
 		margin: 0 0 0 2em;
-	}
-
-	a[rel=external]::after {
-		content: " ↗";
 	}
 
 	nav ol {
@@ -566,7 +570,8 @@
 
 	<footer>
 		&copy; 2017 Mgr. Radovan Bednár<br>
-		kontakt: <i>radovan.bednar[at]gmail.com</i>
+		kontakt: <a href="mailto:&#114;&#97;&#100;&#111;&#118;&#97;&#110;&#46;&#98;&#101;&#100;&#110;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;?subject=Aplikace%20Zavozy%20-%20dotaz" title="e-mail autorovi">radovan&#46;bednar&#64;gmail&#46;com</a><br>
+		zdrojové kódy: <a href="https://github.com/RadicalSK/zavozy" rel="external" title="repozitář zdrojových kódů na GitHub.com">github.com/RadicalSK/zavozy</a>
 	</footer>
 
 	<div id="zpet-na-obsah">
